@@ -81,7 +81,7 @@ function verdictBadge(m) {
   const pred = parseScore(m.predictedScore);
   if (!act || !pred) return "";
   const p = points(pred, act);
-  if (p === 3) return `<span class="verdict exact">✦ Exact prophecy</span>`;
+  if (p === 3) return `<span class="verdict exact">Exact prophecy</span>`;
   if (p === 1) return `<span class="verdict result">✓ Right outcome</span>`;
   return `<span class="verdict miss">✗ The mist deceived</span>`;
 }
@@ -108,7 +108,7 @@ function matchCard(m, opts = {}) {
       ${verdictBadge(m)}
       ${userPick ? (() => { const p = points(userPick, parseScore(act)); return p === 3 ? `<span class="verdict exact">You: exact · +3</span>` : p === 1 ? `<span class="verdict result">You: +1</span>` : `<span class="verdict miss">You: 0</span>`; })() : ""}
     </div>` : (userPick ? `<div class="verdict-row"><span class="verdict result">Your call: ${userPick[0]}–${userPick[1]}</span></div>` : "");
-  const predNote = act ? `<div class="key-factor"><span class="kf-ico">✦</span><span>The orb foresaw <strong>${esc(m.predictedScore)}</strong> (${m.confidence}% certainty)</span></div>` : "";
+  const predNote = act ? `<div class="key-factor"><span class="kf-ico">Foreseen</span><span>The orb called <strong>${esc(m.predictedScore)}</strong> at ${m.confidence}% certainty</span></div>` : "";
 
   return `
   <article class="match-card ${m.played ? "played" : ""}" data-mid="${esc(m.id)}">
@@ -127,11 +127,11 @@ function matchCard(m, opts = {}) {
     </button>
     <div class="match-body">
       ${m.reading ? `<div class="reading">${esc(m.reading)}</div>` : ""}
-      ${m.keyFactor ? `<div class="key-factor"><span class="kf-ico">⚿</span><span>${esc(m.keyFactor)}</span></div>` : ""}
+      ${m.keyFactor ? `<div class="key-factor"><span class="kf-ico">Key</span><span>${esc(m.keyFactor)}</span></div>` : ""}
       ${predNote}
-      ${m.venue ? `<div class="key-factor"><span class="kf-ico">⌖</span><span>${esc(m.venue)}</span></div>` : ""}
+      ${m.venue ? `<div class="key-factor"><span class="kf-ico">Venue</span><span>${esc(m.venue)}</span></div>` : ""}
       ${!m.played && home && away && !isProj ? pickZone(m) : ""}
-      ${!m.played && isProj ? `<div class="key-factor"><span class="kf-ico">☁</span><span>Teams projected from the Oracle's group forecasts — the true names will appear as the groups resolve.</span></div>` : ""}
+      ${!m.played && isProj ? `<div class="key-factor"><span class="kf-ico">Note</span><span>Teams projected from the Oracle's group forecasts — the true names will appear as the groups resolve.</span></div>` : ""}
     </div>
   </article>`;
 }
@@ -156,7 +156,7 @@ function pickZone(m) {
     <div class="pick-saved"></div>
   </div>`;
 }
-const sealMsg = "Prophecy sealed ✦";
+const sealMsg = "Prophecy locked in";
 
 /* ---------- views ---------- */
 function renderToday() {
@@ -226,7 +226,7 @@ function renderGroups() {
             <span class="srank">${team.fifaRank ? "FIFA #" + team.fifaRank : ""}</span>
           </button>`;
         }).join("")}
-        ${g.groupReading ? `<div class="group-reading">☽ ${esc(g.groupReading)}</div>` : ""}
+        ${g.groupReading ? `<div class="group-reading">${esc(g.groupReading)}</div>` : ""}
       </div>
     </section>`;
   }
@@ -296,7 +296,7 @@ function renderOracle() {
   const maxProb = Math.max(...(o.championOdds || []).map(x => x.impliedProb || 0), 1);
   let html = `
   <div class="hero-card">
-    <div class="crown">♛</div>
+    <div class="crown">The Oracle</div>
     <div class="hc-label">The Orb Has Spoken — Champion</div>
     <div class="hc-team">${flag(o.champion.team)} ${esc(o.champion.team)}</div>
     <div class="reading">${esc(o.champion.reading)}</div>
