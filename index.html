@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta name="theme-color" content="#15161a">
+<meta name="theme-color" content="#071243">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <title>🔮 Crystal Ball — World Cup 2026 Oracle</title>
@@ -12,7 +12,7 @@
 <meta property="og:description" content="Game-by-game score prophecies for every World Cup 2026 match. Make your own picks and battle the Oracle.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Noto+Sans:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Oswald:wght@500;600&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/style.css">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🔮</text></svg>">
 </head>
@@ -21,10 +21,63 @@
 
 <header class="app-header">
   <button class="share-btn" id="shareBtn" aria-label="Share">⎋</button>
-  <div class="orb" aria-hidden="true"></div>
+  <svg class="meg" viewBox="0 0 220 150" aria-hidden="true">
+    <defs>
+      <radialGradient id="orbG" cx="50%" cy="40%" r="62%">
+        <stop offset="0%" stop-color="#ffffff"/>
+        <stop offset="55%" stop-color="#dfe9ff"/>
+        <stop offset="100%" stop-color="#8fa7e8"/>
+      </radialGradient>
+      <radialGradient id="halo" cx="50%" cy="50%" r="50%">
+        <stop offset="0%" stop-color="#ffffff" stop-opacity=".85"/>
+        <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+      </radialGradient>
+    </defs>
+    <g fill="#fff" opacity=".85">
+      <circle cx="20" cy="22" r="1.3"/><circle cx="196" cy="30" r="1.6"/><circle cx="174" cy="98" r="1.2"/>
+      <circle cx="36" cy="92" r="1"/><circle cx="60" cy="13" r="1"/><circle cx="152" cy="11" r="1.2"/>
+      <circle cx="12" cy="60" r="1"/><circle cx="206" cy="72" r="1"/><circle cx="44" cy="48" r="1"/>
+    </g>
+    <path d="M168 14 l2 6 6 2 -6 2 -2 6 -2 -6 -6 -2 6 -2 Z" fill="#fff" opacity=".95"/>
+    <path d="M34 64 l1.5 4.4 4.4 1.5 -4.4 1.5 -1.5 4.4 -1.5 -4.4 -4.4 -1.5 4.4 -1.5 Z" fill="#fff" opacity=".8"/>
+    <path d="M40 150 Q44 110 78 100 L142 100 Q176 110 180 150 Z" fill="#1633a8"/>
+    <path d="M86 100 L110 104 L134 100 L128 112 L110 108 L92 112 Z" fill="#0e2270"/>
+    <g fill="#fff">
+      <path d="M76 106 l1.6 4.6 4.6 1.6 -4.6 1.6 -1.6 4.6 -1.6 -4.6 -4.6 -1.6 4.6 -1.6 Z"/>
+      <path d="M144 106 l1.6 4.6 4.6 1.6 -4.6 1.6 -1.6 4.6 -1.6 -4.6 -4.6 -1.6 4.6 -1.6 Z"/>
+    </g>
+    <rect x="102" y="82" width="16" height="20" fill="#e9cdb4"/>
+    <ellipse cx="110" cy="64" rx="18" ry="22" fill="#f2dcc6"/>
+    <path d="M78 104 L78 40 Q78 10 110 10 Q142 10 142 40 L142 104 Q133 110 126 103 L126 56 Q126 48 118 46 L102 46 Q94 48 94 56 L94 103 Q87 110 78 104 Z" fill="#15080c"/>
+    <g>
+      <ellipse cx="103" cy="61" rx="2.8" ry="2" fill="#fff"/>
+      <ellipse cx="117" cy="61" rx="2.8" ry="2" fill="#fff"/>
+      <circle cx="103" cy="61" r="1.4" fill="#37445c"/>
+      <circle cx="117" cy="61" r="1.4" fill="#37445c"/>
+      <path d="M99 57.5 Q103 55.5 107 57.5" stroke="#15080c" stroke-width="1" fill="none"/>
+      <path d="M113 57.5 Q117 55.5 121 57.5" stroke="#15080c" stroke-width="1" fill="none"/>
+    </g>
+    <path d="M104 76 Q107 73.5 110 75.5 Q113 73.5 116 76 Q113 80.5 110 80 Q107 80.5 104 76 Z" fill="#c8102e"/>
+    <g fill="#fff">
+      <path d="M91 70 l1.4 3.4 3.4 1.4 -3.4 1.4 -1.4 3.4 -1.4 -3.4 -3.4 -1.4 3.4 -1.4 Z" opacity=".95"/>
+      <path d="M129 70 l1.4 3.4 3.4 1.4 -3.4 1.4 -1.4 3.4 -1.4 -3.4 -3.4 -1.4 3.4 -1.4 Z" opacity=".95"/>
+    </g>
+    <circle cx="110" cy="127" r="27" fill="url(#halo)"/>
+    <circle cx="110" cy="127" r="15" fill="url(#orbG)"/>
+    <circle cx="105" cy="121" r="3" fill="#fff"/>
+    <g fill="#e9cdb4">
+      <ellipse cx="93" cy="129" rx="7" ry="10" transform="rotate(18 93 129)"/>
+      <ellipse cx="127" cy="129" rx="7" ry="10" transform="rotate(-18 127 129)"/>
+    </g>
+    <g fill="#c8102e">
+      <circle cx="90" cy="121.5" r="1.2"/><circle cx="93.5" cy="120.5" r="1.2"/><circle cx="97" cy="121.5" r="1.2"/>
+      <circle cx="130" cy="121.5" r="1.2"/><circle cx="126.5" cy="120.5" r="1.2"/><circle cx="123" cy="121.5" r="1.2"/>
+    </g>
+  </svg>
   <div class="header-text">
+    <span class="kicker">The People's Psychic Pundit</span>
     <h1>Crystal Ball</h1>
-    <p class="subtitle">World Cup 2026 · Match Oracle</p>
+    <p class="subtitle">World Cup 2026 · She Sees Every Score</p>
   </div>
 </header>
 

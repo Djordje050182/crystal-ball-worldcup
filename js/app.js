@@ -87,6 +87,24 @@ function verdictBadge(m) {
 }
 
 /* ---------- match card ---------- */
+function evidenceBlock(home, away) {
+  const rows = [home, away].map(n => {
+    const t = DATA.teams[n];
+    if (!t) return "";
+    return `
+    <div class="ev-team">
+      <div class="ev-head">${flag(n)} <strong>${esc(n)}</strong><span>${t.fifaRank ? "FIFA #" + t.fifaRank : ""}${t.manager ? " · " + esc(t.manager) : ""}</span></div>
+      ${t.style ? `<p><b>Setup</b>${esc(t.style)}</p>` : ""}
+      ${t.form ? `<p><b>Form</b>${esc(t.form)}</p>` : ""}
+      ${t.keyPlayers && t.keyPlayers.length ? `<p><b>Players</b>${esc(t.keyPlayers.join(" · "))}</p>` : ""}
+      ${t.outlook ? `<p><b>Outlook</b>${esc(t.outlook)}</p>` : ""}
+    </div>`;
+  }).join("");
+  if (!rows.trim()) return "";
+  return `<details class="evidence"><summary>The Evidence</summary>${rows}
+    <p class="ev-src">Compiled from: Opta supercomputer (25,000 tournament simulations, The Analyst) · bookmaker match &amp; outright odds · FIFA world rankings and official fixtures · full qualifying records and 2026 friendlies · club-season form per player · ESPN injury tracker · venue factors (altitude, heat risk, roofed stadiums). Method &amp; sources on the Oracle tab.</p>
+  </details>`;
+}
 function teamCell(name, side, slotText) {
   if (!name) return `<div class="team ${side}"><span class="flag">❔</span><span class="tname tbd">${esc(slotText || "TBD")}</span></div>`;
   return `<div class="team ${side}"><span class="flag">${flag(name)}</span><span class="tname">${esc(name)}</span></div>`;
@@ -130,6 +148,7 @@ function matchCard(m, opts = {}) {
       ${m.keyFactor ? `<div class="key-factor"><span class="kf-ico">Key</span><span>${esc(m.keyFactor)}</span></div>` : ""}
       ${predNote}
       ${m.venue ? `<div class="key-factor"><span class="kf-ico">Venue</span><span>${esc(m.venue)}</span></div>` : ""}
+      ${evidenceBlock(home, away)}
       ${!m.played && home && away && !isProj ? pickZone(m) : ""}
       ${!m.played && isProj ? `<div class="key-factor"><span class="kf-ico">Note</span><span>Teams projected from the Oracle's group forecasts — the true names will appear as the groups resolve.</span></div>` : ""}
     </div>
@@ -296,7 +315,7 @@ function renderOracle() {
   const maxProb = Math.max(...(o.championOdds || []).map(x => x.impliedProb || 0), 1);
   let html = `
   <div class="hero-card">
-    <div class="crown">The Oracle</div>
+    <div class="crown">Meg Has Spoken</div>
     <div class="hc-label">The Orb Has Spoken — Champion</div>
     <div class="hc-team">${flag(o.champion.team)} ${esc(o.champion.team)}</div>
     <div class="reading">${esc(o.champion.reading)}</div>
@@ -326,6 +345,27 @@ function renderOracle() {
 
   <h2 class="section-title">The Threads of Fate</h2>
   ${(o.narratives || []).map(n => `<div class="story-card">${esc(n)}</div>`).join("")}
+
+  <h2 class="section-title">How the Oracle Works <small>the serious bit</small></h2>
+  <div class="method-list">
+    <div class="story-card"><strong>The model layer.</strong> Every prediction starts from the statistical base rate: the Opta supercomputer's 25,000 tournament simulations, bookmaker match and outright markets, and current FIFA world rankings.</div>
+    <div class="story-card"><strong>The football layer.</strong> On top of the models sits squad-level research for all 48 teams: full qualifying records, every 2026 friendly, manager and tactical matchups, and player-level form and fitness — who's hot at their club, who's carrying a knock, who takes the penalties.</div>
+    <div class="story-card"><strong>The venue layer.</strong> This World Cup is played in 16 stadiums across 3 countries: altitude (Estadio Azteca sits at 2,240m, Guadalajara at 1,500m), projected heat risk (Houston and Dallas worst), roofed vs open stadiums, and travel/rest between match days all move the predictions.</div>
+    <div class="story-card"><strong>Calibration.</strong> Certainty is kept honest: 35–55% on genuine coin-flips, 55–70% for clear favourites, 70%+ only for mismatches. Predictions freeze at kickoff and are never edited after the fact — the record on this site is the record.</div>
+    <div class="story-card"><strong>The game.</strong> Exact score = 3 points, right outcome = 1 point. The orb refreshes every morning with the latest results, injuries and confirmed bracket pairings.</div>
+  </div>
+
+  <h2 class="section-title">Sources</h2>
+  <div class="src-row">
+    <a class="src-chip" href="https://theanalyst.com" target="_blank" rel="noopener">Opta / The Analyst</a>
+    <a class="src-chip" href="https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026" target="_blank" rel="noopener">FIFA.com</a>
+    <a class="src-chip" href="https://www.bbc.co.uk/sport/football" target="_blank" rel="noopener">BBC Sport</a>
+    <a class="src-chip" href="https://www.espn.com/soccer/" target="_blank" rel="noopener">ESPN FC</a>
+    <a class="src-chip" href="https://www.nytimes.com/athletic/" target="_blank" rel="noopener">The Athletic</a>
+    <a class="src-chip" href="https://en.wikipedia.org/wiki/2026_FIFA_World_Cup" target="_blank" rel="noopener">Wikipedia</a>
+    <span class="src-chip">Bookmaker markets</span>
+  </div>
+  <div class="story-card" style="font-style:italic;">An affectionate tribute to Mystic Meg (1942–2023), Britain's most famous stargazer, who told The Sun's readers their fortunes for three decades. The orb is hers; the spreadsheets are ours.</div>
 
   <h2 class="section-title">Cast Your Own Prophecy</h2>
   <div class="prophecy-zone">
