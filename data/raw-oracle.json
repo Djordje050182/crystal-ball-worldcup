@@ -1,0 +1,59 @@
+{
+  "championOdds": [
+    {"team": "Spain", "impliedProb": 17.0, "note": "Opta supercomputer 16.1%; bookmakers ~9/2 — consensus favorite"},
+    {"team": "France", "impliedProb": 14.5, "note": "Opta 13.0%; bookmakers 5/1 — 21.3% to reach final"},
+    {"team": "England", "impliedProb": 12.0, "note": "Opta 11.2%; bookmakers 13/2"},
+    {"team": "Argentina", "impliedProb": 10.2, "note": "Opta 10.4%; defending champions"},
+    {"team": "Brazil", "impliedProb": 8.5, "note": "Opta 6.6%; bookmakers shorter at 8/1 on brand strength"},
+    {"team": "Portugal", "impliedProb": 8.5, "note": "Opta 7.0%; 23.9% semifinal rate in Opta sims"},
+    {"team": "Germany", "impliedProb": 5.1, "note": "Opta 5.1%; 10.6% to reach final"},
+    {"team": "Norway", "impliedProb": 3.5, "note": "Opta 3.5% — 37 qualifying goals, unbeaten ahead of Italy"},
+    {"team": "Netherlands", "impliedProb": 3.4, "note": "Opta 3.6% — drifting after De Ligt, Simons and Timber ruled out"},
+    {"team": "Belgium", "impliedProb": 2.4, "note": "Opta 2.4% — favorable Group G draw"},
+    {"team": "Colombia", "impliedProb": 2.1, "note": "Opta 2.1% — Copa 2024 runners-up, Luis Díaz in elite form"},
+    {"team": "Morocco", "impliedProb": 1.9, "note": "Opta 1.9% — highest-rated African side"},
+    {"team": "Croatia", "impliedProb": 1.6, "note": "Opta 1.6% — golden generation past its peak"},
+    {"team": "Ecuador", "impliedProb": 1.4, "note": "Opta 1.4% — second in CONMEBOL qualifying"},
+    {"team": "USA", "impliedProb": 1.2, "note": "Opta 1.2% — best of the three co-hosts"}
+  ],
+  "contenders": [
+    {"team": "Spain", "dossier": "Reigning European champions under Luis de la Fuente, unbeaten in roughly 30 competitive matches since March 2023, and the only team Opta rates more likely than not to reach the quarterfinals (52.1%). Their positional-play identity runs through the world's best midfield (Pedri, with Rodri anchoring) and the wing threat of Lamine Yamal and Nico Williams. The asterisks: Yamal missed the final month of the club season with a torn hamstring, while Fermín López is out with a fractured metatarsal. This is the most complete squad in the field."},
+    {"team": "France", "dossier": "Didier Deschamps' swansong after finals in 2018 (won) and 2022 (lost); he chases Pozzo's feat of two World Cups as coach. Mbappé captains a squad with Dembélé, Tchouaméni, Camavinga and Zaïre-Émery; France's tournament-mode pragmatism remains the best in the business. Ekitiké's Achilles tear trims striker depth, and they share a group with dangerous Norway."},
+    {"team": "England", "dossier": "Thomas Tuchel was hired to end 60 years of hurt, bringing German tournament pragmatism to a golden squad: Kane after a monster Bayern season, Bellingham, Saka, Foden and a deep young defense. They arrive without major injury crises — a rarity among contenders. Back-to-back Euro finals suggest the ceiling; the drought since 1966 is the weight."},
+    {"team": "Argentina", "dossier": "Defending champions under Scaloni attempting the first repeat since Brazil 1962, built on the most settled core in the tournament — Martínez, Romero–Otamendi, De Paul, Mac Allister, Julián Álvarez. Messi, 39 during the tournament in a record sixth World Cup, returned from injury to score in the final warm-up. The machine no longer depends on him for 90 minutes — which is what makes them dangerous."},
+    {"team": "Portugal", "dossier": "Roberto Martínez fields arguably the world's best midfield trio — Vitinha, João Neves, a career-peak Bruno Fernandes — with Leão and Félix in support and Ronaldo, 41, in a reduced talisman role. The looming problem: both opening games are in Houston, among the tournament's highest heat-risk fixtures — brutal for an ageing icon."},
+    {"team": "Brazil", "dossier": "Ancelotti's first international job and one of the least-fancied Brazil squads ever (Opta 6.6%). Raphinha leads the attack with Vinícius in a form dip; Rodrygo is out with a torn ACL. The wild card is Neymar, 34, chasing the Ronaldo-2002 redemption arc. Five stars and a knockout whisperer — nobody wants them in a bracket."},
+    {"team": "Germany", "dossier": "Nagelsmann blends a Bayern-heavy spine — Neuer, Kimmich — with Musiala back from injury and Wirtz as the creative axis. June has been unkind: Gnabry tore an adductor and is out. Four titles say never count them out; group exits in 2018 and 2022 hang over them."},
+    {"team": "Netherlands", "dossier": "Koeman's side was Opta's top-rated outsider, but June 2026 gutted them: Xavi Simons (ACL), De Ligt (back surgery) and Timber (groin) all out. The remaining XI is top-eight quality but depth is a genuine liability over an eight-game run in heat. Three-time finalists who have never won it."}
+  ],
+  "darkHorses": [
+    {"team": "Norway", "why": "Back after 28 years and arguably Europe's most in-form side — unbeaten through a qualifying group containing Italy with 37 goals. Haaland and Ødegaard headline; Opta rates them nearly level with the Netherlands. Models love them far more than the public — nobody wants them in the round of 16."},
+    {"team": "Morocco", "why": "The 2022 semifinalists return deeper: Hakimi at his peak, Brahim Díaz and El Khannouss adding creativity to the famous defensive block. Continental-level support across US host cities, and a low-block-plus-transition identity built for tournament heat and knockout chaos."},
+    {"team": "Colombia", "why": "Copa América 2024 runners-up with Luis Díaz one of the form players in world football. A suffocating midfield press and genuine defensive solidity — they can realistically win Group K outright over a heat-stressed Portugal, earning a soft bracket path."},
+    {"team": "Türkiye", "why": "A golden generation led by Arda Güler and Çalhanoğlu, fearless knockout pedigree from Euro 2024, and the kind of chaotic attacking ceiling that breaks brackets. The 48-team format's softer round of 32 gives streaky sides an extra runway."}
+  ],
+  "goldenBootCandidates": [
+    {"player": "Kylian Mbappé", "team": "France", "note": "+600 favorite — won the 2022 Golden Boot with 8 goals; enters as captain at absolute peak age"},
+    {"player": "Harry Kane", "team": "England", "note": "+700 — monster Bayern season, England's penalty taker, most reliable volume scorer in the field"},
+    {"player": "Erling Haaland", "team": "Norway", "note": "+1400 — best pure striker alive, but needs to front-load goals"},
+    {"player": "Lamine Yamal", "team": "Spain", "note": "+2200 — best value: Spain most likely to play all eight games; post-hamstring sharpness the caveat"},
+    {"player": "Julián Álvarez", "team": "Argentina", "note": "Mid-teens odds — defending champions' first-choice nine, scored four at Qatar 2022"},
+    {"player": "Lionel Messi", "team": "Argentina", "note": "Longer odds but live — scored off the bench in the final warm-up; penalties and a deep run keep him on the board at 39"}
+  ],
+  "narratives": [
+    "The Last Dance squared: Messi (39 during the tournament) and Ronaldo (41) both make a record sixth World Cup — the final chapter of football's greatest rivalry.",
+    "Argentina chase the first back-to-back titles since Brazil 1962, while Spain attempt to add a World Cup to Euro 2024 and confirm a dynasty built around Yamal and Pedri.",
+    "Heat is the invisible 49th team: over a third of the 104 matches are projected at high-risk heat levels. Dallas and Houston are the worst offenders — Portugal opens with two Houston furnace games — and FIFA has mandated hydration breaks in every half.",
+    "The expanded 48-team, 104-match format across three countries means continental travel fatigue, a new round of 32 that protects giants but gives streaky dark horses a runway, and best-third-place math that will produce late group-stage chaos.",
+    "Host nation hopes diverge: Mexico opened with a feisty 2-0 win at the Azteca (three red cards — a World Cup opener record), while Opta gives the USMNT just 1.2% and Canada sweat on Alphonso Davies' fitness.",
+    "Deschamps' swansong: France's manager leaves after the tournament chasing Pozzo's 88-year-old record, while Tuchel attempts to end England's 60 years of hurt and Ancelotti tries to fix Brazil's 24-year drought.",
+    "An injury plague reshaped contenders before a ball was kicked: Rodrygo, Gnabry, Simons, De Ligt, Timber, Ekitiké and Fermín López are all out — and Yamal's hamstring is the single biggest fitness storyline."
+  ],
+  "oracle": {
+    "champion": {"team": "Spain", "reading": "The orb glows crimson and gold: a side unbeaten in thirty competitive battles does not stumble in a summer built for those who keep the ball away from the sun. Every model, every simulation, every line of the ledger points to the same midfield cathedral — and the boy Yamal, returning from the hamstring's betrayal, saves his fury for the knockout rounds. Spain lift it in New Jersey on July 19, their second star, the dynasty confirmed."},
+    "runnerUp": {"team": "Argentina", "reading": "The champions of Lusail march again — Messi, 39 in his record sixth World Cup, dragging destiny by the collar through Uruguay, Türkiye, Ronaldo's Portugal and English iron. But in the New Jersey twilight the dynasty of Yamal and Pedri proves one midfield too far. The old king scores in the final and leaves with silver — and with every heart in the stadium."},
+    "semifinalists": ["France", "England"],
+    "goldenBoot": {"player": "Kylian Mbappé", "team": "France", "reading": "The orb shows nine goals and a bronze medal — the captain dragging France through the heat with ice from the spot, then two more in the third-place match to settle the count. Back-to-back Golden Boots, a feat for the ages, yet the trophy itself slips away a second time, this round to Spain's midfield cathedral. Kane goes deep but the penalties dry up; Haaland burns bright and brief."},
+    "boldPrediction": "The orb stakes its reputation on this: Haaland's Norway will fell five-time champions Brazil in the round of 16 at MetLife on July 5 — the north wind ending the Seleção's summer at the earliest stage since 1990 — and the Río de la Plata clásico, Argentina against Bielsa's Uruguay, will detonate in the round of 32 as the match of the tournament. Believe neither bookmaker nor pundit: believe the wind."
+  }
+}
