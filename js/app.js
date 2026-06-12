@@ -412,6 +412,14 @@ function render() {
   else v.innerHTML = renderOracle();
   updateStrip();
 }
+/* re-render while keeping horizontal scrollers (filter chips, bracket) where the user left them */
+function rerenderPreservingScroll() {
+  const positions = [...document.querySelectorAll(".chips, .bracket-scroll")].map(el => el.scrollLeft);
+  render();
+  [...document.querySelectorAll(".chips, .bracket-scroll")].forEach((el, i) => {
+    if (positions[i] != null) el.scrollLeft = positions[i];
+  });
+}
 function updateStrip() {
   const { oracle, you, graded } = tallies();
   $("#scoreStrip").hidden = graded === 0;
@@ -430,9 +438,9 @@ document.addEventListener("click", e => {
     return;
   }
   const chip = e.target.closest("[data-filter]");
-  if (chip) { fixtureFilter = chip.dataset.filter; render(); return; }
+  if (chip) { fixtureFilter = chip.dataset.filter; rerenderPreservingScroll(); return; }
   const bmode = e.target.closest("[data-bmode]");
-  if (bmode) { bracketMode = bmode.dataset.bmode; render(); return; }
+  if (bmode) { bracketMode = bmode.dataset.bmode; rerenderPreservingScroll(); return; }
 
   // bracket team pick (you mode)
   const bkTeam = e.target.closest("[data-bkpick]");
@@ -442,7 +450,7 @@ document.addEventListener("click", e => {
       const mid = bkTeam.dataset.bkpick;
       if (bracketPicks[mid] === team) delete bracketPicks[mid]; else bracketPicks[mid] = team;
       save(LS_BRACKET, bracketPicks);
-      render();
+      rerenderPreservingScroll();
     }
     return;
   }
