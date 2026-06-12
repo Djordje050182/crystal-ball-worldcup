@@ -81,7 +81,7 @@ function verdictBadge(m) {
   const pred = parseScore(m.predictedScore);
   if (!act || !pred) return "";
   const p = points(pred, act);
-  if (p === 3) return `<span class="verdict exact">✨ Exact prophecy</span>`;
+  if (p === 3) return `<span class="verdict exact">✦ Exact prophecy</span>`;
   if (p === 1) return `<span class="verdict result">✓ Right outcome</span>`;
   return `<span class="verdict miss">✗ The mist deceived</span>`;
 }
@@ -106,9 +106,9 @@ function matchCard(m, opts = {}) {
     </div>` : "";
   const verdicts = act ? `<div class="verdict-row">
       ${verdictBadge(m)}
-      ${userPick ? (() => { const p = points(userPick, parseScore(act)); return p === 3 ? `<span class="verdict exact">🫵 You: exact! +3</span>` : p === 1 ? `<span class="verdict result">🫵 You: +1</span>` : `<span class="verdict miss">🫵 You: 0</span>`; })() : ""}
-    </div>` : (userPick ? `<div class="verdict-row"><span class="verdict result">🫵 Your call: ${userPick[0]}-${userPick[1]}</span></div>` : "");
-  const predNote = act ? `<div class="key-factor"><span class="kf-ico">🔮</span><span>The orb foresaw <strong>${esc(m.predictedScore)}</strong> (${m.confidence}% certainty)</span></div>` : "";
+      ${userPick ? (() => { const p = points(userPick, parseScore(act)); return p === 3 ? `<span class="verdict exact">You: exact · +3</span>` : p === 1 ? `<span class="verdict result">You: +1</span>` : `<span class="verdict miss">You: 0</span>`; })() : ""}
+    </div>` : (userPick ? `<div class="verdict-row"><span class="verdict result">Your call: ${userPick[0]}–${userPick[1]}</span></div>` : "");
+  const predNote = act ? `<div class="key-factor"><span class="kf-ico">✦</span><span>The orb foresaw <strong>${esc(m.predictedScore)}</strong> (${m.confidence}% certainty)</span></div>` : "";
 
   return `
   <article class="match-card ${m.played ? "played" : ""}" data-mid="${esc(m.id)}">
@@ -127,11 +127,11 @@ function matchCard(m, opts = {}) {
     </button>
     <div class="match-body">
       ${m.reading ? `<div class="reading">${esc(m.reading)}</div>` : ""}
-      ${m.keyFactor ? `<div class="key-factor"><span class="kf-ico">🗝️</span><span>${esc(m.keyFactor)}</span></div>` : ""}
+      ${m.keyFactor ? `<div class="key-factor"><span class="kf-ico">⚿</span><span>${esc(m.keyFactor)}</span></div>` : ""}
       ${predNote}
-      ${m.venue ? `<div class="key-factor"><span class="kf-ico">🏟️</span><span>${esc(m.venue)}</span></div>` : ""}
+      ${m.venue ? `<div class="key-factor"><span class="kf-ico">⌖</span><span>${esc(m.venue)}</span></div>` : ""}
       ${!m.played && home && away && !isProj ? pickZone(m) : ""}
-      ${!m.played && isProj ? `<div class="key-factor"><span class="kf-ico">🌫️</span><span>Teams projected from the Oracle's group forecasts — the true names will appear as the groups resolve.</span></div>` : ""}
+      ${!m.played && isProj ? `<div class="key-factor"><span class="kf-ico">☁</span><span>Teams projected from the Oracle's group forecasts — the true names will appear as the groups resolve.</span></div>` : ""}
     </div>
   </article>`;
 }
@@ -139,7 +139,7 @@ function pickZone(m) {
   const p = picks[m.id] || ["", ""];
   return `
   <div class="pick-zone" data-pick="${esc(m.id)}">
-    <div class="pick-title">🫵 Your prophecy</div>
+    <div class="pick-title">Your Prophecy</div>
     <div class="pick-row">
       <div class="stepper" data-side="0">
         <button data-d="-1" aria-label="decrease">−</button>
@@ -156,6 +156,7 @@ function pickZone(m) {
     <div class="pick-saved"></div>
   </div>`;
 }
+const sealMsg = "Prophecy sealed ✦";
 
 /* ---------- views ---------- */
 function renderToday() {
@@ -164,16 +165,16 @@ function renderToday() {
   const played = DATA.matches.filter(m => m.played && m.actualScore && m.date < t).sort((a, b) => b.date.localeCompare(a.date)).slice(0, 6);
   const upcoming = DATA.matches.filter(m => m.date > t && !m.played).sort((a, b) => a.date.localeCompare(b.date)).slice(0, 4);
   let html = "";
-  html += `<h2 class="section-title">🌙 The Orb Gazes Upon ${esc(fmtDate(t))}</h2>`;
+  html += `<h2 class="section-title">The Orb Gazes Upon ${esc(fmtDate(t))}</h2>`;
   html += todays.length
     ? todays.map(m => matchCard(m)).join("")
-    : `<div class="empty-note">The mists are quiet today — no matches scheduled.<br>Peer ahead in the Matches tab. 🔮</div>`;
+    : `<div class="empty-note">The mists are quiet today — no matches scheduled.<br>Peer ahead in the Matches tab.</div>`;
   if (played.length) {
-    html += `<h2 class="section-title">📜 Recent Visions, Judged</h2>`;
+    html += `<h2 class="section-title">Recent Visions, Judged</h2>`;
     html += played.map(m => matchCard(m)).join("");
   }
   if (upcoming.length) {
-    html += `<h2 class="section-title">⏳ Next In The Mist</h2>`;
+    html += `<h2 class="section-title">Next in the Mist</h2>`;
     html += upcoming.map(m => matchCard(m)).join("");
   }
   html += `<div class="updated-chip">Crystal last polished: ${esc(DATA.meta.updated)} · prophecies refresh daily</div>`;
@@ -182,7 +183,7 @@ function renderToday() {
 
 function renderFixtures() {
   const groups = DATA.groups.map(g => g.group);
-  const chips = [["all", "All"], ...groups.map(g => [g, `Grp ${g}`]), ["ko", "Knockout 🏆"]];
+  const chips = [["all", "All"], ...groups.map(g => [g, `Grp ${g}`]), ["ko", "Knockout"]];
   let html = `<div class="chips">${chips.map(([v, l]) =>
     `<button class="chip ${fixtureFilter === v ? "active" : ""}" data-filter="${v}">${l}</button>`).join("")}</div>`;
   let list = DATA.matches;
@@ -199,7 +200,7 @@ function renderFixtures() {
 }
 
 function renderGroups() {
-  let html = `<h2 class="section-title">🏆 The Twelve Circles <small>tap a team for its dossier</small></h2>`;
+  let html = `<h2 class="section-title">The Twelve Circles <small>tap a team for its dossier</small></h2>`;
   for (const g of DATA.groups) {
     const order = g.predictedOrder || [];
     html += `
@@ -225,7 +226,7 @@ function renderGroups() {
             <span class="srank">${team.fifaRank ? "FIFA #" + team.fifaRank : ""}</span>
           </button>`;
         }).join("")}
-        ${g.groupReading ? `<div class="group-reading">🔮 ${esc(g.groupReading)}</div>` : ""}
+        ${g.groupReading ? `<div class="group-reading">☽ ${esc(g.groupReading)}</div>` : ""}
       </div>
     </section>`;
   }
@@ -236,10 +237,10 @@ function renderBracket() {
   const stages = [["R32", "Round of 32"], ["R16", "Round of 16"], ["QF", "Quarter-finals"], ["SF", "Semi-finals"], ["FINAL", "Final · Jul 19"]];
   const ko = DATA.matches.filter(m => m.stage !== "GROUP");
   const third = ko.find(m => m.stage === "3RD");
-  let html = `<h2 class="section-title">🌳 The Path Of Fates</h2>
+  let html = `<h2 class="section-title">The Path of Fates</h2>
   <div class="chips">
-    <button class="chip ${bracketMode === "oracle" ? "active" : ""}" data-bmode="oracle">🔮 Oracle's vision</button>
-    <button class="chip ${bracketMode === "you" ? "active" : ""}" data-bmode="you">🫵 Your bracket</button>
+    <button class="chip ${bracketMode === "oracle" ? "active" : ""}" data-bmode="oracle">The Oracle's Vision</button>
+    <button class="chip ${bracketMode === "you" ? "active" : ""}" data-bmode="you">Your Bracket</button>
   </div>
   <div class="bracket-hint">${bracketMode === "you" ? "Tap a team in each tie to send them through — your picks ripple forward." : "Swipe → to follow the Oracle's projected road to MetLife."}</div>
   <div class="bracket-scroll"><div class="bracket-cols">`;
@@ -295,7 +296,7 @@ function renderOracle() {
   const maxProb = Math.max(...(o.championOdds || []).map(x => x.impliedProb || 0), 1);
   let html = `
   <div class="hero-card">
-    <div class="crown">👑</div>
+    <div class="crown">♛</div>
     <div class="hc-label">The Orb Has Spoken — Champion</div>
     <div class="hc-team">${flag(o.champion.team)} ${esc(o.champion.team)}</div>
     <div class="reading">${esc(o.champion.reading)}</div>
@@ -307,10 +308,10 @@ function renderOracle() {
     <div class="mini-card"><div class="mc-label">Final</div><div class="mc-val" style="font-size:12px;">MetLife Stadium</div><div class="mc-sub">July 19, 2026</div></div>
   </div>
   ${o.runnerUp.reading ? `<div class="story-card"><strong>The silver thread:</strong> ${esc(o.runnerUp.reading)}</div>` : ""}
-  ${o.goldenBoot.reading ? `<div class="story-card"><strong>⚽ Golden Boot vision:</strong> ${esc(o.goldenBoot.reading)}</div>` : ""}
+  ${o.goldenBoot.reading ? `<div class="story-card"><strong>Golden Boot vision:</strong> ${esc(o.goldenBoot.reading)}</div>` : ""}
   ${o.boldPrediction ? `<div class="bold-pred">${esc(o.boldPrediction)}</div>` : ""}
 
-  <h2 class="section-title">📊 How The Powers Align</h2>
+  <h2 class="section-title">How the Powers Align</h2>
   <div class="story-card" style="padding:14px 10px;">
     ${(o.championOdds || []).slice(0, 12).map(x => `
       <div class="odds-row">
@@ -320,13 +321,13 @@ function renderOracle() {
       </div>`).join("")}
   </div>
 
-  <h2 class="section-title">🐎 Dark Horses In The Mist</h2>
+  <h2 class="section-title">Dark Horses in the Mist</h2>
   ${(o.darkHorses || []).map(d => `<div class="story-card"><strong>${flag(d.team)} ${esc(d.team)}</strong> — ${esc(d.why)}</div>`).join("")}
 
-  <h2 class="section-title">📖 The Threads Of Fate</h2>
+  <h2 class="section-title">The Threads of Fate</h2>
   ${(o.narratives || []).map(n => `<div class="story-card">${esc(n)}</div>`).join("")}
 
-  <h2 class="section-title">🫵 Cast Your Own Prophecy</h2>
+  <h2 class="section-title">Cast Your Own Prophecy</h2>
   <div class="prophecy-zone">
     <label>Your champion</label>
     <select id="prophChampion">
@@ -338,7 +339,7 @@ function renderOracle() {
       <option value="">— choose a marksman —</option>
       ${(o.goldenBoot.candidates || []).map(c => `<option ${prophecy.goldenBoot === c ? "selected" : ""}>${esc(c)}</option>`).join("")}
     </select>
-    <button class="btn-gold" id="shareProphecy">Share your prophecy with friends ⤴</button>
+    <button class="btn-gold" id="shareProphecy">Share Your Prophecy</button>
   </div>
   <div class="updated-chip">Crystal last polished: ${esc(DATA.meta.updated)}</div>`;
   return html;
@@ -354,7 +355,7 @@ function openDossier(name) {
     <div class="sub">Group ${esc(t.group)}${t.fifaRank ? " · FIFA Rank #" + t.fifaRank : ""}${t.manager ? " · " + esc(t.manager) : ""}</div>
     ${t.style ? `<div class="dossier-row"><div class="dr-label">Tactical identity</div>${esc(t.style)}</div>` : ""}
     ${t.form ? `<div class="dossier-row"><div class="dr-label">Form entering the tournament</div>${esc(t.form)}</div>` : ""}
-    ${t.keyPlayers && t.keyPlayers.length ? `<div class="dossier-row"><div class="dr-label">Ones to watch</div>${t.keyPlayers.map(p => `<span class="player-chip">⭐ ${esc(p)}</span>`).join("")}</div>` : ""}
+    ${t.keyPlayers && t.keyPlayers.length ? `<div class="dossier-row"><div class="dr-label">Ones to watch</div>${t.keyPlayers.map(p => `<span class="player-chip">${esc(p)}</span>`).join("")}</div>` : ""}
     ${t.outlook ? `<div class="dossier-row"><div class="dr-label">The Oracle's outlook</div>${esc(t.outlook)}</div>` : ""}`;
   $("#sheet").hidden = false;
   $("#sheetBackdrop").hidden = false;
@@ -418,7 +419,7 @@ document.addEventListener("click", e => {
     picks[mid] = next;
     save(LS_PICKS, picks);
     zone.querySelectorAll(".stepper").forEach((st, i) => st.querySelector(".val").textContent = next[i]);
-    zone.querySelector(".pick-saved").textContent = "✨ Prophecy sealed";
+    zone.querySelector(".pick-saved").textContent = sealMsg;
     setTimeout(() => { const el = zone.querySelector(".pick-saved"); if (el) el.textContent = ""; }, 1600);
     updateStrip();
     return;
