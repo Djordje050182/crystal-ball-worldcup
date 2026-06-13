@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-06-12",
+  "updated": "2026-06-13",
   "tournament": "FIFA World Cup 2026",
   "format": "The 2026 FIFA World Cup, co-hosted by the United States, Mexico and Canada from June 11 to July 19, 2026, features 48 teams split into 12 groups of four (A-L) playing a single round-robin group stage. The 12 group winners, 12 runners-up and the 8 best third-placed teams (32 teams total) advance to a new Round of 32, followed by a Round of 16, quarter-finals, semi-finals, a third-place play-off and the final, for 104 matches in all across 16 stadiums. Knockout ties go to 30 minutes of extra time and then penalties if level. The final is at MetLife Stadium, East Rutherford (New York/New Jersey) on July 19, 2026.",
   "thirdPlaceRule": "The 12 third-placed teams are ranked by points, goal difference, goals scored, fair play points, then lots; the top 8 advance. Their assignment to specific Round-of-32 matches depends on which groups the 8 best thirds come from, per the official allocation table (Annex C of the FIFA regulations)."
@@ -1173,7 +1173,8 @@
    "confidence": 50,
    "reading": "The maple mist rises over BMO Field even without Davies, whose hamstring keeps the captain robed at kickoff. Marsch's press will harry a Bosnia built around a 40-year-old Džeko nursing a wounded shoulder — yet the old wolf bites once against the run of the cards before David, hungry after a lean Juventus year, settles a nervous home debut.",
    "keyFactor": "Canada's press and home crowd vs Džeko's aging but cunning threat",
-   "played": false
+   "played": true,
+   "actualScore": "1-1"
   },
   {
    "id": "M8",
@@ -1202,9 +1203,9 @@
    "home": "Switzerland",
    "away": "Bosnia and Herzegovina",
    "predictedScore": "2-0",
-   "confidence": 55,
-   "reading": "Under SoFi's silver roof the runes counsel patience — Xhaka turns the wheel while Akanji snuffs out every long ball aimed at Džeko's brow. Bosnia's compact 4-4-2 holds for an hour, but a set-piece flicker and fresher Swiss legs tell before the California afternoon is done.",
-   "keyFactor": "Xhaka's midfield control against a deep Bosnian block",
+   "confidence": 50,
+   "reading": "Under SoFi's silver roof the runes counsel patience — Xhaka turns the wheel while Akanji marshals a back line warned by what Jovo Lukic's corner-kick header did to Canada. Bosnia held Canada level through a set piece and their 4-4-2 discipline; Džeko, still nursing the shoulder that kept him on the bench in Toronto, is unlikely to start. Yet the Swiss wall that conceded twice in all of qualifying is sterner granite than Marsch's press — two Swiss strikes, one per half, and a clean sheet that keeps the scorers off Akanji's brow.",
+   "keyFactor": "Bosnia's set-piece threat (Lukic's header vs Canada) vs Switzerland's elite defensive record; Džeko shoulder status the swing",
    "played": false
   },
   {
@@ -1217,10 +1218,10 @@
    "venue": "BC Place, Vancouver",
    "home": "Canada",
    "away": "Qatar",
-   "predictedScore": "3-0",
-   "confidence": 66,
-   "reading": "Vancouver's harbor wind carries red waves... Canada's fittest-team-in-the-tournament press swarms a Qatar defense that shipped twenty-four goals in qualifying. Davies returns to the left flank under his home-province roof and the floodgates creak open by the hour mark.",
-   "keyFactor": "Canada's athleticism overwhelms Qatar's porous defense",
+   "predictedScore": "2-0",
+   "confidence": 58,
+   "reading": "Vancouver's harbour wind still carries red waves — but Canada's BMO draw with Bosnia reminded the orb that David's goals do not come on demand. Larin's super-sub cameo and Lukic's unchallenged header were the stories of that night; Qatar, however, remain a team that shipped twenty-four in qualifying and cannot press-resist any side. Davies, healing well and targeting this exact stage, tips the balance from the left, and two Canadian strikes in a more controlled performance settle the question by the hour mark.",
+   "keyFactor": "Canada's press still overwhelms Qatar's porous defense; Davies' expected return adds width Canada missed against Bosnia",
    "played": false
   },
   {
@@ -1251,8 +1252,8 @@
    "away": "Qatar",
    "predictedScore": "2-1",
    "confidence": 47,
-   "reading": "Seattle's grey skies suit the dragons' last stand — Džeko, in the final World Cup verse of a 20-year saga, rises once more above the maroon line while Afif answers with a moment of craft. The shootout-forged nerve of March carries Bosnia's third-place hopes through the gate.",
-   "keyFactor": "Džeko's aerial menace vs Qatar's soft defensive center",
+   "reading": "Seattle's grey skies suit the dragons' last stand — and if the shoulder has healed enough to start, Džeko's header at the far post is all the prophecy Bosnia need. If not, Jovo Lukic proved at BMO Field that Bosnia do not need the old wolf to threaten set pieces; the same Bosnian 4-4-2 discipline that held Canada level can contain Afif's sparks long enough. Lopetegui's men will land one moment of craft, but Bosnia's shootout-forged nerve carries them through.",
+   "keyFactor": "Bosnia's set-piece threat (with or without Džeko starting) vs Qatar's soft defensive center",
    "played": false
   },
   {
@@ -1365,7 +1366,8 @@
    "confidence": 53,
    "reading": "I see a cauldron of red, white and blue, and a guaraní wall that bends but does not easily break. Paraguay conceded but ten times in eighteen qualifiers, yet Pulisic's left-channel sorcery and the SoFi roar tilt the scales by a single goal. The bookmakers whisper USA -105 against +310 — the spirits agree, narrowly.",
    "keyFactor": "Pulisic vs Paraguay's low block in front of a home crowd",
-   "played": false
+   "played": true,
+   "actualScore": "4-1"
   },
   {
    "id": "M6",
@@ -1394,9 +1396,9 @@
    "home": "United States",
    "away": "Australia",
    "predictedScore": "2-1",
-   "confidence": 55,
-   "reading": "Lumen Field's famous noise becomes a twelfth man at midday. Pochettino's press will pin Popovic's back three deep, and the hosts — who beat these same Socceroos in 2025 — strike twice before Souttar's aerial menace claws one back from a corner.",
-   "keyFactor": "USA's press tempo vs Australia's limited attacking output",
+   "confidence": 62,
+   "reading": "Lumen Field's noise becomes a twelfth man — and it now greets a USA side that shredded Paraguay 4-1, with Folarin Balogun scoring twice, Reyna conjuring a trivela in stoppage time and the whole press machine clicking with a ferocity the Socceroos have never faced. Pulisic, precautionary at half-time of the opener with a calf knock, is expected back for this. Pochettino's press pins Popovic's back three deep; Souttar's aerial menace claws one back from a corner, but the hosts' momentum is too heavy to stop.",
+   "keyFactor": "USA's 4-1 opening momentum and Balogun's goalscoring emergence vs Australia's historically poor World Cup openers",
    "played": false
   },
   {
@@ -1409,10 +1411,10 @@
    "venue": "Levi's Stadium, Santa Clara",
    "home": "Turkey",
    "away": "Paraguay",
-   "predictedScore": "1-1",
-   "confidence": 40,
-   "reading": "Fire meets stone under the Santa Clara night. Çalhanoğlu's geometry will probe a Paraguayan block that has not conceded twice in any of its last ten World Cup matches, and Sanabria — the qualifier's great substitute assassin — emerges late to level what Yıldız began.",
-   "keyFactor": "Paraguay's ten-match record of never conceding more than once",
+   "predictedScore": "2-1",
+   "confidence": 50,
+   "reading": "Fire meets cracked stone under the Santa Clara night. Paraguay's vaunted qualifier record — never conceding twice in ten World Cup matches — shattered on first contact with SoFi's press: four goals, an own goal and a rout. The Guaraní back line wilts under rapid transitions, and Yıldız and Güler are precisely the quick, incisive movers that exploited those same gaps. Turkey win by two; Sanabria still forces one crack from a counter to keep Paraguay's faint hopes flickering.",
+   "keyFactor": "Paraguay's defense conceded 4 against USA's press — Turkey's creators run exactly the same patterns through the channel",
    "played": false
   },
   {
@@ -1427,8 +1429,8 @@
    "away": "United States",
    "predictedScore": "1-1",
    "confidence": 38,
-   "reading": "The group's crown may rest on this night, and the omens recall 2025, when Montella's men edged the Americans 2-1. Yet this time the hosts carry the crowd and the momentum of two matches on this very turf; an early Güler flash is answered by an American equaliser, and both may depart content.",
-   "keyFactor": "Both teams likely needing only a point; Turkey won the 2025 friendly meeting",
+   "reading": "The group's crown may rest on this SoFi night, and the omens recall 2025 when Montella's men edged the Americans 2-1 — but that USA side had not yet seen Balogun's predatory brace or Reyna's trivela from another dimension. The hosts carry the SoFi roar and Pochettino's unbeaten group record; an early Güler flash — the kind the golden generation reserves for big stages — is answered by an American equaliser, and prudence prevails for both sides who already hold their place.",
+   "keyFactor": "Both teams likely through; USA's 4-1 form gives them confidence but Turkey's creative quality is real — a draw serves both",
    "played": false
   },
   {
@@ -1441,10 +1443,10 @@
    "venue": "Levi's Stadium, Santa Clara",
    "home": "Paraguay",
    "away": "Australia",
-   "predictedScore": "1-0",
-   "confidence": 44,
-   "reading": "Two grinders meet with survival on the line, and the spirits favor the side that defends as a religion. Almirón's lone transition burst — the channel through which all Paraguayan hope flows — decides a match of few chances, sending La Albirroja through and the Socceroos to the mathematics of third place.",
-   "keyFactor": "Almirón's transition quality in a low-chance game between defensive sides",
+   "predictedScore": "1-1",
+   "confidence": 38,
+   "reading": "Two wounded caravans arrive in Santa Clara with survival on the line, and the orb no longer reads this as a guaranteed Paraguayan passage. La Albirroja shipped four against the American press, their defensive religion exposed to rapid transitions; the Socceroos — deep, physical, set-piece reliant — will not offer the same angles, but they will match Paraguay's energy. Almirón's lone burst and a Goodwin dead-ball moment likely cancel each other out; both may depart hoping the third-place arithmetic is merciful.",
+   "keyFactor": "Paraguay's exposed defense (4 conceded) vs Australia's organised back three — less of a mismatch than the qualifying records implied",
    "played": false
   },
   {
