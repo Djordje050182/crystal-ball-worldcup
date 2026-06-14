@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-06-13",
+  "updated": "2026-06-14",
   "tournament": "FIFA World Cup 2026",
   "format": "The 2026 FIFA World Cup, co-hosted by the United States, Mexico and Canada from June 11 to July 19, 2026, features 48 teams split into 12 groups of four (A-L) playing a single round-robin group stage. The 12 group winners, 12 runners-up and the 8 best third-placed teams (32 teams total) advance to a new Round of 32, followed by a Round of 16, quarter-finals, semi-finals, a third-place play-off and the final, for 104 matches in all across 16 stadiums. Knockout ties go to 30 minutes of extra time and then penalties if level. The final is at MetLife Stadium, East Rutherford (New York/New Jersey) on July 19, 2026.",
   "thirdPlaceRule": "The 12 third-placed teams are ranked by points, goal difference, goals scored, fair play points, then lots; the top 8 advance. Their assignment to specific Round-of-32 matches depends on which groups the 8 best thirds come from, per the official allocation table (Annex C of the FIFA regulations)."
@@ -248,7 +248,7 @@
     "Stephen Eustáquio (Porto, CM)",
     "Moïse Bombito (Nice, CB — out injured)"
    ],
-   "form": "Seven-game unbeaten run; beat Uzbekistan 2-0 and drew Ireland 1-1 in June warm-ups.",
+   "form": "Seven-game unbeaten run in warm-ups; opened the World Cup with a 1-1 draw vs Bosnia (Lukic corner-kick header threatened, Larin super-sub cameo).",
    "outlook": "Elite athleticism, pressing and all three group games on home soil, but Davies (hamstring) misses the opener and Canada have never won a World Cup match (0-6).",
    "group": "B"
   },
@@ -264,8 +264,8 @@
     "Gregor Kobel (Borussia Dortmund, GK)",
     "Dan Ndoye (Nottingham Forest, W)"
    ],
-   "form": "Won UEFA qualifying group unbeaten (only 2 conceded); beat Jordan 4-1 and drew Australia 1-1 in warm-ups.",
-   "outlook": "The group's best defense and most battle-tested spine, but the core is aging and they've stalled in second place at three straight World Cups.",
+   "form": "Won UEFA qualifying group unbeaten (only 2 conceded); beat Jordan 4-1 and drew Australia 1-1 in warm-ups; opened the World Cup with a 1-1 draw vs Qatar — Embolo penalty 17', Khoukhi equalizer 90+4.",
+   "outlook": "The group's best defense and most battle-tested spine, but conceding a last-gasp equalizer to Qatar raises questions about concentration — and the core is aging. They've stalled in second place at three straight World Cups.",
    "group": "B"
   },
   "Qatar": {
@@ -280,8 +280,8 @@
     "Meshaal Barsham (Al Sadd, GK)",
     "Hassan Al-Haydos (veteran leader)"
    ],
-   "form": "Winless in six, including a 1-0 friendly loss to Ireland and a flat draw with El Salvador.",
-   "outlook": "A settled Afif–Almoez axis and an elite coach, but they conceded 24 in the AFC third round and are still seeking a first-ever World Cup point.",
+   "form": "Winless in six pre-tournament; opened the World Cup with a HISTORIC 1-1 draw vs Switzerland — Khoukhi's 90+4 equalizer earned Qatar their first-ever World Cup point in their 10th attempt.",
+   "outlook": "Qatar's resilience and Lopetegui's organisation earned a point no one foresaw; now Canada await at BC Place. The first point may unlock belief. Goals will still be hard to find, but a draw is no longer unthinkable.",
    "group": "B"
   },
   "Bosnia and Herzegovina": {
@@ -296,8 +296,8 @@
     "Nikola Vasilj (St. Pauli, GK)",
     "Benjamin Tahirović (Brøndby, CM)"
    ],
-   "form": "Qualified via March playoff penalty wins over Wales and Italy; drew final warm-up 1-1 with Panama.",
-   "outlook": "Shootout-forged nerve and the emotion of a first World Cup since 2014, but they're the lowest-ranked side in the group and lean on a 40-year-old Džeko playing through a shoulder injury.",
+   "form": "Qualified via March playoff penalty wins over Wales and Italy; drew final warm-up 1-1 with Panama; opened the World Cup with a 1-1 draw vs Canada — Lukic's corner-kick header the standout moment, Džeko's shoulder kept him off the bench.",
+   "outlook": "Shootout-forged nerve was evident at BMO Field, and they're still level with Canada and Switzerland on 1 point. Džeko's shoulder fitness vs Switzerland is the swing factor between a famous qualification run and an early exit.",
    "group": "B"
   },
   "Brazil": {
@@ -312,8 +312,8 @@
     "Neymar (Santos, FW — calf injury doubt, fourth World Cup)",
     "Casemiro (Manchester United, DM)"
    ],
-   "form": "Won four of last six including 6-2 vs Panama and 2-1 vs Egypt, but have conceded in five straight; worst-ever fifth-place CONMEBOL qualifying campaign.",
-   "outlook": "Devastating club-form wingers and five-star pedigree, but the defense leaks without the injured Militão (Rodrygo and Estêvão also out) and the Neymar fitness saga shadows the camp.",
+   "form": "Won four of last six pre-tournament; drew 1-1 with Morocco in the opener at MetLife — conceded Saibari's strike in the 21st minute before Vinícius equalized in the 32nd, but couldn't find a winner.",
+   "outlook": "Elite wingers and five-star pedigree, but the leaky defence conceded to Morocco's debutant striker and Scotland now lead Group C. Brazil must chase group leadership through games vs Haiti and Scotland — the Neymar fitness saga shadows the camp.",
    "group": "C"
   },
   "Morocco": {
@@ -328,8 +328,8 @@
     "Yassine Bounou (Al-Hilal, GK — 2022 semifinal hero)",
     "Sofyan Amrabat (Real Betis, DM)"
    ],
-   "form": "Perfect 8-for-8 in CAF qualifying, AFCON 2025 champions, and drew 1-1 with Norway in their final warm-up.",
-   "outlook": "World-class spine and 2022 knockout pedigree, but a new manager only three months in, Aguerd and Ezzalzouli ruled out, and no proven No. 9 after En-Nesyri's omission.",
+   "form": "Perfect 8-for-8 in CAF qualifying, AFCON 2025 champions; drew 1-1 with Brazil in the opener — Saibari opened the scoring in the 21st minute only for Vinícius to equalize in the 32nd. Controlled large stretches but couldn't hold.",
+   "outlook": "World-class spine and 2022 knockout pedigree, but the new manager's system is still finding its edge. A win vs Scotland would book their place in the knockouts and potentially the group crown.",
    "group": "C"
   },
   "Scotland": {
@@ -341,11 +341,11 @@
    "keyPlayers": [
     "Scott McTominay (Napoli, CM — 2024-25 Serie A MVP, scored the bicycle kick that sealed qualification)",
     "Andy Robertson (Liverpool, LB, captain — 92 caps)",
-    "John McGinn (Aston Villa, CM)",
+    "John McGinn (Aston Villa, CM — scored the winner vs Haiti)",
     "Che Adams (Torino, ST)"
    ],
-   "form": "First World Cup since 1998 after the 4-2 Denmark drama; warmed up with a 4-1 win over Curaçao and 4-0 over Bolivia.",
-   "outlook": "Cohesion, set pieces and McTominay's late surges, but Gilmour is out of the tournament, there's no elite striker, and Scotland have never escaped a World Cup group in eight attempts.",
+   "form": "First World Cup since 1998; warmed up with a 4-1 win over Curaçao and 4-0 over Bolivia; OPENED THE WORLD CUP WITH A WIN — McGinn's deflected strike in the 28th minute beat Haiti 1-0, putting Scotland TOP of Group C for the first time since 1974.",
+   "outlook": "Scotland are TOP of Group C on 3 points — their first World Cup win since 1998. Clarke's disciplined back-five absorbed Haiti's threat comfortably; Gilmour's absence and no elite striker remain the ceiling, but history is genuinely within reach if they draw Morocco.",
    "group": "C"
   },
   "Haiti": {
@@ -360,8 +360,8 @@
     "Jean-Ricner Bellegarde (Wolves, CM)",
     "Johny Placide (GK, captain)"
    ],
-   "form": "Won their CONCACAF qualifying group despite playing every 'home' game abroad; beat New Zealand 4-0 then lost 2-1 to Peru.",
-   "outlook": "Fearless transition pace and the emotion of a first World Cup since 1974, but they're the lowest-rated team in the field with the thinnest depth in Group C.",
+   "form": "Won their CONCACAF qualifying group despite playing every 'home' game abroad; beat New Zealand 4-0 then lost 2-1 to Peru; lost opener 0-1 to Scotland (McGinn 28') — Pierrot's late header flashed wide.",
+   "outlook": "The pilgrimage is still beautiful but the road narrows: Brazil await on matchday two, and elimination in the group stage now looks the likely ending. Isidor and Bellegarde carry the spirit forward regardless.",
    "group": "C"
   },
   "United States": {
@@ -388,12 +388,12 @@
    "style": "Possession-based attacking 4-2-3-1 built around elite technical playmakers; can be open defensively",
    "keyPlayers": [
     "Hakan Çalhanoğlu (Inter, DM, captain)",
-    "Kenan Yıldız (Juventus, AM — 20 goal involvements in 47 games)",
+    "Kenan Yıldız (Juventus, AM — RESTED vs Australia; expected to start vs Paraguay)",
     "Arda Güler (Real Madrid, AM)",
     "Merih Demiral (Al-Ahli, CB)"
    ],
-   "form": "Won UEFA Path C playoff to qualify; beat the USA 2-1 in a 2025 friendly; golden generation peaking.",
-   "outlook": "Opta: 73% to qualify. The most talented attack in the group on paper; the question is whether the defence survives transition moments.",
+   "form": "Won UEFA Path C playoff; beat USA 2-1 in a 2025 friendly; golden generation peaking — but opened the World Cup with a 2-0 defeat to Australia with Yıldız rested, conceding in the 27th and 75th minutes.",
+   "outlook": "Under genuine elimination pressure after matchday one. Montella must deploy the full golden generation (Yıldız + Güler) vs Paraguay or risk a third consecutive World Cup group exit. The talent remains elite; the psychological shock is real.",
    "group": "D"
   },
   "Paraguay": {
@@ -408,8 +408,8 @@
     "Gustavo Gómez (Palmeiras, CB, captain)",
     "Julio Enciso (attacking wildcard)"
    ],
-   "form": "First World Cup since 2010. Conceded only 10 goals in 18 CONMEBOL qualifiers; beat Argentina 2-1 at home; haven't conceded more than one goal in any of their last 10 World Cup matches.",
-   "outlook": "Opta: 64.3% to qualify. A horrible team to break down; the ceiling is capped by a blunt attack.",
+   "form": "First World Cup since 2010; conceded only 10 goals in 18 CONMEBOL qualifiers; beat Argentina 2-1 at home — but were dismantled 1-4 by the USA press at SoFi (4 goals, an own goal). Their 'never concede twice in ten WC matches' record is shattered.",
+   "outlook": "Opta: 64.3% was the pre-tournament read; reality is bleaker after conceding four. A horrible team to break down, but their defensive religion was exposed by rapid transitions. The Turkey game is now a must-win.",
    "group": "D"
   },
   "Australia": {
@@ -417,15 +417,16 @@
    "iso2": "AU",
    "fifaRank": 27,
    "manager": "Tony Popovic",
-   "style": "Disciplined back-three 3-4-2-1, compact mid-block, set-piece reliant with direct wing play",
+   "style": "Disciplined 5-4-1 low block, compact mid-block, set-piece reliant — capable of ruthless transitions through Irankunda's pace",
    "keyPlayers": [
     "Jackson Irvine (St. Pauli, CM, captain)",
     "Harry Souttar (CB, aerial dominance)",
-    "Nestory Irankunda (19-year-old winger)",
+    "Nestory Irankunda (19-year-old winger — youngest Australian WC goal scorer ever)",
+    "Connor Metcalfe (CM — scored vs Turkey)",
     "Craig Goodwin (LW, set-piece specialist)"
    ],
-   "form": "March friendlies incl. 5-1 win over Curaçao, then 1-0 loss to Mexico. Lost their opening match in five of six previous World Cups.",
-   "outlook": "Opta: 58.8% to qualify — the group's outsider but only barely. Reached the round of 16 in 2022 and can frustrate anyone; goals are the chronic shortage.",
+   "form": "March friendlies incl. 5-1 win over Curaçao; opened the World Cup with a STUNNING 2-0 win over Turkey (Irankunda 27', Metcalfe 75') — just 28% possession, 1.32 xG conceded against 30 shots in the most resolute defensive performance of the tournament so far.",
+   "outlook": "NOW TIED AT THE TOP OF GROUP D with the USA on 3 points after arguably the most shocking result of the group stage. The Socceroos' June 19 clash with the USA in Seattle is suddenly a battle for first place — not a survival game.",
    "group": "D"
   },
   "Germany": {
@@ -957,7 +958,7 @@
     "Bosnia and Herzegovina",
     "Qatar"
    ],
-   "groupReading": "The weakest circle of the twelve resolves nearly as the seers expect: the maple press and the Swiss wall both pass through, their final meeting a truce signed in Vancouver rain that hands the hosts the crown on goals scored. The Bosnian dragons take third on an old king's last breath, while Qatar's wanderers depart still searching for a first World Cup point."
+   "groupReading": "The glass's first vision shattered on matchday one: all four sides locked on one point apiece, Qatar having etched their name into history at the 90th minute's dying breath. The maple press and the Swiss wall remain the glass's favoured pair, but both must earn what they assumed was already written — Xhaka vs Lukic, David vs Afif's belief now alive. The final order may still read as foreseen, but only after the hardest second matchday anyone expected."
   },
   {
    "group": "C",
@@ -967,17 +968,17 @@
     "Scotland",
     "Haiti"
    ],
-   "groupReading": "Two giants share this circle and both pass through: Brazil's burning wingers take the crown by a whisker from Atlas lions still learning their new master's voice. Scotland gather just enough from the islanders to slip toward fate's third-place gate, while Haiti's beautiful, doomed pilgrimage ends in song."
+   "groupReading": "The glass's first night burned tartan: McGinn's deflected winner sent Scotland to the top of Group C — a position no Scots side has held at a World Cup since Archie Gemmill danced in Argentina. Yet the orb still foresees the giants recovering: Brazil's firepower overwhelms Haiti, Morocco's precision edge Scotland in Foxborough, and the June 24 collision in Miami under the lights remains the chapter that will be recited for decades. Scotland fall one place short of the top but walk through the third-place gate with their heads held high; Haiti's beautiful pilgrimage ends in song."
   },
   {
    "group": "D",
    "predictedOrder": [
     "United States",
+    "Australia",
     "Turkey",
-    "Paraguay",
-    "Australia"
+    "Paraguay"
    ],
-   "groupReading": "The cards show the most balanced table of all twelve — a host nation buoyed by ninety thousand voices yet haunted by springtime defeats, and a Turkish constellation of playmakers burning bright. Beneath them, a Paraguayan wall and an Australian grinder will steal points from anyone who arrives careless."
+   "groupReading": "The glass cracked on its first two nights: the American press blew Paraguay apart at SoFi, then Australia's fortress-defence swallowed Turkey in Vancouver with just 28% possession — the Socceroos and the Stars and Stripes now share the summit. The June 19 collision in Seattle is the group's true decider, and the Turkish golden generation must win or face elimination at the hands of a Paraguay side they should outclass with Yıldız restored. The orb rewrites this circle daily."
   },
   {
    "group": "E",
@@ -1190,7 +1191,8 @@
    "confidence": 70,
    "reading": "The glass barely fogs here: a Swiss wall that conceded twice in all of qualifying meets a Qatar side winless in six and leaking goals. Ndoye's runs and Embolo's shoulders breach the maroon line either side of the hour; Afif conjures sparks in the Bay Area sun, but no fire.",
    "keyFactor": "Switzerland's elite defense against winless, leaky Qatar",
-   "played": false
+   "played": true,
+   "actualScore": "1-1"
   },
   {
    "id": "M26",
@@ -1203,9 +1205,9 @@
    "home": "Switzerland",
    "away": "Bosnia and Herzegovina",
    "predictedScore": "2-0",
-   "confidence": 50,
-   "reading": "Under SoFi's silver roof the runes counsel patience — Xhaka turns the wheel while Akanji marshals a back line warned by what Jovo Lukic's corner-kick header did to Canada. Bosnia held Canada level through a set piece and their 4-4-2 discipline; Džeko, still nursing the shoulder that kept him on the bench in Toronto, is unlikely to start. Yet the Swiss wall that conceded twice in all of qualifying is sterner granite than Marsch's press — two Swiss strikes, one per half, and a clean sheet that keeps the scorers off Akanji's brow.",
-   "keyFactor": "Bosnia's set-piece threat (Lukic's header vs Canada) vs Switzerland's elite defensive record; Džeko shoulder status the swing",
+   "confidence": 46,
+   "reading": "Under SoFi's silver roof the runes counsel caution — Xhaka must turn the wheel while Akanji's back line answers questions it never faced in qualifying. Switzerland allowed Khoukhi to equalise in the 94th minute against Qatar, a lapse of concentration that Bosnia's set-piece sorcery — Lukic's corner-kick header against Canada already confirmed the danger — will punish if repeated. Džeko, still nursing the shoulder that kept him on the bench in Toronto, remains the great unknown; if he starts, the aerial menace doubles. Yet Swiss technical superiority and Kobel's gloves are sterner than what a last-gasp Qatari defensive midfielder provided — two Nati strikes on either side of the break, with Bosnia landing one from a dead ball to keep the ledger honest.",
+   "keyFactor": "Switzerland's concentration after the Qatar lapse vs Bosnia's proven set-piece danger — Džeko shoulder fitness the decisive swing",
    "played": false
   },
   {
@@ -1218,10 +1220,10 @@
    "venue": "BC Place, Vancouver",
    "home": "Canada",
    "away": "Qatar",
-   "predictedScore": "2-0",
-   "confidence": 58,
-   "reading": "Vancouver's harbour wind still carries red waves — but Canada's BMO draw with Bosnia reminded the orb that David's goals do not come on demand. Larin's super-sub cameo and Lukic's unchallenged header were the stories of that night; Qatar, however, remain a team that shipped twenty-four in qualifying and cannot press-resist any side. Davies, healing well and targeting this exact stage, tips the balance from the left, and two Canadian strikes in a more controlled performance settle the question by the hour mark.",
-   "keyFactor": "Canada's press still overwhelms Qatar's porous defense; Davies' expected return adds width Canada missed against Bosnia",
+   "predictedScore": "2-1",
+   "confidence": 50,
+   "reading": "Vancouver's harbour wind carries red waves — but the orb now reads a Qatar transformed by Khoukhi's last-gasp point against Switzerland. That 90+4 equalizer is not mere fortune; it is proof that Lopetegui's organisation can survive ninety minutes of pressure and bite at the death. Canada, still searching for their first group-stage win after the BMO draw, welcome Davies's return to tip the balance from the left — yet Afif and Almoez Ali will not merely ship goals politely in BC Place's smaller confines. Two Canadian strikes are the glass's verdict, but Qatar's belief earns one back before the final whistle.",
+   "keyFactor": "Canada's press and Davies's return vs Qatar's newly-found World Cup resolve — no longer a foregone conclusion",
    "played": false
   },
   {
@@ -1270,7 +1272,8 @@
    "confidence": 44,
    "reading": "The orb churns gold and crimson over MetLife — Vinícius and Raphinha arrive in the form of their lives, yet Brazil have conceded in five straight and Militão's absence gapes at the back. Hakimi's motorway lane carves one answer and Bono stands tall, but the canary firepower edges a duel the bones call nearly even.",
    "keyFactor": "Brazil's elite wingers vs their own leaky, depleted backline",
-   "played": false
+   "played": true,
+   "actualScore": "1-1"
   },
   {
    "id": "M5",
@@ -1286,7 +1289,8 @@
    "confidence": 56,
    "reading": "Fifty-two years of waiting fills Gillette with Haitian song, yet the tartan spirits march colder and deeper into the night. McTominay's late surge and a set-piece thunderclap appear in the glass; Isidor's pace draws gasps from the mist, but no goals.",
    "keyFactor": "Scotland's set pieces and superior squad depth",
-   "played": false
+   "played": true,
+   "actualScore": "0-1"
   },
   {
    "id": "M30",
@@ -1299,9 +1303,9 @@
    "home": "Scotland",
    "away": "Morocco",
    "predictedScore": "0-1",
-   "confidence": 45,
-   "reading": "The mist is thick and stubborn here — Clarke's block against Ouahbi's possession, an echo of 1998 when these same three nations crossed tartan paths. Without Gilmour's calm feet Scotland surrender the ball for long ages; Brahim Díaz's curling left foot glows faintly but decisively through the gloom.",
-   "keyFactor": "Morocco's possession dominance with Gilmour absent to resist it",
+   "confidence": 46,
+   "reading": "The Tartan Army return to Foxborough as group leaders — a sentence that has never been written before — but the glass cautions against the champagne. Clarke's back five, disciplined against Haiti's direct threat, now faces Hakimi's motorway lane and Brahim Díaz's left foot, a combination several grades above Nazon and Bellegarde. Without Gilmour's calm feet Scotland must surrender the ball for long ages; one moment of Atlas precision cuts through a Scottish organisation that cannot press for ninety minutes at this level. Morocco win narrowly, and the October-like Gillette night tells Scotland they must win Miami to make history.",
+   "keyFactor": "Morocco's attacking class — Hakimi and Brahim Díaz — vs Scotland's organised back five without Gilmour's ball progression",
    "played": false
   },
   {
@@ -1315,9 +1319,9 @@
    "home": "Brazil",
    "away": "Haiti",
    "predictedScore": "4-0",
-   "confidence": 74,
-   "reading": "Philadelphia's cauldron shows no mercy in the glass: the widest talent gulf in Group C, and Ancelotti's men smell a goal-difference feast against the tournament's thinnest squad. Neymar, if the calf spirits permit, writes a cameo verse; four canary strikes shimmer clear in the crystal.",
-   "keyFactor": "Talent chasm and Brazil chasing goal difference",
+   "confidence": 68,
+   "reading": "Philadelphia's cauldron shows no mercy in the glass: the widest talent gulf in Group C, and Ancelotti's men — already stung by Scotland's early lead in this group — smell a goal-difference feast against the tournament's thinnest squad. A draw against Morocco is not the start Brazil wanted; the response here must be overwhelming. Neymar, if the calf spirits permit, writes a cameo verse, and the canary firepower pours through every gap Haiti cannot close. Four canary strikes shimmer in the crystal, though Haiti's pace on the break conjures one long-distance threat that Cavaleiro's gloves smother.",
+   "keyFactor": "Brazil needing goals to chase Scotland and Morocco; Haiti's thinnest squad in the field can't resist elite pressing for 90 minutes",
    "played": false
   },
   {
@@ -1330,10 +1334,10 @@
    "venue": "Hard Rock Stadium, Miami Gardens",
    "home": "Scotland",
    "away": "Brazil",
-   "predictedScore": "0-2",
-   "confidence": 58,
-   "reading": "Miami's golden-hour furnace... the orb replays 1998, when Brazil dimmed the tartan flame in a group that held these same names, and the old pattern holds. Scotland's third-place ledger may already be written, but Vinícius running at tired legs in 30-degree heat is a cruelty no block survives.",
-   "keyFactor": "Brazil's class and Miami heat sap Scotland's pressing legs",
+   "predictedScore": "1-2",
+   "confidence": 46,
+   "reading": "Miami's golden hour hosts a Group C decider the orb never foresaw: Scotland's McGinn-led warriors, already the first Scots to lead this group since 1974, against a Brazil side chasing a crown they dropped in Foxborough. If Clarke's men need only a draw and Brazil need a win, the tactical battle becomes existential for both. McTominay's late surge may forge one moment of tartan defiance under the Florida lights — but Vinícius and Raphinha in full canary cry, running at legs that have fought through two 90-minute battles, will find the seams in a back five that cannot contain this much individual quality for an entire game. One Scottish goal writes history; two Brazilian replies end the fairytale with honour intact.",
+   "keyFactor": "Brazil's attacking brilliance and Miami heat vs Scotland's back-five discipline — McTominay the one tartan card that can change the night",
    "played": false
   },
   {
@@ -1383,7 +1387,8 @@
    "confidence": 50,
    "reading": "An old curse follows the Socceroos — fallen in their opening match at five of six World Cups past. Under Vancouver's closed sky, Yıldız and Güler will find the gaps between Australia's three centre-backs, though Goodwin's set-piece deliveries conjure one moment of resistance.",
    "keyFactor": "Turkey's elite creators against Australia's historically poor openers",
-   "played": false
+   "played": true,
+   "actualScore": "2-0"
   },
   {
    "id": "M32",
@@ -1396,9 +1401,9 @@
    "home": "United States",
    "away": "Australia",
    "predictedScore": "2-1",
-   "confidence": 62,
-   "reading": "Lumen Field's noise becomes a twelfth man — and it now greets a USA side that shredded Paraguay 4-1, with Folarin Balogun scoring twice, Reyna conjuring a trivela in stoppage time and the whole press machine clicking with a ferocity the Socceroos have never faced. Pulisic, precautionary at half-time of the opener with a calf knock, is expected back for this. Pochettino's press pins Popovic's back three deep; Souttar's aerial menace claws one back from a corner, but the hosts' momentum is too heavy to stop.",
-   "keyFactor": "USA's 4-1 opening momentum and Balogun's goalscoring emergence vs Australia's historically poor World Cup openers",
+   "confidence": 51,
+   "reading": "Lumen Field's noise becomes a twelfth man for a Group D summit clash that no seer foresaw: two sides on three points, separated by a single goal of advantage for the hosts. Australia's fortress — 28% possession and just 1.32 xG conceded against Turkey's thirty shots — now faces a very different animal in Balogun's pressing relays and Reyna's trivela from another dimension. Pulisic, precautionary with a calf knock in the opener, is expected back to add the diagonal runs that Australia's back five will have to account for. Popovic's 5-4-1 will compress and absorb, as it did in Vancouver, while Irankunda hunts the same channel space that scored his historic opener; yet the American press is a deeper and more sustained threat than Montella's rotation squad. A single goal in Seattle settles a question no oracle expected to ask so soon.",
+   "keyFactor": "USA's press and home crowd vs Australia's resolute 5-4-1 fortress — the group's unexpected summit clash between two unbeaten sides",
    "played": false
   },
   {
@@ -1412,9 +1417,9 @@
    "home": "Turkey",
    "away": "Paraguay",
    "predictedScore": "2-1",
-   "confidence": 50,
-   "reading": "Fire meets cracked stone under the Santa Clara night. Paraguay's vaunted qualifier record — never conceding twice in ten World Cup matches — shattered on first contact with SoFi's press: four goals, an own goal and a rout. The Guaraní back line wilts under rapid transitions, and Yıldız and Güler are precisely the quick, incisive movers that exploited those same gaps. Turkey win by two; Sanabria still forces one crack from a counter to keep Paraguay's faint hopes flickering.",
-   "keyFactor": "Paraguay's defense conceded 4 against USA's press — Turkey's creators run exactly the same patterns through the channel",
+   "confidence": 57,
+   "reading": "Under the Santa Clara night, two fallen titans face mutual annihilation — one licking wounds from a 2-0 humiliation at Australia's fortress, the other still reeling from four goals at SoFi. Yıldız, deliberately rested on matchday one, returns alongside Güler in Turkey's most complete attacking pairing; Paraguay's exposed back line — pace-thin and transitionally fragile, as SoFi proved — cannot also cope with width and the intricate link-up of two elite playmakers. The Guaraní will battle with honour and Sanabria will force one reply from a moment of counter-punch, but the golden crescent rises twice in the California dark to keep its last-16 dream alive.",
+   "keyFactor": "Yıldız returns after deliberate rest; Paraguay's defensive frailty against rapid transitions was exposed at SoFi — Turkey's creators exploit the same channels",
    "played": false
   },
   {
@@ -1428,9 +1433,9 @@
    "home": "Turkey",
    "away": "United States",
    "predictedScore": "1-1",
-   "confidence": 38,
-   "reading": "The group's crown may rest on this SoFi night, and the omens recall 2025 when Montella's men edged the Americans 2-1 — but that USA side had not yet seen Balogun's predatory brace or Reyna's trivela from another dimension. The hosts carry the SoFi roar and Pochettino's unbeaten group record; an early Güler flash — the kind the golden generation reserves for big stages — is answered by an American equaliser, and prudence prevails for both sides who already hold their place.",
-   "keyFactor": "Both teams likely through; USA's 4-1 form gives them confidence but Turkey's creative quality is real — a draw serves both",
+   "confidence": 40,
+   "reading": "SoFi's third act and the glass clouds with conditional fates. If Turkey recovered against Paraguay and the USA won in Seattle, both arrive through; Güler and Yıldız — rested on matchday one and reinvigorated by a survival win — will demand the stage they were always meant to own. The Americans, carrying a six-point group and a memory of the 2025 defeat in this exact matchup, will guard their lead but not surrender the night. An early Turkish flash — Güler has never met a big match he didn't adorn — is answered by an American equaliser, and prudence seals the draw for both sides who already hold their place.",
+   "keyFactor": "Turkey's golden generation (with Yıldız fully deployed) vs USA's structural depth — both teams likely through, a draw suits both",
    "played": false
   },
   {
@@ -1445,8 +1450,8 @@
    "away": "Australia",
    "predictedScore": "1-1",
    "confidence": 38,
-   "reading": "Two wounded caravans arrive in Santa Clara with survival on the line, and the orb no longer reads this as a guaranteed Paraguayan passage. La Albirroja shipped four against the American press, their defensive religion exposed to rapid transitions; the Socceroos — deep, physical, set-piece reliant — will not offer the same angles, but they will match Paraguay's energy. Almirón's lone burst and a Goodwin dead-ball moment likely cancel each other out; both may depart hoping the third-place arithmetic is merciful.",
-   "keyFactor": "Paraguay's exposed defense (4 conceded) vs Australia's organised back three — less of a mismatch than the qualifying records implied",
+   "reading": "Australia are very likely through by Santa Clara's final curtain — the Socceroos need only guard what they've earned. Paraguay, their qualifying religion shattered by four SoFi goals, must win and hope the Turkey–USA result swings in their favour; but Popovic's fortress, which held thirty Turkish shots and kept 1.32 xG, is a different proposition from the American press that undid them. Almirón's spirit will carve one channel run and Goodwin's set-piece delivery conjures one Australian reply — parity on the night, and both sides exit with very different emotions.",
+   "keyFactor": "Australia's fortress defending vs Paraguay's need to score — and likely the last game of La Albirroja's 2026 campaign",
    "played": false
   },
   {
