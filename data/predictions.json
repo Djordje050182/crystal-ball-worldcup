@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-06-14",
+  "updated": "2026-06-15",
   "tournament": "FIFA World Cup 2026",
   "format": "The 2026 FIFA World Cup, co-hosted by the United States, Mexico and Canada from June 11 to July 19, 2026, features 48 teams split into 12 groups of four (A-L) playing a single round-robin group stage. The 12 group winners, 12 runners-up and the 8 best third-placed teams (32 teams total) advance to a new Round of 32, followed by a Round of 16, quarter-finals, semi-finals, a third-place play-off and the final, for 104 matches in all across 16 stadiums. Knockout ties go to 30 minutes of extra time and then penalties if level. The final is at MetLife Stadium, East Rutherford (New York/New Jersey) on July 19, 2026.",
   "thirdPlaceRule": "The 12 third-placed teams are ranked by points, goal difference, goals scored, fair play points, then lots; the top 8 advance. Their assignment to specific Round-of-32 matches depends on which groups the 8 best thirds come from, per the official allocation table (Annex C of the FIFA regulations)."
@@ -441,8 +441,8 @@
     "Jamal Musiala (Bayern — recovered from broken leg, short of sharpness)",
     "Manuel Neuer (Bayern, GK — 40, returning)"
    ],
-   "form": "Won UEFA qualifying Group A; beat USA 2-1 on June 6; 4-3 win over Switzerland in March. Lost Lennart Karl to a thigh tear.",
-   "outlook": "Opta: 96.1% to reach the knockouts, 59.9% to win the group. The clear class of Group E if Musiala finds rhythm and Neuer's calf holds.",
+   "form": "Won UEFA qualifying Group A; beat USA 2-1 on June 6; 4-3 win over Switzerland in March. Lost Lennart Karl to a thigh tear. OPENED with a 7-1 demolition of Curaçao — Nmecha, Havertz (×2), Schlotterbeck, Musiala, Undav and Brown all scored; Musiala's goal is the clearest signal yet that his post-injury sharpness has returned.",
+   "outlook": "Joint Group E leaders with 3 points and the tournament's best MD1 goal difference (+6). Musiala's goal puts the fitness doubts to rest; the June 20 clash with Ivory Coast is now a first-vs-first battle for top spot.",
    "group": "E"
   },
   "Ecuador": {
@@ -457,8 +457,8 @@
     "Piero Hincapié (Arsenal, CB)",
     "Enner Valencia (Pachuca, ST — all-time Ecuador World Cup scorer)"
    ],
-   "form": "Lost only once since Beccacece took charge in 2024. CONMEBOL runner-up with a historic defensive record.",
-   "outlook": "Opta: 86.9% to qualify. The best defensive spine outside the elite nations; the lack of goals is the only thing between them and a deep run.",
+   "form": "Lost only once since Beccacece took charge in 2024. CONMEBOL runner-up with a historic defensive record — but that 19-game unbeaten run ended 0-1 to Ivory Coast on matchday one; Ecuador hit the woodwork twice but Amad Diallo's 90th-minute volley sank them.",
+   "outlook": "Under genuine elimination pressure at 0 points after MD1. Must beat Curaçao on June 20 and hope Germany beat Ivory Coast; the lack of goals is now the existential threat. Pacho and Hincapié intact, but Caicedo-starved creativity up front is a real problem.",
    "group": "E"
   },
   "Ivory Coast": {
@@ -473,8 +473,8 @@
     "Simon Adingra (winger, pace in transition)",
     "Evan Ndicka (Roma, CB)"
    ],
-   "form": "Topped CAF Group F unbeaten (+25 goal difference) to reach a first World Cup since 2014.",
-   "outlook": "Opta: 64.2% to qualify. The wildcard — real top-end talent and athleticism; the opener against Ecuador effectively decides who shadows Germany.",
+   "form": "Topped CAF Group F unbeaten (+25 goal difference) to reach a first World Cup since 2014. OPENED by ending Ecuador's 19-game unbeaten streak 1-0 — substitute Amad Diallo volleyed a 90th-minute winner after Ecuador hit the woodwork twice.",
+   "outlook": "Joint Group E leaders with 3 points; the June 20 clash with Germany is a first-vs-first decider. Amad Diallo's late winner shows squad depth beyond Pépé and Adingra — the Elephants are a genuine last-16 outfit and no longer anyone's wildcard.",
    "group": "E"
   },
   "Curacao": {
@@ -488,8 +488,8 @@
     "Leandro Bacuna (captain, 71+ caps)",
     "Eloy Room (GK)"
    ],
-   "form": "Historic first World Cup — smallest nation ever to qualify — but lost all three friendlies since: 0-2 China, 1-5 Australia, 1-4 Scotland.",
-   "outlook": "Opta: 19% to qualify. The 78-year-old Advocaat becomes the oldest coach in World Cup history; damage limitation the realistic aim.",
+   "form": "Historic first World Cup — smallest nation ever to qualify — but lost all three friendlies since: 0-2 China, 1-5 Australia, 1-4 Scotland. Comenencia scored their first-ever World Cup goal to make it 1-1 against Germany in the 21st minute before the floodgates opened in a 1-7 defeat.",
+   "outlook": "Opta: 19% to qualify. Comenencia's strike gave the island one shining moment for the history books, but the 7 conceded in the opening match makes advancement near-impossible.",
    "group": "E"
   },
   "Netherlands": {
@@ -505,8 +505,8 @@
     "Frenkie de Jong (Barcelona, CM)",
     "Tijjani Reijnders (Man City, CM)"
    ],
-   "form": "Won UEFA qualifying group; lost only one of their last 19 World Cup matches. Xavi Simons OUT (ACL); Frimpong also out.",
-   "outlook": "Opta: 48.2% to win the group, 88.2% to qualify. Three-time finalists chasing the one crown that escapes them; favourites here but with the trickiest pot-2 draw imaginable.",
+   "form": "Won UEFA qualifying group; lost only one of their last 19 World Cup matches. Xavi Simons OUT (ACL); Frimpong also out. Dropped two points on matchday one — Kamada's 88th-minute equaliser earned Japan a 2-2 draw after the Dutch led, a lapse echoing Switzerland's 90+4 concession in Group B.",
+   "outlook": "Opta: 48.2% to win the group, 88.2% to qualify. Their opener exposed concentration issues in the final minutes; Sweden's 5-1 form now makes them Group F's pace-setters, and the June 20 clash against the Swedes has become a genuine battle for first place rather than a coronation.",
    "group": "F"
   },
   "Japan": {
@@ -521,8 +521,8 @@
     "Zion Suzuki (Parma, GK)",
     "Takehiro Tomiyasu (CB)"
    ],
-   "form": "Scored 54 goals in AFC qualifying — most of any Asian side. But Kaoru Mitoma (hamstring) and Takumi Minamino (ACL) both miss the tournament. Eighth straight World Cup; never past the round of 16.",
-   "outlook": "Opta: 76.2% to qualify. Even shorn of Mitoma, the best-organised press in the group; they put the Dutch on genuine upset watch.",
+   "form": "Scored 54 goals in AFC qualifying — most of any Asian side. But Kaoru Mitoma (hamstring) and Takumi Minamino (ACL) both miss the tournament. Eighth straight World Cup; never past the round of 16. Confirmed giant-killing credentials immediately — Kamada's 88th-minute equaliser against Netherlands earned a 2-2 draw and 1 point, once again proving Japan's press and nerve endure without their stars.",
+   "outlook": "Opta: 76.2% to qualify. The Dutch draw suggests Japan can finish second; Kubo's form against Tunisia on June 20 could be the night the round of 16 ceiling finally shatters.",
    "group": "F"
   },
   "Sweden": {
@@ -537,8 +537,8 @@
     "Anthony Elanga (winger)",
     "Lucas Bergvall (Tottenham, CM)"
    ],
-   "form": "Stormed the playoff path under Potter to reach a first World Cup since 2018. Kulusevski OUT injured.",
-   "outlook": "Opta: 62.6% to qualify. The most front-loaded squad in the group — if Isak's body and Gyökeres' form align, they outscore their structural flaws.",
+   "form": "Stormed the playoff path under Potter to reach a first World Cup since 2018. Kulusevski OUT injured. OPENED with the group stage's most emphatic win — 5-1 vs Tunisia in Monterrey: Isak scored (fitness doubts resolved), Gyökeres scored, and Yasin Ayari struck twice with stunning long-range efforts in a performance beyond any prediction.",
+   "outlook": "Group F leaders with 3 points and +4 goal difference. Isak and Gyökeres both fit and firing; the June 20 clash with Netherlands is now a battle for first place between the group's two expected qualifiers. Sweden are a genuine dark-horse contender well beyond the 62.6% qualifier odds.",
    "group": "F"
   },
   "Tunisia": {
@@ -552,8 +552,8 @@
     "Hannibal Mejbri (Burnley, AM)",
     "Aïssa Laïdouni (CM)"
    ],
-   "form": "Phenomenal qualifying — 9 wins in 10 and zero goals conceded — but upheaval since: Trabelsi sacked after AFCON; Lamouchi has managed only two games.",
-   "outlook": "Opta: 43.4% to qualify — the underdog; never past the group stage in six attempts. The defence travels; the goals may not.",
+   "form": "Phenomenal qualifying — 9 wins in 10 and zero goals conceded — but upheaval since: Trabelsi sacked after AFCON; Lamouchi has managed only two games. The qualifying fortress crumbled immediately — hammered 1-5 by Sweden in Monterrey, conceding twice to Ayari long-rangers and once each to Isak, Gyökeres and Svanberg.",
+   "outlook": "Opta: 43.4% to qualify — now near-impossible after a 1-5 MD1 loss. The defence does not travel; the goals never came. Japan on June 20 is a must-win but the momentum chasm is real.",
    "group": "F"
   },
   "Belgium": {
@@ -984,21 +984,21 @@
    "group": "E",
    "predictedOrder": [
     "Germany",
-    "Ecuador",
     "Ivory Coast",
+    "Ecuador",
     "Curacao"
    ],
-   "groupReading": "A German machine, rebuilt and humming under its young engineer, casts the longest shadow here — yet the truest duel is between Ecuadorian granite and Ivorian lightning for the second throne. The smallest island ever to reach this feast brings a 78-year-old sage and a prayer."
+   "groupReading": "The orb rewrote this group's order on day four: Germany's seven-goal thunder and Ivory Coast's last-gasp steal have both earned first place together, while Ecuador's 19-game unbeaten wall fell to a substitute's 90th-minute volley. The granite was always the problem — Beccacece's men must find a goal somewhere before the tournament ends their story. Germany and the Elephants march on; the Andes side must claw it back."
   },
   {
    "group": "F",
    "predictedOrder": [
+    "Sweden",
     "Netherlands",
     "Japan",
-    "Sweden",
     "Tunisia"
    ],
-   "groupReading": "The orange tide rolls in as favourite, but this is the true group of hidden knives — a Japanese press that has felled Germany and Spain before, two Swedish assassins fresh from Premier League glory, and a Tunisian fortress that conceded nothing on the road here. I foresee the Dutch surviving, and the second seat decided by the finest of margins in Arlington's final hour."
+   "groupReading": "The orb did not foresee Monterrey's earthquake: Potter's Swedes buried Tunisia five-one with two Ayari thunderbolts and a first goal from a fit Alexander Isak, leaping to Group F's summit. The orange tide ebbed — Kamada's 88th-minute equaliser stole what Netherlands thought was won, and the second seat now belongs to whoever survives June 20's summit clash. Sweden's knives were always hidden; they are hidden no longer."
   },
   {
    "group": "G",
@@ -1468,7 +1468,8 @@
    "confidence": 42,
    "reading": "The true final for second place arrives disguised as an opener. Ivorian lightning — Pépé and Adingra in full flight — crashes against a tricolor wall that surrendered five goals in eighteen qualifiers; Caicedo and Pacho absorb the storm, and each side leaves Philadelphia with a point and its destiny intact.",
    "keyFactor": "Ecuador's elite defensive record vs Ivory Coast's transition pace",
-   "played": false
+   "played": true,
+   "actualScore": "1-0"
   },
   {
    "id": "M10",
@@ -1484,7 +1485,8 @@
    "confidence": 76,
    "reading": "Under Houston's sealed roof, the orbs show a chasm of seventy-two ranking places. Curaçao shipped eleven goals across three warm-up defeats, and Wirtz's wand will conduct a procession; only Advocaat's old cunning keeps the score from true cruelty.",
    "keyFactor": "Massive quality gap; Curaçao conceded 11 in their last 3 friendlies",
-   "played": false
+   "played": true,
+   "actualScore": "7-1"
   },
   {
    "id": "M33",
@@ -1497,9 +1499,9 @@
    "home": "Germany",
    "away": "Ivory Coast",
    "predictedScore": "2-1",
-   "confidence": 53,
-   "reading": "Memories of tournament ambushes past flicker through German minds, and the Elephants carry real tusks — Pépé's season of eight goals and ten assists is no illusion. Yet Kimmich's order and Wirtz's invention prevail in Toronto's tighter confines, though not before a counter-attack draws German blood.",
-   "keyFactor": "Germany's control vs the one genuine upset threat in the group",
+   "confidence": 51,
+   "reading": "A first-vs-first summit clash neither group predicted: the 7-1 machine against the side that stole three points with a 90th-minute volley. Musiala's goal against Curaçao proves the sharpness doubts are behind him — his interplay with Wirtz in Toronto's tighter confines is the duel Germany need to win and Ivory Coast need to survive. Amad's bench impact and Pépé's diagonal runs make this a genuine contest, but Kimmich's positional order and Neuer's experience tip the scales before the hour.",
+   "keyFactor": "Musiala back to full sharpness vs Ivory Coast's compact block and late-match impact from the bench",
    "played": false
   },
   {
@@ -1513,9 +1515,9 @@
    "home": "Ecuador",
    "away": "Curacao",
    "predictedScore": "2-0",
-   "confidence": 66,
-   "reading": "Arrowhead's evening heat suits a side that strangles matches in their sleep. Ecuador create little but need little; Valencia, the old executioner of World Cups past, adds another to his tally, and Caicedo's midfield grip never loosens against the islanders.",
-   "keyFactor": "Ecuador's control and Valencia's World Cup pedigree against the group's weakest side",
+   "confidence": 62,
+   "reading": "A must-win disguised as a formality — Beccacece's men arrive at Arrowhead with zero points and a goalscoring crisis that one match against the tournament's lowest-ranked side must resolve. Ecuador hit the woodwork twice against Ivory Coast but could not convert; Valencia, the World Cup's old executioner, is the only answer the cards can see. Caicedo's grip protects the middle while Curaçao's Comenencia — who scored against Germany's seven — provides the one moment of resistance before the Tricolor's superior class prevails.",
+   "keyFactor": "Ecuador's desperate need for goals and points vs a Curaçao side that shipped seven on matchday one",
    "played": false
   },
   {
@@ -1544,10 +1546,10 @@
    "venue": "MetLife Stadium, East Rutherford",
    "home": "Ecuador",
    "away": "Germany",
-   "predictedScore": "1-1",
-   "confidence": 40,
-   "reading": "By this hour Germany may already be crowned, and Nagelsmann's hand will rotate; Ecuador, needing only a point, will gladly play the anaconda. Pacho and Hincapié know every German pattern from Paris and London — a Wirtz spark is answered by a set-piece from the South Americans, and both pass through MetLife's gates together.",
-   "keyFactor": "Likely dead-rubber dynamics with both teams favored to advance",
+   "predictedScore": "0-2",
+   "confidence": 55,
+   "reading": "The night the cards refused to read as kind: Ecuador, who needed this to be a mutual dead-rubber, instead arrive needing a miracle — zero points from MD1, a goalscoring crisis confirmed against Ivory Coast, and a Germany side seven-goals richer in confidence. Pacho and Hincapié's wall will hold longer than most, but Wirtz and Musiala in full concert at MetLife, likely needing only to guard what they hold, will find the seams. Ecuador's tournament ends in the east.",
+   "keyFactor": "Ecuador's goalscoring crisis vs a Germany side who opened with seven and Musiala in form",
    "played": false
   },
   {
@@ -1564,7 +1566,8 @@
    "confidence": 46,
    "reading": "Beware, children of Oranje — the Samurai have slain greater empires in opening acts before. Yet the stars note Mitoma's absence dims Japan's left-flank blade, while Gakpo and Depay carry Liverpool-forged steel under Arlington's climate-controlled dome; the Dutch, beaten only once in their last nineteen World Cup matches, edge a genuine contest.",
    "keyFactor": "Japan's giant-killing press blunted by Mitoma's and Minamino's absences",
-   "played": false
+   "played": true,
+   "actualScore": "2-2"
   },
   {
    "id": "M12",
@@ -1580,7 +1583,8 @@
    "confidence": 38,
    "reading": "In Monterrey's heavy summer air, the unstoppable meets the immovable: Gyökeres, crowned in north London, against a Tunisian rampart that conceded nothing in ten qualifiers. Isak's uncertain legs and Potter's mere months of work leave Sweden short of fluency; Skhiri's shield holds until one Gyökeres thunderbolt is answered from a set play.",
    "keyFactor": "Tunisia's zero-goals-conceded qualifying defence vs Sweden's unintegrated star power",
-   "played": false
+   "played": true,
+   "actualScore": "5-1"
   },
   {
    "id": "M35",
@@ -1592,10 +1596,10 @@
    "venue": "NRG Stadium, Houston",
    "home": "Netherlands",
    "away": "Sweden",
-   "predictedScore": "2-1",
-   "confidence": 50,
-   "reading": "Houston's roof shelters all from the Texas furnace, and a duel of Premier League houses unfolds — van Dijk against his own clubmate Isak, Gyökeres against the empire he just conquered. The crystal favors Dutch midfield control through de Jong and Reijnders; Sweden's strikers land one blow, but Potter's patched defence cannot hold the orange tide twice.",
-   "keyFactor": "Dutch midfield superiority vs Sweden's two-striker counterpunch",
+   "predictedScore": "1-2",
+   "confidence": 47,
+   "reading": "A first-vs-second battle no oracle foresaw: Netherlands, who needed a last-minute rescue by Kamada to only draw, must now face a Sweden side that scored five. Houston's roof keeps the heat in but does nothing for Dutch concentration issues confirmed in minute 88 against Japan. Isak's fitness — confirmed against Tunisia — and Gyökeres' Bundesliga-forged ruthlessness give Sweden the finishing edge that the Dutch, without Simons and Frimpong, can no longer match in transition. Van Dijk's header may equalise, but Gakpo's chance-conversion under pressure is not what it was; the Blågult's momentum carries them through.",
+   "keyFactor": "Sweden's 5-1 confidence and two fit strikers vs Netherlands' late-game concentration issues and missing creators",
    "played": false
   },
   {
@@ -1608,10 +1612,10 @@
    "venue": "Estadio BBVA, Guadalupe (Monterrey)",
    "home": "Tunisia",
    "away": "Japan",
-   "predictedScore": "0-1",
-   "confidence": 48,
-   "reading": "A late kickoff under Monterrey's mountains, and two disciplined armies dig their trenches. Japan's fifty-four qualifying goals against Tunisia's untouched net — patience decides it, and Kubo's single moment of Basque-honed brilliance cuts where eighty-nine minutes of Tunisian order had held.",
-   "keyFactor": "Kubo's individual quality breaking a stalemate between two organised defences",
+   "predictedScore": "0-2",
+   "confidence": 58,
+   "reading": "The same Monterrey cauldron that witnessed Tunisia's five-goal humiliation now hosts Japan's next examination — and this time the opponent conceded nothing to Sweden's five. Tunisia's defensive fortress was always a myth the qualifying schedule created; Japan, who equalized Netherlands in the 88th minute on matchday one, arrive with the belief and the pressing triggers to expose it twice. Kubo's Basque-honed blade and the unit's collective press will carve this open before the hour; Tunisia must attack and cannot.",
+   "keyFactor": "Japan's collective press vs a Tunisia side whose defence gave up five goals and who must now chase the game",
    "played": false
   },
   {
@@ -1624,10 +1628,10 @@
    "venue": "AT&T Stadium, Arlington (Dallas)",
    "home": "Japan",
    "away": "Sweden",
-   "predictedScore": "1-1",
-   "confidence": 36,
-   "reading": "The second throne of Group F is settled here, and the mists are thick. Japan's collective machine against Sweden's individual executioners is the tournament's purest clash of philosophies; I see an early Samurai strike, a Gyökeres reply, and Japan advancing on the strength of their fuller ledger.",
-   "keyFactor": "Effective knockout for second place; Japan's system vs Sweden's strikers",
+   "predictedScore": "1-2",
+   "confidence": 42,
+   "reading": "If Sweden beat Netherlands in Houston, this may only decide goal-difference margins; if Netherlands recover, Arlington could be a second-place decider. Sweden's Isak-Gyökeres axis is now the most dangerous front pair left in this group, and Japan, who can equalize but have not dominated any opponent for 90 minutes, face a different challenge from the Dutch pressing game or the Tunisian fortress. The Samurai's 88th-minute nerve is real — an early goal and an hour of collective discipline are entirely plausible — but Sweden's two-striker threat and squad momentum tip the final verdict to the Blågult.",
+   "keyFactor": "Sweden's Isak-Gyökeres front two and tournament momentum vs Japan's collective discipline and late-game nerve",
    "played": false
   },
   {
@@ -1641,9 +1645,9 @@
    "home": "Tunisia",
    "away": "Netherlands",
    "predictedScore": "0-2",
-   "confidence": 56,
-   "reading": "Likely needing victory while the Dutch need little, the Eagles of Carthage must finally abandon their fortress — and therein lies their doom. Space behind the Tunisian lines is Gakpo's natural hunting ground; Depay adds another for his country, and Tunisia's six-tournament wait for a knockout dawn stretches on.",
-   "keyFactor": "Tunisia forced out of their low block by needing a win",
+   "confidence": 62,
+   "reading": "Netherlands, stinging from their 2-2 concession in minute 88 against Japan and a likely first-place loss to Sweden, arrive in Kansas City needing a point and hungry for goals to improve goal difference. Tunisia, who already shipped five and have no path to qualification, must abandon their demolished fortress and go forward — and therein lies their doom twice over. Gakpo's hunting ground opens on both flanks; Depay, chasing his country's all-time scoring record with a tournament milestone in range, seals it. The Eagles of Carthage depart with one goal to their name from six attempts; the orange tide must recover.",
+   "keyFactor": "Netherlands needing a win for confidence and goal difference; Tunisia's fortress already broken and qualification gone",
    "played": false
   },
   {
@@ -2361,9 +2365,9 @@
    "predHome": "United States",
    "predAway": "Sweden",
    "predictedScore": "2-1",
-   "confidence": 44,
-   "reading": "Santa Clara becomes a cauldron of belief — the hosts against Gyökeres and Isak, the most front-loaded bench in the field. The orb shows Pulisic trading blows with the Arsenal executioner deep into the night, until Lumen-forged momentum and seventy thousand voices drag a tiring Sweden under in the 81st minute. The summer of the hosts gets one more week.",
-   "keyFactor": "Home crowd and USA's press depth vs Sweden's two-striker ceiling",
+   "confidence": 42,
+   "reading": "Santa Clara becomes a cauldron of belief — the hosts against Gyökeres and Isak, two strikers who just dismantled Tunisia five-one with Ayari's long-range thunderbolts and Isak's fitness fully confirmed. Sweden arrive with the tournament's most potent front pair and a 5-1 scoreline echoing in their lungs; this is no longer a USA coronation. Yet Pulisic's diagonal runs and the SoFi roar remain real forces, and Balogun's press-relays exploit the space Sweden leave high up the pitch. The orb still tilts American — home advantage and Pochettino's structural intelligence — but Sweden's Group F dominance demands greater respect than any prediction assumed.",
+   "keyFactor": "USA's home crowd vs Sweden's Isak-Gyökeres front two now proven fit and in red-hot form",
    "played": false
   },
   {
