@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-06-16",
+  "updated": "2026-06-17",
   "tournament": "FIFA World Cup 2026",
   "format": "The 2026 FIFA World Cup, co-hosted by the United States, Mexico and Canada from June 11 to July 19, 2026, features 48 teams split into 12 groups of four (A-L) playing a single round-robin group stage. The 12 group winners, 12 runners-up and the 8 best third-placed teams (32 teams total) advance to a new Round of 32, followed by a Round of 16, quarter-finals, semi-finals, a third-place play-off and the final, for 104 matches in all across 16 stadiums. Knockout ties go to 30 minutes of extra time and then penalties if level. The final is at MetLife Stadium, East Rutherford (New York/New Jersey) on July 19, 2026.",
   "thirdPlaceRule": "The 12 third-placed teams are ranked by points, goal difference, goals scored, fair play points, then lots; the top 8 advance. Their assignment to specific Round-of-32 matches depends on which groups the 8 best thirds come from, per the official allocation table (Annex C of the FIFA regulations)."
@@ -691,13 +691,13 @@
    "manager": "Didier Deschamps (final tournament in charge)",
    "style": "Pragmatic, transition-lethal 4-2-3-1; a tournament-hardened machine that has reached the final in four of the last seven World Cups. Mbappé central, Dembélé wide, Tchouaméni shielding.",
    "keyPlayers": [
-    "Kylian Mbappé (Real Madrid, ST, captain — 12 goals over the last two World Cups)",
+    "Kylian Mbappé (Real Madrid, ST, captain — brace vs Senegal takes his WC tally to 14 goals, two behind the all-time record Messi tied the same evening)",
     "Ousmane Dembélé (PSG, FW, 2025 Ballon d'Or winner)",
     "William Saliba (Arsenal, CB — playing through a back issue)",
     "Aurélien Tchouaméni (Real Madrid, DM)"
    ],
-   "form": "Qualified unbeaten, won four of last five, closed warm-ups with a 3-1 win over Northern Ireland. All 26 declared fit.",
-   "outlook": "Opta: 95.3% to advance, 13% tournament winners (No.2 pick). Drawn into the closest thing to a Group of Death, but the ceiling remains the trophy.",
+   "form": "Qualified unbeaten; OPENED the World Cup with a 3-1 win over Senegal at MetLife — Mbappé brace (66', 90+6') and Barcola put France 3-0 ahead before Mbaye's stoppage-time reply. Mbappé is now France's all-time top scorer with 58 goals and holds 14 World Cup goals.",
+   "outlook": "Opta: 95.3% to advance, 13% tournament winners (No.2 pick). Mbappé's brace confirmed his ruthless appetite — he is two goals from equalling the record Messi levelled at Arrowhead on the same matchday. Deschamps' farewell machine is purring; Iraq on June 22 is the next step.",
    "group": "I"
   },
   "Senegal": {
@@ -712,8 +712,8 @@
     "Pape Matar Sarr (Tottenham, CM)",
     "Iliman Ndiaye (Everton, FW)"
    ],
-   "form": "Turbulent: won AFCON 2025 on the pitch only for the title to be stripped via a forfeit ruling — a wound and a motivation. Warm-ups: 2-3 loss to USA, 0-0 with Saudi Arabia; goals have dried up.",
-   "outlook": "Opta: 62% to advance. Third straight finals; the 2002 ghost (beating France in the opener) walks beside them, but Norway blocks the clean route to the last 16.",
+   "form": "Won AFCON 2025 on the pitch (title stripped by forfeit ruling). OPENED the World Cup with a 1-3 loss to France at MetLife — held 0-0 until Mbappé struck in the 66th minute; Barcola added a second and Mbappé sealed it in the 90th before Mbaye's stoppage-time header became the youngest African scorer in WC history. The 2002 ghost stays buried.",
+   "outlook": "Third straight finals but now under real pressure. Mané has yet to score; Norway on June 22 presents a formidable Haaland-Sørloth threat after the Vikings buried Iraq 4-1. A point at the Meadowlands would require the best of Koulibaly's defensive leadership.",
    "group": "I"
   },
   "Iraq": {
@@ -728,8 +728,8 @@
     "Zidane Iqbal (FC Utrecht, CM)",
     "Jalal Hassan (GK, captain)"
    ],
-   "form": "Beat Bolivia in the March inter-confederation playoff to qualify, then lost their June warm-up to Venezuela; winless in all six previous World Cup matches (1986).",
-   "outlook": "Opta: 27.1% to advance — second-lowest of all 48 teams. The Lions of Mesopotamia's realistic dream is one historic point; the Senegal finale in Toronto is their best window.",
+   "form": "Beat Bolivia in the March playoff to qualify, lost June warm-up to Venezuela. OPENED the World Cup with a 1-4 loss to Norway at Gillette Stadium — Aymen Hussein scored in the 39th minute (Iraq's first World Cup goal in 40 years!), but Haaland's brace (29', 43'), Óstigård's header and a Hussein own goal confirmed Norway's class. Winless through seven World Cup matches.",
+   "outlook": "Advancement is now near-impossible after conceding four to a Norway side firing on all cylinders. France await on June 22 — a daunting ask after the Foxborough defeat — but the Senegal finale in Toronto remains the Lions' most realistic window for that historic first point.",
    "group": "I"
   },
   "Norway": {
@@ -744,8 +744,8 @@
     "Alexander Sørloth (Atlético Madrid, ST)",
     "Antonio Nusa (RB Leipzig, LW)"
    ],
-   "form": "Perfect qualifying: 8 wins from 8, 37-5, including a 7-1 aggregate demolition of Italy. First World Cup since 1998 and the tournament's most feared dark horse.",
-   "outlook": "Opta: 82.3% to advance, 25.2% to top the group. If Ødegaard stays fit to feed Haaland, Norway can genuinely take France's crown in Foxborough.",
+   "form": "Perfect qualifying (8W 37-5, including a 7-1 aggregate demolition of Italy). OPENED the World Cup with a 4-1 demolition of Iraq at Gillette Stadium — Haaland scored twice (29', 43'), Óstigård headed a third and a Hussein own goal completed the rout. Haaland is now Norway's joint all-time scorer with Rekdal after just one World Cup match.",
+   "outlook": "Opta: 82.3% to advance, 25.2% to top the group. Haaland and Sørloth are the tournament's most lethal front pairing — confirmed by the Foxborough masterclass. The France summit duel on June 26 is the group's defining night; Norway arrive at it as genuine co-favourites for first place.",
    "group": "I"
   },
   "Argentina": {
@@ -760,8 +760,8 @@
     "Alexis Mac Allister (Liverpool, CM)",
     "Emiliano Martínez (Aston Villa, GK)"
    ],
-   "form": "W 3-0 Iceland, W 2-0 Honduras (June friendlies); top of CONMEBOL qualifying; 17 of the Qatar 2022 winners retained.",
-   "outlook": "Overwhelming favourites: Opta gives 72% to top the group. Only heat, Messi's hamstring and complacency stand between them and the last 32.",
+   "form": "W 3-0 Iceland, W 2-0 Honduras (June friendlies). OPENED the World Cup with an extraordinary 3-0 win over Algeria at Arrowhead — Messi hat-trick (17', 60', 76') on his 200th international appearance, raising his World Cup tally to 16 goals and tying Miroslav Klose's all-time record.",
+   "outlook": "Overwhelming favourites: Opta gives 72% to top the group. Messi, at 38, scored a free kick and two from open play against Algeria — his most clinical World Cup performance since 2014. The record is within reach; Austria on June 22 is the next challenge.",
    "group": "J"
   },
   "Austria": {
@@ -776,8 +776,8 @@
     "Christoph Baumgartner (RB Leipzig, AM — career-best 13 Bundesliga goals)",
     "Marko Arnautović (Red Star Belgrade, ST — 8 qualifying goals)"
    ],
-   "form": "W 1-0 Tunisia (June 1); topped qualifying group, first World Cup since 1998. Drilled to a Rangnick rhythm.",
-   "outlook": "Opta's pick for second (67.4% to advance). The press travels; the question is whether ageing legs survive Texas heat.",
+   "form": "W 1-0 Tunisia (June 1). OPENED the World Cup with a 3-1 win over Jordan at Levi's Stadium — Romano Schmid's long-range thunderbolt, an Al-Arab own goal from a corner and Arnautović's penalty gave Rangnick's men their first World Cup win in 36 years; Ali Olwan gave Jordan their historic first WC goal as a consolation.",
+   "outlook": "Opta's pick for second (67.4% to advance). The Rangnick press looked organised and multi-dimensional against Jordan — three different routes to goal in a single match. Argentina still loom on June 22, but the opening-night authority was unambiguous.",
    "group": "J"
   },
   "Algeria": {
@@ -792,8 +792,8 @@
     "Rayan Aït-Nouri (Manchester City, LB)",
     "Ibrahim Maza (Bayer Leverkusen, AM)"
    ],
-   "form": "Stunned the Netherlands 1-0 in Rotterdam (June 3); 8 qualifying wins, their best-ever campaign.",
-   "outlook": "Live dark horse at 57.1% (Opta) to advance. Amoura's pace against Austria's high line on the final matchday could decide second place.",
+   "form": "Stunned the Netherlands 1-0 in Rotterdam (June 3). OPENED the World Cup with a 0-3 loss to Argentina at Arrowhead — manager Petković made the tactical call to bench captain Mahrez, starting Moussa instead, but Messi's hat-trick on his 200th cap exposed Algeria's defensive frailty entirely; zero shots on target for the Desert Warriors.",
+   "outlook": "Under genuine elimination pressure at 0 points after MD1. Petković must decide whether to restore Mahrez against Jordan — the tactical experiment cost three goals. The 3-0 defeat revealed that Algeria cannot cope with Argentina's press; Jordan on June 22 is a must-win to stay alive.",
    "group": "J"
   },
   "Jordan": {
@@ -807,8 +807,8 @@
     "Yazan Al-Naimat (FW — Asian Cup 2023 final hero)",
     "Yazan Al-Arab (CB)"
    ],
-   "form": "L 1-4 Switzerland, L 0-2 Colombia in June; Arab Cup 2025 runners-up; 32 qualifying goals — their best ever.",
-   "outlook": "Brave debutants (Opta 40.9%) but warm-up defeats exposed the gulf. The Algeria game in Santa Clara is their realistic point-harvest.",
+   "form": "L 1-4 Switzerland, L 0-2 Colombia in June; Arab Cup 2025 runners-up. OPENED the World Cup with a 1-3 defeat to Austria at Levi's Stadium — Ali Olwan's 54th-minute strike made Jordan the first team in their history to score at a World Cup, a moment of lasting national pride; Austria's press still prevailed through Schmid, an own goal and Arnautović's penalty.",
+   "outlook": "Warm-up and opening defeats are now confirmed at World Cup level. Olwan's goal — a landmark moment for Jordanian football — gives the squad pride and purpose, but the Algeria game in Santa Clara is now genuinely a must-win if Jordan are to make the group stage competitive.",
    "group": "J"
   },
   "Portugal": {
@@ -1028,7 +1028,7 @@
     "Senegal",
     "Iraq"
    ],
-   "groupReading": "Here the glass darkens, for this is the death-group of the western draw: the world's elite, a Viking storm averaging four-and-a-half goals a game, and a wounded African champion stripped of its crown by men in suits. The runes say France by a whisker over Haaland's Norway, Senegal scrapping into the third-place lottery, and brave Iraq collecting memories."
+   "groupReading": "The death-group's first night burned exactly as foretold — yet even seers blink at the scale. France put three past Senegal with Mbappé's brace and a Barcola seal, though Mbaye's stoppage-time reply gave the Lions of Teranga one consolation before the glass darkened over MetLife. In Foxborough the Norse thunder was louder still: Haaland struck twice inside 43 minutes, Óstigård headed a third, and Iraq's first World Cup goal in forty years — Hussein's brave header — could not alter the story. The summit duel of France and Norway arrives at Foxborough on June 26 between two unbeaten sides; both have already shown they can score freely. The oracle's order stands, but the margin between first and second is now a razor's edge."
   },
   {
    "group": "J",
@@ -1038,7 +1038,7 @@
     "Algeria",
     "Jordan"
    ],
-   "groupReading": "The cards show a crown that does not slip: the champions of Lusail glide through, untroubled by desert winds or alpine presses. Behind them, the Austrian machine and the Algerian desert fox circle one another until the final night in Kansas City, where a single goal divides destiny."
+   "groupReading": "The glass flared brightest in Kansas City on the World Cup's fifth night: Messi, 38 years old, standing on his 200th international appearance, scored three times and tied the greatest goalscoring record in World Cup history — the legend simply refuses to be finite. Behind him Austria's red machine crushed Jordan three-one at Levi's Stadium, Jordan's inaugural World Cup goal from Olwan only illuminating the gulf in class. Algeria, their captain benched for a tactical gamble that cost three goals, sit at zero points alongside Jordan; the desert fox must recalibrate fast. The oracle's crown prediction stands unchallenged; the second-place battle between Austria's press and Algeria's wounded pride is now, suddenly, existential."
   },
   {
    "group": "K",
@@ -1860,7 +1860,8 @@
    "confidence": 52,
    "reading": "The spirits whisper of 2002, when Senegal toppled France in an opener — but this French side is no fading champion, and Senegal's well of goals has run dry. Mbappé, hunting the all-time record, strikes either side of Koulibaly's heroic resistance; the ghost stays buried.",
    "keyFactor": "Senegal's blunt recent attack vs France's elite transitions",
-   "played": false
+   "played": true,
+   "actualScore": "3-1"
   },
   {
    "id": "M18",
@@ -1876,7 +1877,8 @@
    "confidence": 63,
    "reading": "Forty years of waiting end for Iraq beneath a hail of Norwegian iron — sentiment is sweet, but Haaland does not deal in sentiment. The deep block holds for half an hour before Ødegaard's scalpel finds the seam; the giant feasts twice, as he did sixteen times on the road here.",
    "keyFactor": "Haaland against the weakest defence in the group",
-   "played": false
+   "played": true,
+   "actualScore": "1-4"
   },
   {
    "id": "M42",
@@ -1889,9 +1891,9 @@
    "home": "France",
    "away": "Iraq",
    "predictedScore": "3-0",
-   "confidence": 66,
-   "reading": "The orb shows brotherly love withheld: Arnold's brave wall against the deepest squad on earth. Dembélé returns dancing, Doué and Olise queue behind him, and Iraq's set-piece prayers go unanswered — France rest legs in the final half hour with the job long done.",
-   "keyFactor": "France's overwhelming squad depth vs Iraq's winless World Cup history",
+   "confidence": 68,
+   "reading": "The orb shows no mercy in Philadelphia: Mbappé already has 14 World Cup goals — one brace away from tying the record Messi claimed at Arrowhead the same evening, and every tournament fixture for France now risks becoming a record-breaking stage. Arnold's brave wall absorbed seven Norwegian goals on matchday one; a France side hungry to hurt the goal-difference ledger will hit before the half-hour. Dembélé and Doué rotate through the corridors Iraq cannot close; by the 70th minute the bench empties and the old lions are already thinking of Norway.",
+   "keyFactor": "Mbappé's record-hunt and France's goal-difference appetite against a ten-man Iraq Iraq conceded four to Norway",
    "played": false
   },
   {
@@ -1905,9 +1907,9 @@
    "home": "Norway",
    "away": "Senegal",
    "predictedScore": "2-1",
-   "confidence": 46,
-   "reading": "Two storms meet over the Meadowlands — Senegal's wronged warriors, fighting for a stolen crown, against the north wind that buried Italy twice. Sarr and Mané land the first blow, but Sørloth rises at a corner and Haaland, inevitably, has the final word in a match of brutal beauty.",
-   "keyFactor": "Haaland-Sørloth aerial power vs Senegal's need to chase the game",
+   "confidence": 52,
+   "reading": "The Meadowlands collision: Norway, who eviscerated Iraq 4-1 with Haaland's brace inside 43 minutes, against a Senegal side that already conceded three to France and whose scoring drought persists. Solbakken's front pair — Haaland and Sørloth — present different aerial dimensions the Teranga defenders faced nothing like in MD1; Koulibaly will need his finest ninety minutes to contain them. Yet Mané is still Mané, and the wounded-lion energy of a stolen crown gives Senegal one moment of dangerous beauty — the orb sees one Teranga strike, probably from Ndiaye's diagonal, before Norway's relentless press and a Sørloth corner-header settle it. The Nordic juggernaut advances; Africa's third-place lifeline stays alive.",
+   "keyFactor": "Norway's Haaland-Sørloth aerial dominance vs Senegal's Koulibaly trying to hold a back line that already conceded three in MD1",
    "played": false
   },
   {
@@ -1921,9 +1923,9 @@
    "home": "Norway",
    "away": "France",
    "predictedScore": "1-1",
-   "confidence": 39,
-   "reading": "The summit duel the fates have circled since December: the world's finest against the perfect-record raiders, with first place and a kinder bracket the prize. Haaland scores because he always scores; Mbappé answers because he always answers — and Deschamps, the old fox, will not lose a game he does not need to win.",
-   "keyFactor": "Both likely already qualified; group winner decided on goal difference",
+   "confidence": 41,
+   "reading": "The summit duel the fates have circled since December — and matchday one confirmed both sides deserve every syllable of the billing. Norway's four-goal opening and France's three have given both camps the confidence their pre-tournament talk always carried. In Foxborough's familiar shadow Haaland will score because Haaland always scores; Mbappé will answer because he always answers, with a record-equalling World Cup total now plausibly on the line. Deschamps — in his final tournament act — will not lose a game he does not need to lose; Solbakken, leading Norway's first serious knockout challenge since 2002, will not cede ground he has earned by force. A goal apiece and a summit shared; first place decided on goals scored at the whistle.",
+   "keyFactor": "Both sides already through — Haaland's record and Mbappé's record-hunt make it a goal apiece; goal difference decides the podium order",
    "played": false
   },
   {
@@ -1937,9 +1939,9 @@
    "home": "Senegal",
    "away": "Iraq",
    "predictedScore": "2-0",
-   "confidence": 59,
-   "reading": "In Toronto the lions of Teranga must roar or go home, and a wounded lion is the most dangerous kind. Mané, in perhaps his last World Cup act, breaks Iraq's resistance before the hour; Ndiaye seals a victory that should be worth a best-third passage into the knockout light.",
-   "keyFactor": "Senegal's superior athleticism and desperation for goal difference",
+   "confidence": 62,
+   "reading": "Two sides that lost their openers — one to three goals from Mbappé's France, one to four from Haaland's Norway — meet in Toronto for the right to keep the third-place arithmetic alive. Iraq's Lions scored for the first time in forty years (Hussein, 39') at Foxborough and showed heart enough for one moment of World Cup glory; in BMO's humid evening they will seek a second. Yet Senegal's superior athleticism, Mané's desperation and a Koulibaly unit that is far above Iraq's level make this a straightforward verdict for the Teranga — Mané breaks the deadlock before the hour, Ndiaye or Sarr seal it, and Senegal fly south hoping France-Norway produces one free slot. Goal difference may be the deciding factor; the orb sees two Senegalese strikes, a clean sheet, and the Lions clinging to the dream.",
+   "keyFactor": "Senegal's desperation for goal difference to bolster third-place credentials vs Iraq's emotional but limited attacking resources",
    "played": false
   },
   {
@@ -1956,7 +1958,8 @@
    "confidence": 56,
    "reading": "The spirits whisper of 2010's ghost — but this Argentina is no haunted side. Algeria's triumph in Rotterdam glows bright, yet the crystal shows Álvarez's press suffocating their build-up and Messi conjuring once under the Arrowhead lights. The fox runs bravely, but the lion eats first.",
    "keyFactor": "Argentina's counter-press vs Algeria's short build-up",
-   "played": false
+   "played": true,
+   "actualScore": "3-0"
   },
   {
    "id": "M20",
@@ -1972,7 +1975,8 @@
    "confidence": 58,
    "reading": "I see a red machine of pistons and pressing traps meeting a debutant still blinking in the World Cup glare. Jordan's warm-up wounds — four conceded to Switzerland, two to Colombia — foretell a back line overwhelmed by Baumgartner's late runs. Al-Tamari may flash like a comet, but comets do not stop machines.",
    "keyFactor": "Rangnick's press against a back line that shipped 6 in two friendlies",
-   "played": false
+   "played": true,
+   "actualScore": "3-1"
   },
   {
    "id": "M43",
@@ -1985,9 +1989,9 @@
    "home": "Argentina",
    "away": "Austria",
    "predictedScore": "2-1",
-   "confidence": 47,
-   "reading": "A noon sun over Texas, though the great roof shields the worst of it. Austria's press will steal one moment of chaos — the orb shows Sabitzer striking — but pressing Messi's Argentina for ninety minutes is to chase smoke. The champions' extra class in both boxes tilts the scales late.",
-   "keyFactor": "Whether Austria can sustain an elite press against elite ball retention",
+   "confidence": 49,
+   "reading": "Two unbeaten sides meet under Dallas's sealed roof — one carrying Messi's record-tying hat-trick and the weight of history, the other carrying three goals and thirty-six years of World Cup drought already ended. Rangnick's press was crisp and multi-dimensional against Jordan; Austria earned their goal through different routes (long-range strike, set piece, penalty) and will not merely fold. Sabitzer's diagonal runs and Schmid's long-range threat will steal one moment of chaos — the orb still shows a red-and-white goal in the glass. But Álvarez pressing Argentina's high line behind Messi's free role is an equation Austria have never faced; two world-class strikes settle a match that is competitive until at least the hour.",
+   "keyFactor": "Messi's hat-trick form and Argentina's collective pressing quality vs Austria's organized Rangnick press — one Austrian goal is possible; two is the glass's ceiling",
    "played": false
   },
   {
@@ -2001,9 +2005,9 @@
    "home": "Jordan",
    "away": "Algeria",
    "predictedScore": "1-2",
-   "confidence": 45,
-   "reading": "Two Arab nations under a California dusk, and the cards favour the elder brother. Amoura's lightning will find the space behind Jordan's wing-backs that Switzerland found before him. Yet the debutants' pride is real — Al-Tamari etches his name on the scoresheet before the night belongs to Algeria.",
-   "keyFactor": "Amoura's pace in behind Jordan's adventurous wing-backs",
+   "confidence": 50,
+   "reading": "Two sides with zero points, one goal each and pride bruised meet at the same Santa Clara venue where Jordan's history was made and remade. Algeria — whose captain Mahrez watched three Messi goals from the bench — are under enormous pressure to restore order; Petković has no choice but to restore his record-scorer and let the old warrior hunt the space his substitute could not find. Jordan's Ali Olwan proved in MD1 that the Hashemite flanks can deliver; Amoura's pace in behind an adventurous Jordan block that conceded three to Austria remains the razor that decides this game. Al-Tamari will conjure one comet-strike and the Santa Clara night will pause; but Algeria's greater squad depth and the imperative to win this match carries Petković's men through — Mahrez from the kick.",
+   "keyFactor": "Mahrez's likely return to the starting line vs Jordan's attacking spirit and Olwan's one-goal World Cup confidence",
    "played": false
   },
   {
@@ -2016,10 +2020,10 @@
    "venue": "Arrowhead Stadium, Kansas City",
    "home": "Algeria",
    "away": "Austria",
-   "predictedScore": "1-1",
-   "confidence": 36,
-   "reading": "The decisive rune: whoever wins likely takes second, and the orb clouds with tension. Austria's press meets Mahrez's guile in a duel of nerve, and I see weary Austrian legs after two high-octane outings conceding late possession. A point each — and both pass through on the strength of earlier deeds, Austria above by the Jordan margin.",
-   "keyFactor": "Austrian pressing fatigue in a third match in eleven days",
+   "predictedScore": "2-1",
+   "confidence": 38,
+   "reading": "The decisive rune rewrites itself after matchday one shattered the glass's original vision: this is no longer a mutual dead-rubber with both sides safe. Algeria, likely sitting on three points after beating Jordan, need to win in Kansas City to claim second place — and Mahrez, carrying the fire of a benching he should never have endured, will arrive at his last World Cup match as captain, talisman and symbol of his country's wounded ambition. Austria, likely on three points also after losing to Argentina, know a draw secures second; Rangnick will organise to absorb Mahrez's threat and punish on the press. Amoura strikes first on a Mahrez assist, and Arnautović — the old wolf — levels from the penalty spot after Óscar Trejo's foul. But Algeria's desperation is the keenest blade in the room; one more Maza free kick settles it for the Desert Warriors.",
+   "keyFactor": "Algeria's desperate need to win for second place vs Austria happy with a draw — Mahrez restored and motivated is the decisive variable",
    "played": false
   },
   {
@@ -2033,9 +2037,9 @@
    "home": "Jordan",
    "away": "Argentina",
    "predictedScore": "0-2",
-   "confidence": 55,
-   "reading": "By the third night the champions will already hold the key to the next door, and Scaloni will rest some princes — yet even Argentina's second court outranks Jordan's first. The debutants defend with hearts of bronze, but bronze bends. Two goals, no reply, and Messi waves to Dallas from the bench's golden throne.",
-   "keyFactor": "Argentina's squad depth even with rotation",
+   "confidence": 56,
+   "reading": "By the third night the champions will already hold the key to the next door, and Scaloni — now able to rest Messi and Álvarez, their records safe — will rotate freely. Olwan and Al-Tamari gave Jordan their proudest footballing night against Austria, and the Hashemite debutants will not simply roll over for Argentina's second court; yet the depth of Scaloni's bench (De Paul, Lautaro, Paredes) still dwarfs Jordan's entire squad. Two goals, no reply, and the world champions wave from the Dallas bench as Lautaro writes his own chapter.",
+   "keyFactor": "Argentina's rotation-proof squad depth vs a Jordan side whose fairy-tale goal has been written — now playing with house money",
    "played": false
   },
   {
@@ -2385,9 +2389,9 @@
    "predHome": "Belgium",
    "predAway": "Algeria",
    "predictedScore": "2-1",
-   "confidence": 48,
-   "reading": "The desert fox that bit the Dutch in Rotterdam circles an ageing red empire. Amoura's pace torments Belgium's veteran spine and the orb shows a long Algerian hour of hope — but De Bruyne, in his last World Cup, produces the through-ball of the tournament for Doku to settle it. The golden generation buys one more chapter.",
-   "keyFactor": "De Bruyne's final-act class vs Algeria's transition speed",
+   "confidence": 52,
+   "reading": "The desert fox that bit the Dutch in Rotterdam must first survive the group stage: Algeria's 3-0 loss to Argentina in MD1 — with captain Mahrez benched for tactical reasons — exposed a defensive frailty that Messi's hat-trick laid bare. If Algeria grind through to the last 32, they arrive carrying wounds; De Bruyne, in his last World Cup, will find the same channels Álvarez found. The orb still sees a long Algerian hour of hope — Amoura's pace and a restored Mahrez can torment Belgium's veteran spine — but two Belgian strikes and one Algerian counter-punch is the glass's final verdict.",
+   "keyFactor": "Algeria's recovery from the 3-0 MD1 loss and the question of Mahrez's fitness and motivation vs De Bruyne's last-dance class",
    "played": false
   },
   {
