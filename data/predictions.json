@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-06-21",
+  "updated": "2026-06-22",
   "tournament": "FIFA World Cup 2026",
   "format": "The 2026 FIFA World Cup, co-hosted by the United States, Mexico and Canada from June 11 to July 19, 2026, features 48 teams split into 12 groups of four (A-L) playing a single round-robin group stage. The 12 group winners, 12 runners-up and the 8 best third-placed teams (32 teams total) advance to a new Round of 32, followed by a Round of 16, quarter-finals, semi-finals, a third-place play-off and the final, for 104 matches in all across 16 stadiums. Knockout ties go to 30 minutes of extra time and then penalties if level. The final is at MetLife Stadium, East Rutherford (New York/New Jersey) on July 19, 2026.",
   "thirdPlaceRule": "The 12 third-placed teams are ranked by points, goal difference, goals scored, fair play points, then lots; the top 8 advance. Their assignment to specific Round-of-32 matches depends on which groups the 8 best thirds come from, per the official allocation table (Annex C of the FIFA regulations)."
@@ -568,8 +568,8 @@
     "Thibaut Courtois (Real Madrid, GK)",
     "Youri Tielemans (Aston Villa, CM, captain)"
    ],
-   "form": "Unbeaten through UEFA qualifying, then crushed Tunisia 5-0 in their final warm-up. OPENED the World Cup with a frustrating 1-1 draw vs Egypt in Seattle — Emam Ashour struck in the 19th minute and held Belgium for 47 minutes; Lukaku's 66th-minute introduction immediately caused a Mohamed Hany own goal, but Belgium's open-play creation was poor and De Bruyne's influence minimal throughout.",
-   "outlook": "Outlook darkened after the Egypt draw — Doku was neutralised, the forward line lacked cohesion without Lukaku from the start, and De Bruyne managed the game rather than controlled it. The June 21 duel with an Iran side that also dropped a point is now a must-not-lose. Group G is wide open.",
+   "form": "Unbeaten through UEFA qualifying, then crushed Tunisia 5-0 in their final warm-up. OPENED the World Cup with a frustrating 1-1 draw vs Egypt — Emam Ashour struck; Lukaku's introduction caused a Mohamed Hany OG; then drew 0-0 with Iran at SoFi — Nathan Ngoy was sent off for hauling down Taremi in the second half, reducing Belgium to ten men; De Bruyne was anonymous and Belgium created nothing in open play across 180 World Cup minutes.",
+   "outlook": "TWO POINTS from two matches and a crisis of creation — Belgium have not scored from open play in 180 World Cup minutes. Nathan Ngoy's red card against Iran means he is SUSPENDED for the June 26 finale vs New Zealand. De Bruyne's last World Cup has yet to show his fingerprints. Egypt lead on 4 pts; Belgium must WIN vs New Zealand and hope Iran cannot beat Egypt. The glass is cracking around Anderlecht's old wizard.",
    "group": "G"
   },
   "Egypt": {
@@ -579,13 +579,13 @@
    "manager": "Hossam Hassan",
    "style": "Compact, disciplined low-to-mid block built on the meanest defence in African qualifying, springing counters through Salah and Marmoush.",
    "keyPlayers": [
-    "Mohamed Salah (RW, captain — 9 qualifying goals)",
+    "Mohamed Salah (RW, captain — scored 67' vs New Zealand; 9 qualifying goals)",
     "Omar Marmoush (Manchester City, FW)",
     "Mohamed El Shenawy (Al Ahly, GK)",
     "Mohamed Abdelmonem (CB)"
    ],
-   "form": "Unbeaten qualifying campaign without conceding. OPENED the World Cup by leading Belgium 1-0 for 47 minutes — Emam Ashour struck in the 19th minute; Lukaku's 66th-minute introduction caused a Mohamed Hany own goal to level at 1-1. Egypt's defensive organisation exceeded all expectations; Salah was contained but a constant threat from the right.",
-   "outlook": "The MD1 defensive block confirms Hossam Hassan's structure is tournament-ready. Salah has yet to score but showed movement and quality throughout; Emam Ashour's opener proved the team can create without Salah dominating. New Zealand on June 21 is Egypt's clearest path to their first World Cup win in eight attempts.",
+   "form": "Unbeaten qualifying campaign without conceding. OPENED the World Cup by leading Belgium 1-0 — Emam Ashour struck; Lukaku's introduction caused a Mohamed Hany OG; then delivered EGYPT'S FIRST-EVER WORLD CUP WIN: 3-1 over New Zealand in Vancouver — Surman's 15th-minute header briefly led NZ; Zico equalised (58'), Salah scored (67') and substitute Trezeguet's corner-header sealed it (85').",
+   "outlook": "GROUP G LEADERS on 4 points after Egypt's first-ever World Cup win in eight attempts. Salah finally scored at 34 — the moment Vancouver gave the world. Only a catastrophic defeat to Iran in MD3 while Belgium wins vs New Zealand removes Egypt from the Round of 32; a draw seals the passage regardless. The crystal sees Egypt at the summit; the June 26 night is a coronation with caution.",
    "group": "G"
   },
   "Iran": {
@@ -595,13 +595,13 @@
    "manager": "Amir Ghalenoei",
    "style": "Deep defensive block packed with veteran know-how, direct vertical service to Taremi; historically scores just 0.72 goals per World Cup match.",
    "keyPlayers": [
-    "Mehdi Taremi (Olympiacos, ST, captain — 59 goals in 103 caps)",
+    "Mehdi Taremi (Olympiacos, ST, captain — 59 goals in 103 caps; yet to score in this tournament)",
     "Alireza Jahanbakhsh (RW)",
     "Mehdi Ghayedi (AM)",
     "Ramin Rezaeian (RB)"
    ],
-   "form": "Cruised through AFC qualifying to a fourth straight finals; preparations overshadowed by a difficult geopolitical backdrop. OPENED the World Cup with a shock 2-2 draw vs New Zealand — Ramin Rezaeian and Mohammad Mohebbi's late header rescued a point after Elijah Just's brace had put the All Whites 2-1 ahead. Iran's historically resolute defensive block failed to appear when it mattered most.",
-   "outlook": "Under genuine pressure now: dropping a point against the lowest-ranked side in the tournament means Iran MUST beat Belgium on June 21 to stay alive. Taremi was largely anonymous and the defensive shape that won six Asian qualifying points failed against direct running. A crisis of confidence heading into SoFi.",
+   "form": "Cruised through AFC qualifying to a fourth straight finals; preparations overshadowed by a difficult geopolitical backdrop. OPENED the World Cup with a 2-2 draw vs New Zealand — Ramin Rezaeian and Mohebbi rescued a point; then held Belgium to a goalless 0-0 at SoFi — Ngoy's red card reduced Belgium to ten men but Iran still couldn't find a winner with the numerical advantage in the final stages.",
+   "outlook": "Two points and still mathematically alive — but must WIN vs Egypt on June 26 to have any hope of advancing. The 0-0 against Belgium showed defensive solidity; scoring against Egypt's back line is the harder challenge. Iran must attack against a side that is happy to counter-punch; Taremi must score for the first time in this tournament.",
    "group": "G"
   },
   "New Zealand": {
@@ -616,8 +616,8 @@
     "Marko Stamenic (CM)",
     "Michael Boxall (CB)"
    ],
-   "form": "Dominated OFC qualifying. AT THE WORLD CUP: Elijah Just's brace and Chris Wood's two assists earned a stunning 2-2 draw with Iran at SoFi — Just became the first All White to score twice in a World Cup match; Wood's hold-up play was exceptional, creating both goals by drawing defenders and feeding Just's runs.",
-   "outlook": "The oracle's most wrong call so far. Wood fit and imposing; Just a clinical finisher; the transition counter-attack was crisp and well-drilled. New Zealand can score against anyone in this group — their June 21 date with Egypt in Vancouver is the group stage's most open fixture. A best-third passage to the knockouts is no longer a dream.",
+   "form": "Dominated OFC qualifying. AT THE WORLD CUP: Elijah Just's brace and Chris Wood's two assists earned a stunning 2-2 draw with Iran; then lost 1-3 to Egypt in Vancouver — Finn Surman's 15th-minute header briefly led, but Zico, Salah and Trezeguet answered to complete Egypt's historic first WC win. New Zealand's defending couldn't hold once Egypt found rhythm.",
+   "outlook": "ELIMINATED on 1 point after two matches — the 2-2 draw against Iran remains the tournament's great shock, but the Egypt defeat closed the door. The June 26 farewell vs Belgium (without Ngoy due to suspension) is a curtain call; Wood and Just have earned their standing ovation.",
    "group": "G"
   },
   "Spain": {
@@ -627,13 +627,13 @@
    "manager": "Luis de la Fuente",
    "style": "Positional-play 4-3-3, suffocating possession and high press; Euro 2024 champions on a 31-match competitive unbeaten run.",
    "keyPlayers": [
-    "Lamine Yamal (Barcelona, RW — nursing a hamstring, may be managed early)",
+    "Lamine Yamal (Barcelona, RW — scored in the 10th minute vs Saudi Arabia; first WC goal, one of youngest ever)",
     "Rodri (Manchester City, DM, captain, 2024 Ballon d'Or)",
-    "Pedri (Barcelona, CM)",
-    "Nico Williams (Athletic Club, LW)"
+    "Mikel Oyarzabal (Real Sociedad, ST — brace vs Saudi Arabia, 21' and 24')",
+    "Pedri (Barcelona, CM)"
    ],
-   "form": "Qualifying: 5 wins 1 draw, 21 scored, 2 conceded. OPENED the World Cup with a shocking 0-0 draw vs Cape Verde in Atlanta — Lamine Yamal started on the bench (hamstring, came on 71st minute) and couldn't unlock the block; Gavi and Ferran Torres both ineffective; Spain had 27 shots but Vozinha's goalkeeping denied them all in the group stage's biggest upset so far.",
-   "outlook": "Opta's tournament favourite faces a first crisis: 27 shots and zero goals is alarming. Yamal must start against Saudi Arabia on June 21 and Williams needs to rediscover his Athletic Club best. A comfortable group exit is no longer guaranteed, and the Guadalajara altitude duel with Uruguay now carries potential elimination weight.",
+   "form": "Qualifying: 5 wins 1 draw, 21 scored, 2 conceded. OPENED the World Cup with a 0-0 draw vs Cape Verde (27 shots, Vozinha stopped all); then DEMOLISHED Saudi Arabia 4-0 — Yamal 10', Oyarzabal brace (21', 24'), Al-Tambakti OG (49'); both Yamal and Oyarzabal were rested at half-time. Yamal's goal made him one of the youngest WC scorers in history.",
+   "outlook": "GROUP H LEADERS on 3 points — qualified to the Round of 32 after the 4-0 answered every question the Cape Verde stalemate asked. Yamal is fit and prolific, Oyarzabal in blistering form. The June 26 finale vs Uruguay in Guadalajara's 1,500m altitude decides only the order — Spain need only a draw to confirm first place.",
    "group": "H"
   },
   "Cape Verde": {
@@ -646,10 +646,11 @@
     "Ryan Mendes (FW, captain)",
     "Jamiro Monteiro (CM)",
     "Vozinha (GK)",
-    "Dailon Livramento (FW)"
+    "Kevin Pina (scorer of 30-yard free kick vs Uruguay, 21')",
+    "Hélio Varela (FW — scored his first international goal vs Uruguay, 61')"
    ],
-   "form": "Historic first qualification — won six of their final seven qualifiers. WORLD CUP DEBUT TRIUMPH: held European champions Spain to a 0-0 draw in Atlanta — Vozinha made save after save against 27 Spanish shots in the group stage's most stunning result to date. The Blue Sharks absorbed pressure for 90 minutes and never flinched.",
-   "outlook": "No longer just participants — Cape Verde are proven competitors at this level. Vozinha is a genuine tournament-quality goalkeeper. The June 21 test against Uruguay's Bielsa press is the acid test of their defensive organisation; a point or a win would put them in serious contention for second place or a best-third berth.",
+   "form": "Historic first qualification. WORLD CUP DEBUT: held European champions Spain 0-0 in Atlanta (Vozinha masterclass, 27 shots faced); then held Uruguay 2-2 in Miami — Kevin Pina's 30-yard free kick (21') opened the scoring; Hélio Varela headed in for his first international goal (61'); Uruguay's Araújo and Canobbio rescued a point with two goals in two minutes at the end of the first half. Two World Cup matches, two draws, unbeaten.",
+   "outlook": "SECOND IN GROUP H on 2 points — ahead of Uruguay on goal difference (+1 vs 0). Cape Verde are the tournament's best story: two remarkable results against Spain and Uruguay confirm they belong on this stage. The June 26 finale vs Saudi Arabia: a win guarantees second place; a draw likely advances them unless Uruguay stun Spain by a big margin. Vozinha's gloves and the Blue Shark spirit are the real deal.",
    "group": "H"
   },
   "Saudi Arabia": {
@@ -664,8 +665,8 @@
     "Firas Al-Buraikan (Al-Ahli, ST)",
     "Mohamed Kanno (Al-Hilal, CM)"
    ],
-   "form": "Coaching upheaval under Donis (appointed April 2026). OPENED the World Cup better than any prediction: drew 1-1 with Uruguay in Miami — Abdulelah Al-Amri opened the scoring in the first half; Maxi Araújo's equaliser denied Saudi a famous result. Al-Dawsari was a constant threat on the left throughout the 90 minutes.",
-   "outlook": "One point from MD1 reopens the Group H calculus. If Spain are vulnerable (as the 0-0 vs Cape Verde shows), Saudi's June 21 match with them becomes massive — a point there combined with beating Cape Verde could realistically send them through. The discipline under Donis was real and encouraging.",
+   "form": "Coaching upheaval under Donis (appointed April 2026). OPENED the World Cup drawing 1-1 with Uruguay (Al-Amri's opener); then CRUSHED 4-0 by Spain in Atlanta — Yamal, Oyarzabal (×2) and an own goal sealed the match before half-time. The tactical discipline that held Uruguay evaporated entirely against Spain's full-strength attack.",
+   "outlook": "BOTTOM OF GROUP H on 1 point — effectively eliminated after the 4-0 humiliation. Only a win vs Cape Verde on June 26 combined with Uruguay not beating Spain keeps any arithmetic alive, and the scenario is near-impossible. Al-Dawsari showed quality against Uruguay but was invisible against Spain. Donis's experiment ends in Philadelphia.",
    "group": "H"
   },
   "Uruguay": {
@@ -676,12 +677,12 @@
    "style": "Bielsa's trademark man-to-man pressing and vertical chaos — a tournament-high 147 high turnovers in CONMEBOL qualifying; the post-Suárez/Cavani era.",
    "keyPlayers": [
     "Federico Valverde (Real Madrid, CM — engine and leader)",
-    "Ronald Araújo (Barcelona, CB)",
-    "Darwin Núñez (Al-Hilal, ST)",
+    "Ronald Araújo (Barcelona, CB — scored vs Saudi Arabia and Cape Verde)",
+    "Darwin Núñez (Al-Hilal, ST — yet to score)",
     "Fernando Muslera (GK, veteran recalled)"
    ],
-   "form": "Mixed friendlies, then a 5-1 loss to the USA. OPENED the World Cup with a frustrating 1-1 draw vs Saudi Arabia in Miami — Abdulelah Al-Amri's opening goal shocked Bielsa's press; Maxi Araújo rescued a point but Darwin Núñez failed to convert key chances and the high-turnover system that destroyed Italy in qualifying never clicked.",
-   "outlook": "Far from convincing in MD1 — Núñez erratic, Valverde worked alone without support. Cape Verde on June 21 is a must-win: Bielsa's press against the same defensive discipline that held Spain to 27 shots poses the group's biggest tactical question. Uruguay's class is not in doubt; their ability to break a structured block is.",
+   "form": "Mixed friendlies, then a 5-1 loss to the USA. OPENED the World Cup with a 1-1 draw vs Saudi Arabia; then drew 2-2 with Cape Verde in Miami — Araújo (44') and Canobbio (45+6') rescued a point after Cape Verde twice led through Pina (21') and Varela (61'). Darwin Núñez was on the pitch but could not change the game; two draws from two matches.",
+   "outlook": "THIRD IN GROUP H on 2 points — behind Cape Verde on goal difference (0 vs +1). Two draws from two matches means Uruguay must WIN vs Spain in Guadalajara on June 26 AND hope Cape Verde fail to beat Saudi Arabia. Darwin Núñez's conversion rate is the tournament's greatest frustration; Valverde has worked heroically alone. Bielsa needs one night where the press finally finds its second gear at altitude.",
    "group": "H"
   },
   "France": {
@@ -1004,22 +1005,22 @@
   {
    "group": "G",
    "predictedOrder": [
-    "Belgium",
     "Egypt",
+    "Belgium",
     "Iran",
     "New Zealand"
    ],
-   "groupReading": "The orb shattered in SoFi when Elijah Just's double erased all rankings and left all four sides level on one point apiece — Belgium clung to a draw against Egypt's resolute wall, Iran's storied defensive block crumbled against Chris Wood's hold-up craft, and the crystal refuses to read a clear summit. De Bruyne must reclaim his throne; Salah must score at last; Taremi must channel Iran's historic resistance; Just must prove SoFi was no dream. The second matchday in Los Angeles and Vancouver rewrites everything."
+   "groupReading": "The glass darkened for Belgium and blazed for Egypt across matchday two's twin vigil. In Los Angeles Nathan Ngoy's red card for hauling down Taremi cast De Bruyne into a numbing 0-0 against Iran — in 180 World Cup minutes Belgium have not once scored from open play, and the wizard of Napoli has yet to conjure a decisive moment. In Vancouver the long-awaited verse arrived: Surman's header briefly wrote a New Zealand fairytale, then Zico levelled, Salah scored at last (67th minute, Vancouver, a name he will keep forever), and substitute Trezeguet's corner-header sealed Egypt's first-ever World Cup win in eight attempts. The standings: Egypt 4 pts, Belgium 2 pts, Iran 2 pts, New Zealand 1 pt (eliminated). Egypt's June 26 finale against Iran decides only the margin; the second passage is Belgium's to lose — or Iran's to steal."
   },
   {
    "group": "H",
    "predictedOrder": [
     "Spain",
-    "Uruguay",
     "Cape Verde",
+    "Uruguay",
     "Saudi Arabia"
    ],
-   "groupReading": "The glass cracked in Atlanta and Miami on the fifth day: Spain's armada fired twenty-seven shots and Vozinha caught every one; in Miami the desert prince drew first blood and Bielsa's press could not find a second gear. All four sides stand on one point with the group entirely unwritten — the oracle sees Yamal healed and Spain restored, but Vozinha's gloves have stained the crystal's certainty and every second act in this group arrives with genuine consequence."
+   "groupReading": "The glass rewrote Group H in a single extraordinary afternoon and evening on June 21. In Atlanta the armada that fired twenty-seven shots finally found its target: Yamal slid in at the back post after just ten minutes — among the youngest scorers in World Cup history — Oyarzabal added two more in the next four minutes, and Al-Tambakti's own goal made it four before half-time; both Yamal and Oyarzabal were rested for the second half, the work already done. In Miami the night delivered its second revelation: Cape Verde's Kevin Pina launched a 30-yard free kick past Muslera in the 21st minute, Hélio Varela headed in his first international goal in the 61st, and only Araújo's desperate header and Canobbio's stoppage-time equaliser spared Uruguay's blushes in a 2-2 that left Bielsa shaking his head. The standings: Spain 3 pts (+4 GD), Cape Verde 2 pts (+1 GD), Uruguay 2 pts (0 GD), Saudi Arabia 1 pt. The crystal still sees Spain as Group H champions, but Cape Verde have surpassed Uruguay in the oracle's reckoning for second place — Bubista's island warriors are the tournament's best story and the June 26 finale is their night of judgment."
   },
   {
    "group": "I",
@@ -1711,7 +1712,8 @@
    "confidence": 48,
    "reading": "The crystal is murkier than it was: Belgium's wide press could not open Egypt's wall and Iran's defensive fortress collapsed against New Zealand's direct running — both sides arrive at SoFi nursing wounds and needing points. Lukaku from the start tips the quality balance, and Doku in Inglewood's noon heat should find the space Iran's back line leaked against Just; but Iran, under pressure and playing with nothing to lose, will break forward where they were cautious with the All Whites. A second Belgian goal seals it, though Taremi may find a first touch of fortune.",
    "keyFactor": "Lukaku starting from the first whistle vs an Iran side that must now attack after failing to hold New Zealand",
-   "played": false
+   "played": true,
+   "actualScore": "0-0"
   },
   {
    "id": "M40",
@@ -1727,7 +1729,8 @@
    "confidence": 44,
    "reading": "Under Vancouver's closed roof two reinvented sides collide: New Zealand's Elijah Just and Chris Wood — who combined for both SoFi goals against Iran — demand Egypt's centre-backs engage in the duels the All Whites have perfected. Salah, goal-less in the tournament but smouldering, has the quality to find the seams in a New Zealand block that was never asked to defend in MD1 — Wood's side spent the entire Iran game on the attack. Egypt's superior squad depth and Salah's clinical threat give them the edge across ninety minutes, but Wood will test the pharaoh's defenders early and often. Egypt's first World Cup win comes in the final fifteen minutes — but this is no procession.",
    "keyFactor": "New Zealand's Chris Wood and Elijah Just counter-attack vs Egypt's Salah-led class — this is the group's most open fixture",
-   "played": false
+   "played": true,
+   "actualScore": "1-3"
   },
   {
    "id": "M63",
@@ -1740,9 +1743,9 @@
    "home": "Egypt",
    "away": "Iran",
    "predictedScore": "1-0",
-   "confidence": 46,
-   "reading": "Two shields collide and the night grows quiet — this is a duel of locksmiths, not swordsmen, with second place and survival the wager. One moment of Salah sorcery near the death undoes ninety minutes of Persian resistance; Iran must then pray the third-place arithmetic is merciful.",
-   "keyFactor": "Two elite defensive blocks; one Salah moment decides it",
+   "confidence": 50,
+   "reading": "The arithmetic has redrawn the battlefield: Egypt need only a draw to advance as Group G winners — Hossam Hassan will organise his block and invite Iran to come forward for the first time in this tournament. Taremi, anonymous in 180 World Cup minutes, now owns the weight of his nation's survival — he must find goals against a back line that held Belgium for 47 minutes and New Zealand to one goal. Seattle's closed roof suits Egypt's counter-punch perfectly; one Salah strike on the break seals the night and the passage both.",
+   "keyFactor": "Egypt happy with a draw — Iran must attack for the first time in this tournament, opening the counter-attacking spaces Egypt exploited against New Zealand",
    "played": false
   },
   {
@@ -1756,9 +1759,9 @@
    "home": "New Zealand",
    "away": "Belgium",
    "predictedScore": "1-2",
-   "confidence": 48,
-   "reading": "A third-night showdown that will no longer be a dead rubber: New Zealand, who scored twice against Iran, will run Wood and Just at Belgium's back line without the restraint of underdogs. Belgium, whose open-play creation was poor against Egypt, can no longer coast — De Bruyne must perform or the Belgians' World Cup exit from Vancouver is a real scenario. Lukaku's physical presence and Doku's dribbling carry Belgium past Wood's well-organised counter, but the All Whites will not be swept aside.",
-   "keyFactor": "Belgium needing De Bruyne at his best vs New Zealand's counter-attack that proved it can score at this level",
+   "confidence": 50,
+   "reading": "Vancouver holds Belgium's last rite — and the complications have multiplied. Nathan Ngoy, sent off against Iran, is SUSPENDED, meaning De Bruyne's back line faces Wood's aerial threat with a defensive gap. Belgium's creation crisis is total: 180 World Cup minutes, zero open-play goals, the Napoli wizard invisible. Yet New Zealand are eliminated and the scoreline arithmetic matters enormously to Belgium's tiebreaker with Iran — if both reach 5 points, goal difference decides the passage. De Bruyne must not merely survive tonight; he must score. Wood will score once from a Payne corner delivery, because Wood always does; but Belgian class finally asserts itself when the knockout stakes strip away all other options.",
+   "keyFactor": "Belgium with Ngoy suspended — defensive gap vs Wood's aerial threat; De Bruyne must finally score in open play after 180 goalless World Cup minutes",
    "played": false
   },
   {
@@ -1809,7 +1812,8 @@
    "confidence": 52,
    "reading": "Back in the Atlanta sealed roof, and now it is Spain under existential pressure — Rodri's geometry and Pedri's control must unlock what twenty-seven shots could not against Cape Verde's Vozinha. Saudi Arabia drew 1-1 with Uruguay on MD1 and will not simply lie down: Donis's side showed shape and a cutting edge through Al-Dawsari. Yamal, expected to start this time and freed from the hamstring shackles, changes Spain's rhythm in the final third; two strikes find their way past a defence thinner than Vozinha's that was, but the three-goal procession the glass once showed has been washed away by the Cape Verde rain.",
    "keyFactor": "Yamal starting for the first time vs a Saudi side with real shape under Donis — Spain need to win but the margin will be earned, not gifted",
-   "played": false
+   "played": true,
+   "actualScore": "4-0"
   },
   {
    "id": "M37",
@@ -1825,7 +1829,8 @@
    "confidence": 44,
    "reading": "Bielsa's wolves must hunt against the same defensive wall that absorbed Spain's twenty-seven shots without conceding — and Uruguay know it. Valverde's long-range threat and Núñez's physical menace will ultimately be too much for Vozinha and the Blue Sharks to absorb for ninety minutes, and one moment of Araújo's aerial authority from a set piece breaks the spell; yet Cape Verde, now unbroken at this level, will find one counter-punch through Monteiro or Livramento before Uruguay seals it late. Two strikes for La Celeste, one for the island warriors who leave Miami with their heads held high.",
    "keyFactor": "Uruguay's Bielsa press vs the defensive discipline that held Spain to 27 shots — Núñez must convert the chances his MD1 performance squandered",
-   "played": false
+   "played": true,
+   "actualScore": "2-2"
   },
   {
    "id": "M65",
@@ -1837,10 +1842,10 @@
    "venue": "NRG Stadium, Houston",
    "home": "Cape Verde",
    "away": "Saudi Arabia",
-   "predictedScore": "1-0",
-   "confidence": 38,
-   "reading": "Houston's dome hosts the group's second most consequential night: Cape Verde, who held Spain to nothing, and Saudi Arabia, who took a point off Uruguay, have both shown they can compete. Vozinha's gloves against Al-Dawsari's left foot is the duel that defines it; Cape Verde's defensive organisation under pressure has been the tournament's most pleasant revelation, and the island belief — forged in ninety minutes against the European champions — carries them through a tight game by a single goal. The borrowed general from Athens cannot quite unlock what the boy-king of Madrid could not.",
-   "keyFactor": "Cape Verde's Vozinha and defensive solidity vs Saudi's Al-Dawsari — a tight, tense qualifier with one goal in it",
+   "predictedScore": "2-0",
+   "confidence": 52,
+   "reading": "Philadelphia's dome hosts Cape Verde's coronation or Saudi Arabia's last gasp. Cape Verde enter MD3 in second place on GD (+1), unbeaten across 180 World Cup minutes — two remarkable results against Spain and Uruguay have given the island its greatest sporting nights. A Cape Verde win secures second place with absolute certainty, regardless of what Uruguay do. Saudi Arabia, crushed 4-0 by La Roja and in last place, must WIN and need other results to go their way — the arithmetic is near-impossible, but pride has no arithmetic. Vozinha's gloves against Al-Dawsari's left foot remains the key duel; but Cape Verde's counter-attack is now a known quantity and the island belief is unshaken. Two Cape Verde goals and a historic passage confirmed.",
+   "keyFactor": "Cape Verde needing a win to lock in second place vs Saudi Arabia playing for pride after their 4-0 humiliation — the island's belief vs the desert's dignity",
    "played": false
   },
   {
@@ -1854,9 +1859,9 @@
    "home": "Uruguay",
    "away": "Spain",
    "predictedScore": "1-1",
-   "confidence": 37,
-   "reading": "At 1,500 metres where the air thins and truth arrives early, the match that decides Group H's order meets sides who have both been humbled: Spain's 27-shot zero and Uruguay's failure to beat Saudi Arabia have rewritten the ledger. If both sides arrive with qualification already secured this could be calm; if Spain need a win after the Saudi Arabia game or Uruguay need the points after Cape Verde, the altitude duel becomes a genuine battle. The orb sees Núñez finding his first goal of the tournament and Spain's bench depth equalising — Deschamps said the mountain group is where champions are forged; Deschamps is not here, but the lesson is.",
-   "keyFactor": "Guadalajara altitude and both sides' unresolved attacking crises — this game's stakes depend entirely on June 21's results",
+   "confidence": 42,
+   "reading": "At 1,500 metres in Guadalajara, the night carries genuine consequence: Spain need only a draw to confirm first place; Uruguay must WIN to overtake Cape Verde for second. Bielsa's high-press system — destroyer of Italy in qualifying, yet producer of only two draws so far — will attack from the first whistle because there is no other option. Valverde has worked through two matches without proper support; this is the night he either finds it or Uruguay's summer ends at altitude. Spain, calmly organising a draw with Rodri's geometry and Pedri's touch, are built precisely for this scenario. The orb sees Núñez finally scoring — his one great moment of the tournament — but Spain's metronome does not concede the second. A 1-1 draw sends Cape Verde through as Group H runners-up; Bielsa's summer ends with the press unfinished.",
+   "keyFactor": "Uruguay must WIN — they attack from kick-off; Spain need only a draw and will use Rodri's geometry to absorb the Bielsa press at 1,500 metres altitude",
    "played": false
   },
   {
@@ -1905,7 +1910,7 @@
    "away": "Iraq",
    "predictedScore": "3-0",
    "confidence": 68,
-   "reading": "The orb shows no mercy in Philadelphia: Mbappé already has 14 World Cup goals — one brace away from tying the record Messi claimed at Arrowhead the same evening, and every tournament fixture for France now risks becoming a record-breaking stage. Arnold's brave wall absorbed seven Norwegian goals on matchday one; a France side hungry to hurt the goal-difference ledger will hit before the half-hour. Dembélé and Doué rotate through the corridors Iraq cannot close; by the 70th minute the bench empties and the old lions are already thinking of Norway.",
+   "reading": "The orb shows no mercy in Philadelphia: Mbappé already has 14 World Cup goals — one brace away from tying the record Messi claimed at Arrowhead the same evening, and every tournament fixture for France now risks becoming a record-breaking stage. Arnold's brave wall absorbed four Norwegian goals on matchday one; a France side hungry to hurt the goal-difference ledger will hit before the half-hour. Dembélé and Doué rotate through the corridors Iraq cannot close; by the 70th minute the bench empties and the old lions are already thinking of Norway.",
    "keyFactor": "Mbappé's record-hunt and France's goal-difference appetite against a ten-man Iraq Iraq conceded four to Norway",
    "played": false
   },
@@ -2403,12 +2408,12 @@
    "venue": "Lumen Field, Seattle",
    "homeSlot": "Winner Group G",
    "awaySlot": "3rd place A/E/H/I/J",
-   "predHome": "Belgium",
-   "predAway": "Algeria",
-   "predictedScore": "2-1",
-   "confidence": 52,
-   "reading": "The desert fox that bit the Dutch in Rotterdam must first survive the group stage: Algeria's 3-0 loss to Argentina in MD1 — with captain Mahrez benched for tactical reasons — exposed a defensive frailty that Messi's hat-trick laid bare. If Algeria grind through to the last 32, they arrive carrying wounds; De Bruyne, in his last World Cup, will find the same channels Álvarez found. The orb still sees a long Algerian hour of hope — Amoura's pace and a restored Mahrez can torment Belgium's veteran spine — but two Belgian strikes and one Algerian counter-punch is the glass's final verdict.",
-   "keyFactor": "Algeria's recovery from the 3-0 MD1 loss and the question of Mahrez's fitness and motivation vs De Bruyne's last-dance class",
+   "predHome": "Egypt",
+   "predAway": "3rd place (A/E/H/I/J)",
+   "predictedScore": "2-0",
+   "confidence": 48,
+   "reading": "The glass sees Egypt — the tournament's most emotional qualifier — arriving at Lumen Field as Group G winners: the pharaohs who waited eight World Cups for their first win, finally crowned in Vancouver. Salah in form, Zico and Trezeguet as proven tournament contributors, Hossam Hassan's block that held Belgium and outscored New Zealand's celebrated counter-attack. Their third-place opponent from groups A/E/H/I/J is unconfirmed at the time of writing, but Egypt's defensive solidity and Salah's clinical edge give the Pharaohs a commanding favourite's role against whoever the bracket delivers. The crystal sees two Egyptian strikes and a clean sheet.",
+   "keyFactor": "Egypt's momentum from their historic first WC win and Salah's form vs an unconfirmed third-place opponent — the Pharaohs' organised block makes them hard to beat regardless",
    "played": false
   },
   {
@@ -2499,12 +2504,12 @@
    "venue": "AT&T Stadium, Arlington (Dallas)",
    "homeSlot": "Runner-up Group D",
    "awaySlot": "Runner-up Group G",
-   "predHome": "Paraguay",
-   "predAway": "Egypt",
-   "predictedScore": "0-2",
-   "confidence": 48,
-   "reading": "Turkey's golden generation was eliminated without scoring a World Cup goal — their place in this bracket passes to Paraguay, the South American defensive masters who ended the Güler-Yıldız dream with Galarza's 2nd-minute strike and eighty-eight minutes of organised resistance. Against Egypt's Salah, Marmoush and Emam Ashour's structure, the Alfaro block faces a different kind of challenge from anything it met in the group stage — not pace in behind, but diagonal runs and a goalkeeper in Al Shenawy who has kept clean sheets in qualifying. Salah, goal-less in the group stage but smouldering, is exactly the type of player Paraguay's back line has no answer for in the open spaces a knockout round creates; Marmoush's movement carves the second. Paraguay exit with the tournament's most unexpected qualification; Egypt's march continues.",
-   "keyFactor": "Egypt's Salah-Marmoush combination vs Paraguay's group-stage-proven block — but the knockout open spaces that Paraguay cannot close against an elite diagonal runner are different from what they held in the group",
+   "predHome": "Australia",
+   "predAway": "Belgium",
+   "predictedScore": "1-2",
+   "confidence": 44,
+   "reading": "Dallas hosts two sides who have both exceeded their opening expectations but carry real wounds. Australia (predicted Runner-up Group D after their June 25 decider) bring Popovic's 5-4-1 fortress that held Turkey to thirty shots and absorbed the USA's press for ninety minutes before conceding twice — a genuine defensive organisation with Irankunda's pace on the counter. Belgium staggered through Group G on two draws and zero open-play goals, with Nathan Ngoy suspended through the group stage and De Bruyne invisible for 180 World Cup minutes. Yet the Belgian individual quality — De Bruyne, Lukaku, Doku, Courtois — towers above any Group D runner-up. This is the knockout stage where the wizard of Napoli must finally produce his chapter. One Australian counter-punch from Irankunda's pace; then Belgian class asserts itself — two De Bruyne-orchestrated strikes, the drought ended at last.",
+   "keyFactor": "Belgium's individual quality (De Bruyne, Lukaku, Doku) finally delivering in a knockout match vs Australia's proven 5-4-1 fortress and Irankunda's pace on the break",
    "played": false
   },
   {
