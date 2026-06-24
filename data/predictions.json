@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-06-23",
+  "updated": "2026-06-24",
   "tournament": "FIFA World Cup 2026",
   "format": "The 2026 FIFA World Cup, co-hosted by the United States, Mexico and Canada from June 11 to July 19, 2026, features 48 teams split into 12 groups of four (A-L) playing a single round-robin group stage. The 12 group winners, 12 runners-up and the 8 best third-placed teams (32 teams total) advance to a new Round of 32, followed by a Round of 16, quarter-finals, semi-finals, a third-place play-off and the final, for 104 matches in all across 16 stadiums. Knockout ties go to 30 minutes of extra time and then penalties if level. The final is at MetLife Stadium, East Rutherford (New York/New Jersey) on July 19, 2026.",
   "thirdPlaceRule": "The 12 third-placed teams are ranked by points, goal difference, goals scored, fair play points, then lots; the top 8 advance. Their assignment to specific Round-of-32 matches depends on which groups the 8 best thirds come from, per the official allocation table (Annex C of the FIFA regulations)."
@@ -438,11 +438,11 @@
    "keyPlayers": [
     "Florian Wirtz (Liverpool, AM)",
     "Joshua Kimmich (Bayern, captain)",
-    "Jamal Musiala (Bayern — recovered from broken leg, short of sharpness)",
+    "Jamal Musiala (Bayern — recovered from broken leg, sharpness confirmed)",
     "Manuel Neuer (Bayern, GK — 40, returning)"
    ],
-   "form": "Won UEFA qualifying Group A; beat USA 2-1 on June 6; 4-3 win over Switzerland in March. Lost Lennart Karl to a thigh tear. OPENED with a 7-1 demolition of Curaçao — Nmecha, Havertz (×2), Schlotterbeck, Musiala, Undav and Brown all scored; then came from behind to beat Ivory Coast 2-1 in Toronto — Kessié's 30th-minute opener answered by Undav's 68th-minute volley and dramatic 94th-minute winner.",
-   "outlook": "GROUP E CHAMPIONS on 6 points — through to the Round of 32 with one game to spare. Nagelsmann will rotate heavily against Ecuador on June 25; Undav's brace confirmed he is the tournament's most potent super-sub. The knockout structure begins.",
+   "form": "Won UEFA qualifying Group A; beat USA 2-1 on June 6. OPENED with a 7-1 demolition of Curaçao (Nmecha, Havertz ×2, Schlotterbeck, Musiala, Undav, Brown); then came from behind to beat Ivory Coast 2-1 in Toronto (Kessié 30', Undav 68', Undav 90+4').",
+   "outlook": "GROUP E CHAMPIONS on 6 points — through to the Round of 32 with one game to spare. INJURY CONCERN: Nico Schlotterbeck has been ruled out for the remainder of the World Cup with a left ankle injury, forcing Nagelsmann to rethink the central defensive partnership ahead of the knockout stage. Undav's brace against Ivory Coast confirmed he is the tournament's most potent super-sub. The June 25 dead rubber vs Ecuador gives Nagelsmann the chance to audition defensive replacements before the bracket begins.",
    "group": "E"
   },
   "Ecuador": {
@@ -819,13 +819,13 @@
    "manager": "Roberto Martínez",
    "style": "3-4-3/4-3-3 hybrid, technical midfield dominance through the PSG axis, patient possession with Ronaldo as penalty-box finisher",
    "keyPlayers": [
-    "Cristiano Ronaldo (Al-Nassr, captain, ST — 41, record caps, sixth World Cup)",
+    "Cristiano Ronaldo (Al-Nassr, captain, ST — 41, now the FIRST player to score at six World Cups)",
     "Vitinha (PSG, CM — Europe's premier tempo-controller)",
     "Bernardo Silva (Manchester City, AM)",
-    "Nuno Mendes (PSG, LB)"
+    "Nuno Mendes (PSG, LB — scored vs Uzbekistan from a free kick)"
    ],
-   "form": "W 2-1 Nigeria (June 10), W 2-1 Chile (June 6); reigning Nations League champions, qualified top of their group. OPENED the World Cup with a frustrating 1-1 draw vs DR Congo in Houston — João Neves headed an early lead, but Wissa powered home a stoppage-time header to earn DR Congo their first-ever World Cup goal and point.",
-   "outlook": "The first-place assumption is gone after the DR Congo stalemate — Ronaldo fired two half-chances off target and the attack stalled for long stretches. Colombia's 3-1 win means Portugal sit behind the Andeans if level on points. Must beat Uzbekistan convincingly on June 23 and then face Colombia in Miami in a potential must-win group finale. The clock on Ronaldo's last World Cup ticks louder than ever.",
+   "form": "W 2-1 Nigeria (June 10), W 2-1 Chile (June 6); reigning Nations League champions. OPENED the World Cup with a 1-1 draw vs DR Congo (Wissa's stoppage-time header). EXPLODED on MD2 with a 5-0 demolition of Uzbekistan — Ronaldo scored twice (6', 39'), Mendes curled in a free kick (17'), Nematov OG (60'), Leão 87'.",
+   "outlook": "QUALIFIED to the Round of 32 on 4 points — the empire that nearly swallowed the DR Congo stalemate exploded into history in Houston. Ronaldo became the FIRST PLAYER EVER to score at six different World Cups and is now Portugal's all-time World Cup top scorer. Portugal's superior goal difference (+5 vs Colombia's +3) means a win in Miami on June 27 clinches first place; a draw leaves Colombia ahead on points. The clock on Ronaldo's last World Cup now feels like possibility, not epilogue.",
    "group": "K"
   },
   "Colombia": {
@@ -838,10 +838,10 @@
     "Luis Díaz (Bayern Munich, LW — one of the form wingers of 2025-26)",
     "James Rodríguez (Minnesota United, AM — the eternal conductor)",
     "Jhon Arias (Wolverhampton, W)",
-    "Dávinson Sánchez (Galatasaray, CB)"
+    "Daniel Muñoz (scorer in both MD1 and MD2)"
    ],
-   "form": "W 2-0 Jordan (June 8), W 3-1 Costa Rica (June 2); 28 qualifying goals, second only to Argentina; Copa América 2024 finalists. OPENED the World Cup with a 3-1 win over Uzbekistan at the Azteca — Daniel Muñoz opened the scoring (40'), Fayzullaev levelled briefly (60'), then Luis Díaz (65') and Jáminton Campaz (90+9') sealed it in the thin Azteca air.",
-   "outlook": "Group K leaders with 3 pts; Colombia's altitude comfort and Díaz's cutting runs were decisive at the Azteca. Portugal's shock draw with DR Congo hands Los Cafeteros first place — the Miami finale on June 27 is now Colombia's to lose. Lorenzo's side are the group's clear frontrunners.",
+   "form": "W 2-0 Jordan (June 8), W 3-1 Costa Rica (June 2). OPENED with a 3-1 win over Uzbekistan at the Azteca (Muñoz 40', Fayzullaev 60', Díaz 65', Campaz 90+9'). Won MD2 1-0 vs DR Congo in Guadalajara — Muñoz's 76th-minute deflection-goal against a DR Congo side whose keeper Mpasi made eight saves.",
+   "outlook": "GROUP K LEADERS on 6 points — through to the Round of 32 with one match to spare. Two clean-sheet victories and a group-leading goal difference (+3) confirm Colombia as the group's dominant force. A draw against Portugal in Miami on June 27 confirms first place; only a Portugal win can displace them. Lorenzo's side enter the knockout stage as South America's most settled and confident team.",
    "group": "K"
   },
   "Uzbekistan": {
@@ -853,10 +853,10 @@
    "keyPlayers": [
     "Abdukodir Khusanov (Manchester City, CB — short of minutes and sharpness)",
     "Eldor Shomurodov (captain, ST — all-time top scorer)",
-    "Abbosbek Fayzullaev (AM — the creative jewel — scored Uzbekistan's first-ever World Cup goal vs Colombia)"
+    "Abbosbek Fayzullaev (AM — scored Uzbekistan's first-ever World Cup goal vs Colombia)"
    ],
-   "form": "L 1-2 Netherlands (June 8), L 0-2 Canada (June 2); superb qualifying record to reach a first-ever World Cup, but June friendlies exposed the level gap. OPENED the World Cup with a 1-3 loss to Colombia at the Azteca — Fayzullaev's 60th-minute equaliser gave Uzbekistan a historic first World Cup goal before Díaz and Campaz sealed Colombia's win.",
-   "outlook": "Near-impossible at 0 points after MD1. Fayzullaev's equaliser proved the White Wolves can score at this level, but must-win vs Portugal on June 23 asks them to beat an empire in crisis — the tournament's most unlikely scenario. Cannavaro's last prayer is Portugal's complacency.",
+   "form": "OPENED the World Cup with a 1-3 loss to Colombia (Fayzullaev's 60' equaliser their one moment of history). Then conceded FIVE to Portugal in Houston — Ronaldo brace (6', 39'), Mendes (17'), Nematov OG (60'), Leão (87') — in a demolition that confirmed the level gap.",
+   "outlook": "ELIMINATED on 0 points and 8 goals conceded in two matches. Fayzullaev's equaliser against Colombia remains the one World Cup moment in Uzbekistan's debut campaign — a goal that will echo in Tashkent for a generation. The June 27 Atlanta dead rubber against DR Congo is the campaign's final page.",
    "group": "K"
   },
   "DR Congo": {
@@ -869,10 +869,10 @@
     "Yoane Wissa (Newcastle United, ST — scored DR Congo's first-ever World Cup goal vs Portugal)",
     "Chancel Mbemba (Lille, captain, CB — 107 caps)",
     "Arthur Masuaku (CM — the assist for Wissa's historic goal)",
-    "Axel Tuanzebe (DF — playoff hero vs Jamaica)"
+    "Lionel Mpasi (GK — eight saves vs Colombia)"
    ],
-   "form": "D 0-0 Denmark (June 3), L 1-2 Chile (June 9); won the intercontinental playoff to reach a first finals since Zaire 1974. OPENED the World Cup with a HISTORIC 1-1 draw vs Portugal in Houston — Wissa powered home Masuaku's cross in first-half stoppage time to give DR Congo their first ever World Cup goal, 52 years after Zaire last played in 1974.",
-   "outlook": "Wissa's header rewrote Congolese football history and earned a point against one of the tournament's favourites. The Leopards contained Ronaldo, Bernardo Silva and Portugal's PSG axis for 90 minutes — their defensive block is tournament-proven. A best-third berth is now plausible if they beat Uzbekistan on June 27. This is no longer a debut team; it is a competitor.",
+   "form": "Won the intercontinental playoff to reach a first finals since Zaire 1974. OPENED with a HISTORIC 1-1 draw vs Portugal (Wissa's stoppage-time header). MD2: lost 0-1 to Colombia in Guadalajara — Mpasi made eight saves but Muñoz's 76th-minute deflection-goal proved too much.",
+   "outlook": "One point from their debut — Wissa's header against Portugal remains one of the tournament's great individual moments. The 0-1 defeat to Colombia closed the best-third door to near-impossibility; the June 27 Atlanta meeting with Uzbekistan is still meaningful — a win keeps their best-third arithmetic alive by the slimmest margin. The Leopards have proven they belong at this level; Wissa's Newcastle form is the sharpest blade they carry into the final game.",
    "group": "K"
   },
   "England": {
@@ -887,8 +887,8 @@
     "Bukayo Saka (Arsenal, RW)",
     "Marcus Rashford (sub — scored the 4th vs Croatia)"
    ],
-   "form": "W 3-0 Costa Rica (June 10), W 1-0 New Zealand (June 6); perfect qualifying — 8 wins, 22 scored, 8 clean sheets. Foden and Palmer left home. OPENED the World Cup with a 4-2 win over Croatia in Dallas — Kane brace (pen, 42'), Bellingham (47'), Rashford (85'); Baturina and Musa replied for Croatia.",
-   "outlook": "Four goals and Group L summit secured — Bellingham's rhythm is no longer in doubt after his goal and assist, and the forward line's firepower is beyond question. Tuchel conceded twice (Baturina 36', Musa 45+5') via Croatia's counter-press, so the defensive tightness of qualifying has not been fully reproduced. Ghana on June 23 is England's chance to seal the group with maximum points.",
+   "form": "Perfect qualifying; opened with a 4-2 win over Croatia (Kane brace, Bellingham, Rashford). MD2: a frustrating 0-0 draw vs Ghana at Gillette Stadium — England generated 19 shots but could not find a way past Queiroz's disciplined block; Kane skied the closest chance.",
+   "outlook": "GROUP L CO-LEADERS on 4 points — through to the Round of 32. The goalless Ghana stalemate answered no questions about England's clinical edge against organised defences, while raising new doubts about the front line's cutting ability. England hold first place on goal difference (+2 vs Ghana's +1). The June 27 finale vs eliminated Panama gives Tuchel one last chance to build momentum and widen the GD gap before the knockout stage.",
    "group": "L"
   },
   "Croatia": {
@@ -898,14 +898,13 @@
    "manager": "Zlatko Dalić",
    "style": "4-3-3 midfield-control football, Modrić advanced as a No.10 to spare his legs; slow build, set-piece danger, peerless tournament streetcraft",
    "keyPlayers": [
-    "Luka Modrić (AC Milan, captain, AM — 40; made his 10th major tournament appearance vs England)",
-    "Joško Gvardiol (Manchester City, CB — back from fractured tibia, played full 90 vs England)",
+    "Luka Modrić (AC Milan, captain, AM — 40; played every minute vs Panama)",
+    "Joško Gvardiol (Manchester City, CB — back from fractured tibia)",
     "Mateo Kovačić (Manchester City, CM)",
-    "Ivan Baturina (scored vs England)",
-    "Ivan Musa (scored 45+5' vs England)"
+    "Ante Budimir (ST — sub, scored the winner vs Panama)"
    ],
-   "form": "W 2-1 Slovenia (June 7), L 0-2 Belgium (June 2); unbeaten qualifying campaign. OPENED the World Cup with a 2-4 loss to England in Dallas — Baturina (36') and Musa (45+5') gave brief hope but Kane's brace, Bellingham and Rashford exposed Croatia's aging spine four times.",
-   "outlook": "Under genuine elimination pressure at 0 pts — Dalić's side must beat Panama on June 23 to stay alive. Four goals conceded to England's press revealed that Gvardiol's post-injury timing and the 40-year-old midfield core cannot absorb prolonged high-quality pressing. The golden midfield's era is ending; only a Panama win can write one more chapter.",
+   "form": "OPENED with a 2-4 loss to England. MD2: beat Panama 1-0 in Toronto — Budimir's tap-in in the 54th minute after Stanisic's cross was the tournament lifeline Dalić's side needed.",
+   "outlook": "Three points and mathematically alive — but the sequence needed is near-impossible: Croatia must beat England in June 27's Philadelphia finale while Ghana simultaneously defeats Panama. Modrić's 40-year-old legs and Gvardiol's post-injury timing have been tested hard already; one more night of tournament nerve remains the golden generation's only remaining prayer for a fourth straight knockout appearance.",
    "group": "L"
   },
   "Ghana": {
@@ -920,8 +919,8 @@
     "Thomas Partey (Villarreal, DM)",
     "Caleb Yirenkyi (scored Ghana's 95th-minute World Cup winner vs Panama)"
    ],
-   "form": "D 1-1 Wales (June 2); 1 win in last 5. Mohammed Kudus OUT injured. OPENED the World Cup with a 1-0 win over Panama at BMO Field — Caleb Yirenkyi headed home a Semenyo-assisted cross in the 95th minute to give Queiroz's side their first World Cup win since 2010.",
-   "outlook": "Three points and a clean sheet from MD1 changed the Group L narrative entirely — Ghana are now level with England at the top and have real momentum. Queiroz's defensive organisation exceeded expectations and Semenyo's second-half energy was the game's defining force. England in Foxborough on June 23 is the acid test, but the Black Stars arrive with a winner's belief no one predicted a week ago.",
+   "form": "Mohammed Kudus OUT injured. OPENED with a 1-0 win over Panama (Yirenkyi 95'). MD2: held England 0-0 at Gillette Stadium — Queiroz's disciplined block restricted England to 19 shots while conceding only two attempts in a performance that silenced the doubters about this improvised squad.",
+   "outlook": "GROUP L CO-LEADERS on 4 points — QUALIFIED to the Round of 32. Queiroz's emergency rebuild has produced two results of remarkable quality: the 95th-minute Yirenkyi winner against Panama, then a disciplined clean sheet against a 4-goal England side. The Black Stars trail England only on goal difference (+1 vs +2) — the June 27 finale against an eliminated Croatia gives Ghana the chance to claim first place outright and write the group's defining headline.",
    "group": "L"
   },
   "Panama": {
@@ -936,8 +935,8 @@
     "José Fajardo (ST — 17 international goals)",
     "José Córdoba (Norwich City, CB)"
    ],
-   "form": "D 1-1 Bosnia (June 6), L 2-6 Brazil (May 31), W 4-2 Dominican Republic; qualified unbeaten through both CONCACAF rounds. OPENED the World Cup with a 0-1 loss to Ghana at BMO Field — conceded a 95th-minute Yirenkyi header after creating very little in the final third despite Carrasquilla's pressing energy.",
-   "outlook": "Zero points and last in Group L after the 95th-minute heartbreak in Toronto. Croatia, also on 0 points, await on June 23 — this is a must-win for Panama's World Cup survival. Christiansen's side must find a way to score, something they failed to do against Ghana's disciplined block. Fajardo and Carrasquilla need a big performance against a Croatian defence that shipped four goals to England.",
+   "form": "OPENED with a 0-1 loss to Ghana (Yirenkyi 95'). MD2: lost 0-1 to Croatia in Toronto — Budimir's 54th-minute tap-in was the only goal as Panama created little in the final third for the second consecutive match.",
+   "outlook": "ELIMINATED on 0 points and zero goals scored in 180 World Cup minutes. Carrasquilla's creativity and Murillo's thrust were not enough against either Ghana's organised block or Croatia's tournament experience. The June 27 farewell against Ghana is a curtain call; the campaign's one consolation is that Panama's CONCACAF generation has time to learn from this debut.",
    "group": "L"
   }
  },
@@ -1045,22 +1044,22 @@
   {
    "group": "K",
    "predictedOrder": [
-    "Portugal",
     "Colombia",
+    "Portugal",
     "DR Congo",
     "Uzbekistan"
    ],
-   "groupReading": "The orb gasped in Houston: Wissa's stoppage-time header against Portugal gave DR Congo their first World Cup goal in 52 years — a Newcastle United striker ending the empire's opening certainty. Colombia strode to the summit with a composed Azteca victory that Fayzullaev's equaliser briefly complicated before Díaz and Campaz closed the door. The table now reads Colombia alone at the top, Portugal and DR Congo level on one point apiece, and Uzbekistan on nothing — Fayzullaev's goal their one flash of history. The old emperor Ronaldo must now win twice to atone for what the crystal never foresaw."
+   "groupReading": "The glass told two stories across June 23's American evening: in Houston, the Empire roared back with interest — Ronaldo found the six-yard box in the 6th minute, Mendes curled a free kick in the 17th, Ronaldo rolled in the third before the break, and three more followed as Portugal buried the DR Congo stalemate under five goals and one page of permanent history. Cristiano Ronaldo is now the FIRST PLAYER EVER to score at six different World Cups — a record carved into the game's marble archive at 41 years old. In the parallel Guadalajara night, Muñoz's 76th-minute deflection-goal gave Colombia their second clean-sheet win and six points from two matches, the group's clearest passage. The standings: Colombia 6 pts (GD +3), Portugal 4 pts (GD +5), DR Congo 1 pt, Uzbekistan 0 pts. Both sides have cleared the gate; the June 27 Miami summit between them decides only the order — and the oracle, reading the points table honestly, now names Colombia its first-place seed, though Portugal's superior goal difference means a single win in Miami tilts the banner Lusitanian red."
   },
   {
    "group": "L",
    "predictedOrder": [
     "England",
-    "Croatia",
     "Ghana",
+    "Croatia",
     "Panama"
    ],
-   "groupReading": "Four goals in Dallas and the Lions roar alone at the summit — Kane's brace, Bellingham's surge and Rashford's late seal confirmed England as Group L's runaway favourite for first place. But the crystal cracked for Croatia: four goals conceded exposed the aging spine Dalić had long protected, and Modrić's 40-year-old body language told a darker story than any scoreline. The Black Stars' 95th-minute redemption — Yirenkyi ghosting in off Semenyo's persistence — put Ghana level on three points with England and rewrote the group entirely. Panama stand alone on nothing, and the second passage has become the tournament's most dramatic three-way fight."
+   "groupReading": "The glass delivered its most candid June 23 image: England and Ghana are through, yet neither has given the crystal a settled image of the knockout machine they claim to be. At Gillette Stadium, Tuchel's Lions generated 19 shots against Queiroz's emergency rebuild and found zero of them — Kane skied the clearest chance, Saka and Bellingham controlling the possession without the clinical edge their ambitions require. In Toronto, Ante Budimir's 54th-minute tap-in gave Croatia a 1-0 win over Panama that extended the group's life to MD3 with the slimmest mathematical thread — Croatia must beat England while Ghana beats Panama, a sequence the oracle rates as improbable. Panama are eliminated, their World Cup over in two 0-1 defeats. England (4 pts, GD +2) lead Ghana (4 pts, GD +1) by a single goal of difference heading into June 27. Tuchel must find the open-play goal against Panama that didn't come against Ghana's disciplined block."
   }
  ],
  "matches": [
@@ -2112,7 +2111,8 @@
    "confidence": 62,
    "reading": "Portugal return to Houston's sealed roof as a wounded empire that must not drop another point. Ronaldo's two half-chances that missed the target against DR Congo will sharpen into fury here; Martínez will restore urgency across the starting line and task the PSG axis with breaking a Cannavaro block that, for all its organisation, shipped three to Colombia. The White Wolves proved they can score (Fayzullaev's equaliser) but they cannot survive ninety minutes of a desperate European heavyweight. Portugal's full-backs will overlap relentlessly and Bernardo Silva will thread the needles that Wissa's presence kept closed. The orb's verdict holds — two Portuguese strikes, a clean sheet the wounded empire must have.",
    "keyFactor": "Portugal under must-win pressure — their PSG axis and full-back overloads vs Uzbekistan's Cannavaro block, now known to be vulnerable to sustained pressing",
-   "played": false
+   "played": true,
+   "actualScore": "5-0"
   },
   {
    "id": "M48",
@@ -2128,7 +2128,8 @@
    "confidence": 45,
    "reading": "Wissa arrives in Guadalajara still carrying the warmth of Houston's standing ovation — 52 years of waiting resolved by a single header, and the Leopards believe they belong on this stage. Desabre's block that held Portugal's PSG axis will not crumble cheaply against Colombia's Azteca momentum either; Mbemba and the centre-backs are tournament-hardened. Yet Díaz's pace in the Guadalajara altitude and Campaz's late-game instinct tip the balance: Colombia lead this group and cannot afford to drop points with the Miami finale still to come. Wissa lands his blow — the man who buried Ronaldo's clean sheet will trouble any defence — but Los Cafeteros' superior depth and altitude lungs carry them through in the end.",
    "keyFactor": "DR Congo's historic confidence and Wissa's Premier League threat vs Colombia's Díaz-led altitude advantage and must-maintain first place",
-   "played": false
+   "played": true,
+   "actualScore": "1-0"
   },
   {
    "id": "M71",
@@ -2210,7 +2211,8 @@
    "confidence": 55,
    "reading": "Two unbeaten sides meet in Foxborough — England fresh from their 4-2 demolition of Croatia, Ghana armed with the 95th-minute belief that Yirenkyi's header built. Queiroz's side kept a clean sheet against Panama and showed more cohesion than anyone expected; Semenyo will bring the full-throttle energy he deployed at BMO Field against City teammates in Saka and Madueke's channels. But England's press was a tier above anything Ghana faced in Toronto: Kane's movement, Bellingham's late surges and Rashford's pace from the bench represent a different animal entirely. The orb still sees three English strikes — though Semenyo's pace means the clean sheet is harder to guarantee than it was before Yirenkyi's winner proved Ghana's spirit is real.",
    "keyFactor": "England's four-goal press quality vs Ghana's newly-minted winning belief — Semenyo the one Black Star who can upset the system's rhythm",
-   "played": false
+   "played": true,
+   "actualScore": "0-0"
   },
   {
    "id": "M46",
@@ -2226,7 +2228,8 @@
    "confidence": 44,
    "reading": "Toronto's second act brings two 0-point sides in genuine elimination crisis — the same BMO Field that Yirenkyi's header haunts, now hosting a different kind of desperation. Croatia's back line leaked four goals to England's pace and pressing; Panama's attack blanked against Ghana's block. Dalić must find a response that four conceded in Dallas hasn't offered; Christiansen must find goals that didn't come against a weaker opponent. The quality edge still sits with Modrić, Perišić and the aging but experienced Croatian midfield — Panama cannot sustain Croatian ball retention under pressure for 90 minutes. Yet the Leopard has tasted blood in this stadium; Panama will land one goal from Fajardo's aerial work before Croatia's old nerve carries them through. Experience over desperation, barely.",
    "keyFactor": "Croatia's experience edge vs Panama's need to score — both in elimination territory, Croatian defensive fragility now confirmed against high-press sides",
-   "played": false
+   "played": true,
+   "actualScore": "0-1"
   },
   {
    "id": "M67",
@@ -2381,11 +2384,11 @@
    "homeSlot": "Winner Group L",
    "awaySlot": "3rd place E/H/I/J/K",
    "predHome": "England",
-   "predAway": "Senegal",
-   "predictedScore": "2-0",
-   "confidence": 58,
-   "reading": "The lions of Teranga arrive wronged and dangerous, carrying a stolen crown's fury — but Tuchel's England just put four past Croatia with Kane's brace, Bellingham's surge and Rashford from the bench. Conceding twice in Dallas shows England are not immune, but the quality is now beyond question: Kane on 10 World Cup goals (equalling Lineker's England record), Bellingham with doubts erased. Senegal, who conceded three to France in MD1, face an English press that has now proven its full-tournament firepower. Atlanta's roof keeps the heat out; England keep Senegal's dried-up attack at bay.",
-   "keyFactor": "England's confirmed 4-goal MD1 firepower vs Senegal's attack that has yet to score — Kane's record-hunt adds further fuel",
+   "predAway": "Austria",
+   "predictedScore": "2-1",
+   "confidence": 52,
+   "reading": "Atlanta hosts England — carrying the frustration of 19 shots and zero goals against Ghana's block — against Rangnick's relentless press machine. Sabitzer's diagonal runs, Baumgartner's late arrivals and Austria's set-piece authority (three goals vs Jordan from three different routes) will find an English defensive structure that Ghana's two-shot total never truly tested. For England, this is the moment Tuchel's system must finally produce the clinical edge that the goalless Ghana stalemate revealed as the outstanding question: Kane on 10 World Cup goals equalling Lineker's England record, Bellingham with doubts erased. Austrian pressure holds for twenty-five minutes and earns one Sabitzer moment; England's deeper squad and wider individual quality settle it before the hour.",
+   "keyFactor": "England's unresolved clinical crisis vs Austria's tournament-proven Rangnick press — the one opponent who can expose what Ghana revealed about England's open-play finishing",
    "played": false
   },
   {
@@ -2428,12 +2431,12 @@
    "venue": "BMO Field, Toronto",
    "homeSlot": "Runner-up Group K",
    "awaySlot": "Runner-up Group L",
-   "predHome": "Colombia",
-   "predAway": "Croatia",
+   "predHome": "Portugal",
+   "predAway": "Ghana",
    "predictedScore": "2-1",
-   "confidence": 50,
-   "reading": "This assumes Croatia survive the group stage — a qualification now far from certain after their 2-4 opening loss to England exposed Gvardiol's post-injury timing and the aging spine four times. If Croatia do advance (needing a Panama win), they arrive in Toronto already battered; Colombia, who cruised 3-1 vs Uzbekistan, will arrive with confidence. Díaz runs at a Croatian back line that Kane and Rashford already carved open — the cards now favour the younger legs even more decisively. Modrić's wand still conjures one reply from a set piece, but the engine gap has grown wider after matchday one.",
-   "keyFactor": "Croatia's four-goal defensive exposure vs Colombia's Díaz-led quality — this prediction only materialises if Croatia beat Panama first",
+   "confidence": 48,
+   "reading": "Toronto hosts two of the group stage's most compelling stories: Portugal's Ronaldo — the first man ever to score at six World Cups — facing the Black Stars who held England's 4-goal machine to zero in 19 shots and produced the 95th-minute Yirenkyi magic. Queiroz's disciplined block has proven it absorbs pressure from Europe's finest; Ghana are not Croatia. Yet Portugal's PSG axis, Bernardo Silva's threading needles and Ronaldo's penalty-box instinct represent a sustained attacking threat of a different grade than England brought to Foxborough: two Portuguese strikes before the hour as the history-making Empire marches on, though Semenyo's pace from the left channel earns Ghana the one moment of genuine danger.",
+   "keyFactor": "Portugal's Ronaldo-inspired momentum and historic form vs Ghana's disciplined block that nullified England's 19 shots — the tournament's most technically demanding R32 pairing",
    "played": false
   },
   {
@@ -2445,11 +2448,11 @@
    "homeSlot": "Winner Group H",
    "awaySlot": "Runner-up Group J",
    "predHome": "Spain",
-   "predAway": "Austria",
-   "predictedScore": "3-1",
-   "confidence": 58,
-   "reading": "Rangnick's pistons against the metronome of the gods. Austria will press — they know no other prayer — and for twenty minutes SoFi gasps. But pressing Rodri is chasing the horizon; Pedri plays through it, Yamal around it, and by the hour the machine has run dry in the California heat. Sabitzer's consolation changes nothing written.",
-   "keyFactor": "No side can press Spain for 90 minutes in summer heat",
+   "predAway": "Algeria",
+   "predictedScore": "2-1",
+   "confidence": 52,
+   "reading": "SoFi hosts Yamal and Rodri's dynasty against Mahrez's fire — the captain who watched Messi's hat-trick from the bench in MD1 and returned in MD2 to seal qualification with the goal that ended Algeria's humiliation. La Roja's possession machine and Spain's metronome are built precisely for a team that must press and counter-punch; yet Mahrez will create one moment of Atlas magic in California's heat that the glass cannot deny him. Amoura's pace and Maza's late runs give Algeria the most dangerous attacking transition in Algeria's World Cup history. Spain answer twice because the dynasty's metronome does not concede the second.",
+   "keyFactor": "Spain's possession supremacy vs Algeria's restored Mahrez-Amoura axis — the North African side's best combination since their Rotterdam shock",
    "played": false
   },
   {
@@ -2492,12 +2495,12 @@
    "venue": "Arrowhead Stadium, Kansas City",
    "homeSlot": "Winner Group K",
    "awaySlot": "3rd place D/E/I/J/L",
-   "predHome": "Portugal",
-   "predAway": "Paraguay",
-   "predictedScore": "2-0",
-   "confidence": 56,
-   "reading": "The guaraní wall has not conceded twice in ten World Cup matches — a riddle for Vitinha's metronome under Arrowhead's open sky. The answer arrives from wide: Mendes and Bernardo bend the block until it cracks at a corner, and Ronaldo, 41 and eternal, adds the second from six yards. The empire's procession continues.",
-   "keyFactor": "Paraguay can defend the middle forever; Portugal's width breaks them",
+   "predHome": "Colombia",
+   "predAway": "Croatia",
+   "predictedScore": "2-1",
+   "confidence": 48,
+   "reading": "Kansas City hosts Colombia — six points from two wins, South America's most settled knockout machine — against Croatia's aging but tournament-hardened spine whose Dalić experience has delivered three straight knockout appearances. Modrić's wand will conjure one set-piece masterclass from Gvardiol's aerial authority that gives the old wolves their one legitimate claim to the night. But Díaz's pace and Campaz's late-game ruthlessness are built precisely for the spaces a Croatia back line trying to chase a game will leave. Two Colombian strikes and the passage confirmed; the Empire of Zagreb bows with honour.",
+   "keyFactor": "Colombia's confirmed knockout firepower (6 pts, 4 goals) vs Croatia's tournament nerve — Modrić's wand vs Díaz's pace",
    "played": false
   },
   {
@@ -2588,12 +2591,12 @@
    "venue": "AT&T Stadium, Arlington (Dallas)",
    "homeSlot": "Winner R32-11",
    "awaySlot": "Winner R32-12",
-   "predHome": "Colombia",
+   "predHome": "Portugal",
    "predAway": "Spain",
    "predictedScore": "1-2",
-   "confidence": 50,
-   "reading": "Arlington's dome hosts the purest football of the round: Díaz in flame against the metronome of Las Rocas. Colombia land the first blow on the counter and Spain do not blink — they never blink. Yamal, fury fully returned to the hamstring's satisfaction, equalises before half-time and Pedri threads the winner through four blue shirts. The dynasty advances on schedule.",
-   "keyFactor": "Spain's composure from behind; no side keeps the ball off them for 90 minutes",
+   "confidence": 48,
+   "reading": "Arlington's dome hosts the oldest rivalry in European football on its grandest possible stage: Ronaldo — the first man to score at six World Cups — against the dynasty that has made age irrelevant to their passing geometry. Portugal land the first blow as Ronaldo rises at the far post to make the Arlington night immortal one more time; Spain do not blink — they never blink. Yamal equalises with the arrogance of twenty and Pedri threads the winner through four Lusitanian shirts in the 74th. The dynasty advances on schedule; the Emperor's last chapter ends in the best possible company.",
+   "keyFactor": "Spain's composure from behind and Pedri's threading vs Ronaldo's penalty-box instinct and Portugal's historic momentum — no side keeps the ball off Spain for 90 minutes",
    "played": false
   },
   {
@@ -2637,11 +2640,11 @@
    "homeSlot": "Winner R32-13",
    "awaySlot": "Winner R32-15",
    "predHome": "Ivory Coast",
-   "predAway": "Portugal",
+   "predAway": "Colombia",
    "predictedScore": "1-2",
-   "confidence": 48,
-   "reading": "Vancouver, and the Elephants — slayers of the maple press — charge at Ronaldo's last crusade with the most athletic front line left in the draw. Pépé scores early and BC Place believes in chaos. But Vitinha and Bruno Fernandes are too deep, too cold, too rehearsed: a Mendes thunderbolt levels it and Ronaldo's header, his fourth of the summer at 41, ends Africa's bravest run.",
-   "keyFactor": "Portugal's midfield class survives the athletic storm",
+   "confidence": 46,
+   "reading": "Vancouver hosts the most athletic quarter-final preview in the draw: Ivory Coast's Pépé-Adingra lightning against Colombia's Díaz-Campaz pace, two sides built for the same kind of explosive vertical football but wearing different shirts. Pépé scores early and BC Place believes in chaos — Ivory Coast's 90th-minute counter-punch temperament is tournament-proven. But Colombia bring six points from two group-stage wins and the composure of a side that has not yet conceded a group-stage goal; Díaz strikes twice from angles the Elephants' back line could not close in time. Colombia march on; the Elephants exit with their heads raised as high as any African side at these finals.",
+   "keyFactor": "Colombia's six-point group-stage form and Díaz's pace vs Ivory Coast's Pépé-Adingra transition threat — South America's composure against Africa's explosive energy",
    "played": false
   },
   {
@@ -2701,11 +2704,11 @@
    "homeSlot": "Winner R16-7",
    "awaySlot": "Winner R16-8",
    "predHome": "Argentina",
-   "predAway": "Portugal",
+   "predAway": "Colombia",
    "predictedScore": "2-1",
-   "confidence": 48,
-   "reading": "Kansas City. The man with 18 World Cup goals against the man who has chased that mountain for a decade — the last time, the very last time, two decades of religion compressed into ninety minutes. The orb refuses to look away: Ronaldo scores first, 41 years old, impossible, eternal. Then the universe corrects itself — Álvarez levels, and in the 87th Messi — the record already his, written in stone in Dallas — curls the goal that ends the argument forever. Football's longest sentence gets its full stop.",
-   "keyFactor": "Argentina's collective machine vs Portugal's reliance on moments — and destiny",
+   "confidence": 46,
+   "reading": "Kansas City, and the two-time champions against South America's most confident qualifier: Messi against Díaz, football's supreme operator against the tournament's most dangerous winger, two CONMEBOL giants whose Clasico meetings carry decades of continental religion. Colombia arrive undefeated through three knockout opponents and having conceded nothing in the group stage — the most complete South American machine this tournament has produced. But Messi, 38, carrying 18 World Cup goals and the weight of history already secured in Dallas, still finds the pass that didn't exist until he imagined it; Álvarez punishes Colombia's high line with the instinct he was born for. Díaz strikes back with the tournament's most dangerous counter-attack, giving Kansas City its great individual moment. Argentina's tournament nerve, the deepest of any side remaining, carries them through in the closing minutes.",
+   "keyFactor": "Argentina's Messi-Álvarez axis and champion's tournament nerve vs Colombia's undefeated knockout record and Díaz's world-class pace on the counter",
    "played": false
   },
   {
