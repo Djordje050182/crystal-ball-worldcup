@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-06-24",
+  "updated": "2026-06-25",
   "tournament": "FIFA World Cup 2026",
   "format": "The 2026 FIFA World Cup, co-hosted by the United States, Mexico and Canada from June 11 to July 19, 2026, features 48 teams split into 12 groups of four (A-L) playing a single round-robin group stage. The 12 group winners, 12 runners-up and the 8 best third-placed teams (32 teams total) advance to a new Round of 32, followed by a Round of 16, quarter-finals, semi-finals, a third-place play-off and the final, for 104 matches in all across 16 stadiums. Knockout ties go to 30 minutes of extra time and then penalties if level. The final is at MetLife Stadium, East Rutherford (New York/New Jersey) on July 19, 2026.",
   "thirdPlaceRule": "The 12 third-placed teams are ranked by points, goal difference, goals scored, fair play points, then lots; the top 8 advance. Their assignment to specific Round-of-32 matches depends on which groups the 8 best thirds come from, per the official allocation table (Annex C of the FIFA regulations)."
@@ -945,17 +945,17 @@
    "group": "A",
    "predictedOrder": [
     "Mexico",
+    "South Africa",
     "South Korea",
-    "Czech Republic",
-    "South Africa"
+    "Czech Republic"
    ],
    "groupReading": "The Azteca's mountain oracle spoke twice and Mexico heard it both times — six points from two wins makes El Tri the tournament's first qualifiers, their thin-air home advantage transforming every page of the group. The crystal's second chapter fulfilled: South Korea's swift spirits hold three points and need only a draw in Monterrey to advance. The Czechs and Bafana share a single point apiece after Schick's flame found its wall in Atlanta — the June 24 finale is the last gate for either to slip through as a best-third pilgrim. The order likely holds; only a dramatic southern night rewrites it."
   },
   {
    "group": "B",
    "predictedOrder": [
-    "Canada",
     "Switzerland",
+    "Canada",
     "Bosnia and Herzegovina",
     "Qatar"
    ],
@@ -1145,7 +1145,8 @@
    "confidence": 50,
    "reading": "Mexico arrive as Group A's first qualifiers — Aguirre will rotate, handing minutes to Giménez and Charly Rodríguez while Jiménez and Lozano observe from the bench. The Azteca never sleeps, however, and Schick — against a rotated backline at altitude — is the one variable the glass treats with genuine respect; his nine-goal Leverkusen run does not care which central defender faces him. One Czech thunderbolt from a set piece flickers in the mist; Mexico's depth, even rotated, answers twice as the thin Azteca air keeps favouring the crimson shirt.",
    "keyFactor": "Mexico rotating with qualification sealed vs Schick's set-piece threat and Czech desperation for a third-place spot",
-   "played": false
+   "played": true,
+   "actualScore": "0-3"
   },
   {
    "id": "M54",
@@ -1161,7 +1162,8 @@
    "confidence": 56,
    "reading": "In Monterrey's furnace South Korea need only a draw to advance — three points to South Africa's one, the arithmetic governing every nerve of Hong Myung-bo's setup. Broos must win AND hope Czech Republic's Schick punishes Mexico's rotation: a slim path, but the only gate Bafana have left. Son's movement along the stretched back line and Kim Min-jae's aerial authority against Foster and Mofokeng's pace tilt the glass; Mokoena's long-range thunder delivers the one South African moment the mist grants, but Korea seal the evening with enough composure that the qualifying question is never genuinely in doubt.",
    "keyFactor": "South Korea needing only a draw vs South Africa needing a win AND Czech help — the arithmetic governs both squads' risk appetite",
-   "played": false
+   "played": true,
+   "actualScore": "1-0"
   },
   {
    "id": "M3",
@@ -1245,7 +1247,8 @@
    "confidence": 41,
    "reading": "The scales still tremble, but both keepers of this gate hold four points and advance regardless of the scoreline; the spirits smell cautious joy and the shadow of Koné's empty midfield seat. Kobel's gloves against Davies' lightning, Xhaka's 145-cap tempo against Marsch's now-historic storm — Canada without their injured engine may court the same careful draw that suits both sides. The orb still shows a single strike apiece and handshakes at the whistle, with first place likely decided on goal difference: Canada's +5 cushion over Switzerland's +3 tilts the banner maple-red.",
    "keyFactor": "Both sides already through on 4 points; a draw suits both — Koné's absence the one change that could tip the tempo to Switzerland",
-   "played": false
+   "played": true,
+   "actualScore": "2-1"
   },
   {
    "id": "M52",
@@ -1261,7 +1264,8 @@
    "confidence": 47,
    "reading": "Seattle's grey skies host a final act between two eliminated sides: Džeko proved fit enough to start against Switzerland but Bosnia's structure still conceded four; Qatar's 0-6 humiliation in Vancouver left nothing of Lopetegui's organisational promise. The shootout-forged nerve survives in the Bosnian dressing room — Lukic's set-piece menace and Džeko's pride carry them to a win over a demoralised Maroon squad, but no six-goal swing arrives to save either side's third-place arithmetic. One moment of quality settles it and the Group B story closes with Bosnia's heads higher than Qatar's.",
    "keyFactor": "Bosnia's Lukic set-piece danger and Džeko's pride vs a Qatar side stripped of confidence after the 0-6 Vancouver rout",
-   "played": false
+   "played": true,
+   "actualScore": "3-1"
   },
   {
    "id": "M7",
@@ -1345,7 +1349,8 @@
    "confidence": 50,
    "reading": "Miami's golden hour now holds the full weight of Scottish history: Clarke's back five must WIN — not draw, WIN — against a Brazil side armed with Vinícius, Cunha and Raphinha, who throttled Haiti 3-0 without Neymar even needing to leave the bench. Ancelotti needs only a draw and will flood the midfield accordingly, turning this into a siege Brazil can organise without strain. McTominay's Serie A MVP nerve must conjure not one but two moments of defiance; Che Adams must hold and win headers he has no right to win. One Scottish goal under Miami's lights will make the night immortal — but Brazil's draw arithmetic and individual quality make the second Scottish goal the game's most impossible request. The orb sees the canary answer the tartan early enough that Scotland's tired legs cannot chase it twice.",
    "keyFactor": "Scotland must WIN — a draw eliminates them; Brazil need only a draw and will defend that line with Ancelotti's full tactical intelligence and Cunha's fresh legs off the back of a 3-0 win",
-   "played": false
+   "played": true,
+   "actualScore": "0-3"
   },
   {
    "id": "M50",
@@ -1361,7 +1366,8 @@
    "confidence": 70,
    "reading": "Atlanta's sealed roof traps the Atlas lions' roar — a side with 4 points and Saibari already the group's fastest striker. Morocco need only a draw to advance regardless of the Scotland-Brazil result; the training ground has not learned to coast. Hakimi marauds down his motorway, Brahim finishes twice, and Bono's clean sheet is etched in the glass before the second candle burns down. Haiti, eliminated and playing for farewell dignity, have earned the right to be respected; the Atlas lion's mercy, however, does not come in the form of missed chances.",
    "keyFactor": "Morocco needing only a draw to advance (or a win to claim first if Brazil slip) — against an eliminated Haiti side carrying only pride",
-   "played": false
+   "played": true,
+   "actualScore": "4-2"
   },
   {
    "id": "M4",
@@ -2271,12 +2277,12 @@
    "venue": "SoFi Stadium, Inglewood (Los Angeles)",
    "homeSlot": "Runner-up Group A",
    "awaySlot": "Runner-up Group B",
-   "predHome": "South Korea",
-   "predAway": "Switzerland",
+   "predHome": "South Africa",
+   "predAway": "Canada",
    "predictedScore": "1-2",
-   "confidence": 48,
-   "reading": "Son's farewell pilgrimage meets the most patient wall in Europe under SoFi's silver roof. The orb shows Korea's transitions crashing against Akanji and Kobel like waves on granite — Xhaka, in his fourth World Cup, slows the night to his own heartbeat and Ndoye strikes on the break. The Swiss, eternal runners-up of groups, finally win a knockout day.",
-   "keyFactor": "Switzerland conceded twice in all of qualifying; Korea's finishing is their known flaw",
+   "confidence": 44,
+   "reading": "SoFi Stadium witnesses the tournament's most improbable collision of firsts: Bafana Bafana — who shattered a generation of heartbreak with Maseko's 63rd-minute thunderbolt against South Korea — face Canada's men making their own history in their first knockout stage appearance. The orb sees South Africa's compact four-man block, the same disciplined wall that frustrated Mexico and stunned South Korea, holding bravely for sixty minutes under the Californian sky. But Jonathan David's movement between the lines and Alphonso Davies' motorway on the left are different instruments to anything Bafana faced in the groups. The captain's diagonal run opens the evening; David's clinical finish seals it four minutes from time. The miracle continues in spirit.",
+   "keyFactor": "Canada's Jonathan David and Davies-class individual quality vs South Africa's disciplined block — Bafana conceded only once in all three group matches",
    "played": false
   },
   {
@@ -2288,11 +2294,11 @@
    "homeSlot": "Winner Group E",
    "awaySlot": "3rd place A/B/C/D/F",
    "predHome": "Germany",
-   "predAway": "Czech Republic",
-   "predictedScore": "3-1",
-   "confidence": 60,
-   "reading": "A neighbourly duel with forty years of ghosts — and the glass shows Wirtz dancing between Czech lines that have chased shadows for three matches. Schick lands the one blow his hot streak demands, but Coufal's long throws are mapped, Kimmich's geometry holds, and the machine rolls into Philadelphia.",
-   "keyFactor": "Germany's creators between the lines vs a slow Czech back three",
+   "predAway": "South Korea",
+   "predictedScore": "2-1",
+   "confidence": 52,
+   "reading": "Philadelphia hosts a meeting of the tournament's most divergent group-stage stories: Germany, whose efficient machine kept pace with a 3-1 win over the Czech Republic and a 4-1 demolition of Ivory Coast, against South Korea — the team that won MD1 and then lost two straight to exit Group A in third with Hwang In-beom's goal disallowed and César Montes' suspension changing a game. Son's final World Cup arrives now: the captain's movement opens Wirtz's running lanes for a full match, and one Son moment of pure quality is never beyond imagination. But Kimmich's geometry and Musiala's late arrivals are the instruments that won't concede the space Hwang needs. Germany march into the quarters with the machine's elegant efficiency; Son bows with thunder.",
+   "keyFactor": "Germany's settled system vs Son's last WC campaign — a contest of structural certainty against individual genius",
    "played": false
   },
   {
@@ -2322,9 +2328,9 @@
    "predHome": "Brazil",
    "predAway": "Japan",
    "predictedScore": "2-1",
-   "confidence": 47,
-   "reading": "The Samurai press has felled empires before, and Brazil's leaking back line is exactly the prey it hunts. The orb shows an early Japanese strike and an hour of canary anxiety — until Vinícius and Raphinha, the form wingers on earth, conjure two moments no system can legislate for. Ancelotti survives, breathing hard.",
-   "keyFactor": "Japan's press vs Brazil's individual brilliance — chaos suits both",
+   "confidence": 52,
+   "reading": "The Samurai press has felled empires before — but the empire they meet in Houston is not the Brazil that arrived worried. Vinícius scored four times in the group stage, matching Haaland and Mbappé at the top of the golden-boot table; Brazil won all three matches, scored seven, and conceded once in a Morocco set piece. Japan arrive equally dangerous: a 4-0 dismantling of Tunisia in MD2 confirmed their press-and-transition machinery is running at peak efficiency. The orb sees the opening thirty minutes as the finest football played so far — Japan's high press forcing one moment of Seleção panic before the canary gold settles. Vinícius conjures the first from nothing; a second arrives from width. Japan's one reply from a devastating transition is the moment the night remembers.",
+   "keyFactor": "Vinícius's four-goal group form and Brazil's settled attacking identity vs Japan's high-press machinery that dismantled Tunisia 4-0",
    "played": false
   },
   {
