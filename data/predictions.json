@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-06-25",
+  "updated": "2026-06-26",
   "tournament": "FIFA World Cup 2026",
   "format": "The 2026 FIFA World Cup, co-hosted by the United States, Mexico and Canada from June 11 to July 19, 2026, features 48 teams split into 12 groups of four (A-L) playing a single round-robin group stage. The 12 group winners, 12 runners-up and the 8 best third-placed teams (32 teams total) advance to a new Round of 32, followed by a Round of 16, quarter-finals, semi-finals, a third-place play-off and the final, for 104 matches in all across 16 stadiums. Knockout ties go to 30 minutes of extra time and then penalties if level. The final is at MetLife Stadium, East Rutherford (New York/New Jersey) on July 19, 2026.",
   "thirdPlaceRule": "The 12 third-placed teams are ranked by points, goal difference, goals scored, fair play points, then lots; the top 8 advance. Their assignment to specific Round-of-32 matches depends on which groups the 8 best thirds come from, per the official allocation table (Annex C of the FIFA regulations)."
@@ -979,7 +979,7 @@
     "Paraguay",
     "Turkey"
    ],
-   "groupReading": "The glass delivered its two June 19 verdicts with a cold precision that no oracle could love: Paraguay's Galarza struck in the 2nd minute and held Turkey's long-promised golden generation to zero World Cup goals across 180 minutes — Yıldız and Güler combined for nothing, and the Turkish campaign ends as the group stage's most complete disappointment. In Seattle the USA marched on without Pulisic (calf, off at HT vs Paraguay), beating Australia 2-0 through Burgess's own goal and Freeman's header to clinch the group. The shadow over the celebration is real: Pulisic has not trained fully since the Paraguay exit and his knockout readiness is uncertain. Australia hold second on goal difference (+0 vs Paraguay's -3); the June 25 decider at Levi's Stadium determines who follows the Stars and Stripes through — and whether Paraguay's one-goal defensive discipline can find the two goals needed to overhaul the gap."
+   "groupReading": "The oracle closes Group D's ledger with a verdict that reads like the group stage's most bittersweet footnote. Turkey's Güler and Yıldız — finally free of consequence and caution in their final match — produced the performance their entire tournament had promised: a 3-2 victory over the hosts at SoFi, a defeat that came too late to matter but too good to ignore. Pochettino's rotation absorbed the result with equanimity; USA had already banked six points. In Santa Clara the glass showed exactly what it foresaw: Popovic's fortress earned Australia the goalless draw that sealed second place on goal difference, Paraguay's four-point tally and -2 goal difference confirming South American exit in third. Group D final: United States (1st, 6 pts, GD +4), Australia (2nd, 4 pts, GD 0), Paraguay (3rd, 4 pts, GD -2 — a best-third qualifier), Turkey (4th, 3 pts). The golden generation wrote one final verse, and it was beautiful and purposeless."
   },
   {
    "group": "E",
@@ -989,7 +989,7 @@
     "Ecuador",
     "Curacao"
    ],
-   "groupReading": "The glass closed on Ecuador's dream in Kansas City without a single goal to show for 180 minutes — Eloy Room's fifteen saves against the Tricolor's frustrated attack gave Curaçao the most improbable World Cup point in tournament history and ended Ecuador's qualification hopes before the final whistle fell. In Toronto on the same evening Kessié's 30th-minute volley gave the Elephants a genuine lead, but Undav — Germany's substitute blade — answered twice in the final half-hour to seal a dramatic 2-1 that sends die Mannschaft through with six points and confirms Ivory Coast must beat Curaçao on June 25 to join them. Ecuador and Curaçao play Germany in a match that now decides only pride and ranking; the crystal's final verdict for this group comes when Ivory Coast face the island that saved their rivals."
+   "groupReading": "The group stage's single greatest shock arrived from New Jersey on June 25: Ecuador — who had scored zero goals in 180 World Cup minutes, who arrived at MetLife Stadium already eliminated — came from a 2nd-minute Sane opener to beat Germany 2-1. Angulo curled an equaliser past Neuer in the 9th minute and Plata poked home the winner in the 77th. Die Mannschaft still advance as Group E champions (six points, GD +6) and the result changes nothing in the standings; but it rewrites the tournament's narrative entirely. Ivory Coast confirmed second place with the expected 2-0 defeat of Curaçao in Philadelphia. The Group E final: Germany (1st, 6 pts, GD +6), Ivory Coast (2nd, 6 pts, GD +2), Ecuador (3rd, 4 pts, GD 0 — a best-third qualifier who beat four-time world champions to earn the right), Curaçao (4th, 1 pt). Room's fifteen saves remain the tournament's great individual act; Plata's 77th-minute poach is the tournament's great collective shock."
   },
   {
    "group": "F",
@@ -999,7 +999,7 @@
     "Sweden",
     "Tunisia"
    ],
-   "groupReading": "The glass rewrote Group F in a single evening of remorseless Dutch football: Netherlands demolished Sweden 5-1 in Houston with Brobbey and Gakpo each scoring twice — the 5-1 humiliation reversing the score of Sweden's own MD1 demolition of Tunisia and sending a thunderclap message through the tournament. In the parallel Monterrey night Japan buried Tunisia 4-0 to join the Dutch on four points and confirm the Samurai's round-of-16 place — Kamada struck in the 4th minute, Ueda scored twice and Ito added a third in the most decisive Japanese World Cup performance in the nation's history. Sweden, who seemed poised to top this group after matchday one, now sit third on three points and face an existential must-win against Japan on June 25. Tunisia are eliminated. The crystal's group order is rewritten: Netherlands first, Japan second, and a Sweden side whose five-goal opening feels a lifetime ago."
+   "groupReading": "The crystal's final Group F verdict arrived exactly as the oracle's revised reading foresaw. In Kansas City Netherlands confirmed top spot with a 3-1 defeat of Tunisia — Gakpo and Brobbey among the scorers again, the Tunisian single reply only delaying the inevitable. In Dallas the match the tournament had built toward could not produce a winner: Japan 1-1 Sweden, the draw that Moriyasu's side needed and that ended Sweden's summer with a gentle cruelty only football can manufacture. The Blågult, who burst onto the group stage with a historic 5-1 opening night, exit with four points and a zero goal-difference as one of the tournament's better third-place candidates. Group F final: Netherlands (1st, 7 pts, GD +6), Japan (2nd, 5 pts, GD +4), Sweden (3rd, 4 pts, GD 0), Tunisia (4th, 0 pts, GD -10). The round-of-16 ceiling question follows Japan into the knockout stage; the orb watches carefully."
   },
   {
    "group": "G",
@@ -1451,7 +1451,8 @@
    "confidence": 35,
    "reading": "SoFi's third act has become the golden generation's requiem — Turkey arrive at 0 points, eliminated, their Güler-Yıldız axis having produced zero World Cup goals in 180 minutes of football against sides Turkey were expected to compete with. The silver lining: both are finally free of tactical constraints and consequence, and Güler has never met a beautiful stage he didn't adorn — the free kick that has been resting in his right boot all summer may finally find the net. Pochettino will rotate heavily, resting group leaders and managing Pulisic's calf recovery for the knockout round; Balogun and Gordon will carry the American load. The orb sees the pride goal Turkey's generation needed to write — one Güler masterpiece answered by one American equaliser from a rotated bench that still bristles with quality.",
    "keyFactor": "Turkey's golden generation released from consequence — Güler's best free kick finally uncoiled; USA rotating to protect Pulisic's calf for the knockout round",
-   "played": false
+   "played": true,
+   "actualScore": "3-2"
   },
   {
    "id": "M60",
@@ -1467,7 +1468,8 @@
    "confidence": 42,
    "reading": "The group's true second-place decider: Paraguay (3 pts, GD -3) needs a WIN to overtake Australia (3 pts, GD 0) — anything less advances Popovic's Socceroos on goal difference. Paraguay's defensive reset after the SoFi horror is confirmed — Galarza's 2nd-minute strike and eighty-eight minutes of stubborn organisation eliminated Turkey's golden generation — but finding the two-goal swing needed to overhaul Australia's advantage requires an attacking fluency that has been scarce all tournament. Alfaro will attack from the first whistle; Popovic will absorb, as he always absorbs, and the Socceroos' experience of defending a lead against sustained pressure (Turkey, 30 shots held) is the tournament's most relevant precedent. Almirón's right channel and Galarza's counter-punch timing may force one Paraguayan goal; Irankunda's pace on the break will find the space the defensive line leaves in chasing it. The draw that eliminates neither side is the orb's most reluctant verdict — and the one that breaks Paraguayan hearts.",
    "keyFactor": "Paraguay must WIN to advance — Australia need only a draw; Popovic's fortress mentality vs Alfaro's attacking desperation on the biggest stage La Albirroja has seen in sixteen years",
-   "played": false
+   "played": true,
+   "actualScore": "0-0"
   },
   {
    "id": "M9",
@@ -1551,7 +1553,8 @@
    "confidence": 68,
    "reading": "Room's fifteen saves against Ecuador gave the island one luminous night — but Ivory Coast are a different proposition entirely: physically dominant, technically assured, and now carrying the knowledge that only a win advances them. Kessié's hundred caps will not let the Elephants be patient; Adingra's pace and Pépé's diagonal cut through a Curaçao defensive block that was always built to absorb one sustained hurricane but not two. Two Ivorian goals before the final quarter, a clean sheet, and the Philadelphia night belongs to Kinshasa's western neighbours.",
    "keyFactor": "Ivory Coast MUST win to qualify — the existential need produces the ruthlessness that Room neutralised against Ecuador's blunter attack",
-   "played": false
+   "played": true,
+   "actualScore": "0-2"
   },
   {
    "id": "M56",
@@ -1567,7 +1570,8 @@
    "confidence": 44,
    "reading": "The oracle's most melancholy reading: Ecuador — six goals created, zero scored, eliminated after Room's fifteen saves — face a Germany side already through and rotating freely. Nagelsmann will hand minutes to Füllkrug, Nmecha and the uncapped fringe; Baumgartner's wide press is rested. Ecuador, with nothing left to lose and Caicedo finally given licence to roam forward, will find that open German back line more yielding than anything they faced in the first two matches — Valencia, the old executioner, etches one strike into the MetLife night. But even a rotated Germany carries enough individual quality to answer; the tricolor departs with more dignity than their scoreless record suggests, and one goal at last.",
    "keyFactor": "Ecuador playing with freedom as a eliminated side vs Germany rotating heavily with qualification sealed — both sides care only about pride",
-   "played": false
+   "played": true,
+   "actualScore": "2-1"
   },
   {
    "id": "M11",
@@ -1651,7 +1655,8 @@
    "confidence": 48,
    "reading": "The crystal sees a knife fight between survival and serenity: Sweden, who swept Tunisia 5-1 then were swept aside 1-5 by Netherlands, arrive in Dallas having been fully exposed — their defensive structure was unmasked by Dutch pace in Houston and the five-goal opening-night glow is now faded memory. Japan need only a draw to advance; their 4-0 demolition of Tunisia proved Moriyasu's side can dominate as well as absorb. The temptation of two points will not seduce the Samurai — but Sweden's Isak-Gyökeres front pair will force at least one moment of genuine danger, and the Dallas stadium breathes fire in a must-win scenario. Japan's collective discipline and four-goal confidence give them the edge: two Japanese strikes bookend a Swedish reply from Isak's poacher instincts before Dallas reaches the final whistle.",
    "keyFactor": "Japan need only a draw — cool tactical discipline vs Sweden's Isak-Gyökeres axis firing in existential must-win desperation",
-   "played": false
+   "played": true,
+   "actualScore": "1-1"
   },
   {
    "id": "M58",
@@ -1667,7 +1672,8 @@
    "confidence": 65,
    "reading": "Netherlands arrive in Kansas City as Group F champions following the 5-1 Swedish demolition — needing only to avoid catastrophe against an eliminated Tunisia side whose nine goals conceded across two matches confirm the defensive collapse is total. Koeman will make calculated changes to protect fitness, but the quality gap is now a chasm: Gakpo and Brobbey — who scored twice each against Sweden — will not be contained by a Tunisia structure that gave up five to a Scandinavian side and four to Japan's press. Depay, chasing a milestone, will find the seams Tunisia can no longer close. Three Dutch goals and a clean sheet; the Eagles of Carthage depart with their honour, their 1 goal, and the knowledge that they faced a group that contained two of the tournament's most complete teams.",
    "keyFactor": "Netherlands already through and firing on all cylinders vs an eliminated Tunisia stripped of defensive organisation after nine goals in two matches",
-   "played": false
+   "played": true,
+   "actualScore": "1-3"
   },
   {
    "id": "M15",
@@ -2294,11 +2300,11 @@
    "homeSlot": "Winner Group E",
    "awaySlot": "3rd place A/B/C/D/F",
    "predHome": "Germany",
-   "predAway": "South Korea",
-   "predictedScore": "2-1",
-   "confidence": 52,
-   "reading": "Philadelphia hosts a meeting of the tournament's most divergent group-stage stories: Germany, whose efficient machine kept pace with a 3-1 win over the Czech Republic and a 4-1 demolition of Ivory Coast, against South Korea — the team that won MD1 and then lost two straight to exit Group A in third with Hwang In-beom's goal disallowed and César Montes' suspension changing a game. Son's final World Cup arrives now: the captain's movement opens Wirtz's running lanes for a full match, and one Son moment of pure quality is never beyond imagination. But Kimmich's geometry and Musiala's late arrivals are the instruments that won't concede the space Hwang needs. Germany march into the quarters with the machine's elegant efficiency; Son bows with thunder.",
-   "keyFactor": "Germany's settled system vs Son's last WC campaign — a contest of structural certainty against individual genius",
+   "predAway": "Sweden",
+   "predictedScore": "2-0",
+   "confidence": 55,
+   "reading": "Foxborough hosts a reunion the Group E script never planned: Germany — stung by Plata's 77th-minute poach in MetLife's humiliation against Ecuador — against Sweden, the group stage's most contradictory side, who opened with a 5-1 destruction of Tunisia and then conceded five to Netherlands without a tactical answer. The Germany that arrives in Boston carries the wound and the fury of the tournament's biggest shock, and Nagelsmann's side knows the Ecuador result was not a crisis of ability but of concentration. Musiala's sharpness is confirmed; Wirtz's geometry will find the seams Sweden's exposed back four left bare against Brobbey's diagonal runs. Gyökeres and Isak will ask questions before the hour — Sweden's front two are still the finest pairing among the third-place qualifiers — but the German machine's pride does not permit a second successive nightmare. Two strikes and a clean sheet; the Mannschaft advances with something to prove.",
+   "keyFactor": "Germany's wounded pride after the Ecuador shock meeting Sweden's exposed back four — the group stage's most dangerous third-place qualifier vs the tournament's most motivated group winner",
    "played": false
   },
   {
@@ -2469,12 +2475,12 @@
    "venue": "BC Place, Vancouver",
    "homeSlot": "Winner Group B",
    "awaySlot": "3rd place E/F/G/I/J",
-   "predHome": "Canada",
-   "predAway": "Ivory Coast",
-   "predictedScore": "1-2",
-   "confidence": 42,
-   "reading": "Vancouver's rain cannot cool this one: the maple press against Ivorian lightning, the two most athletic sides in the draw. The orb shows a violent, beautiful match of turnovers — and it is Pépé's cultured left foot, the season of his life behind it, that writes the ending. The hosts' fairytale dies at home; the Elephants march.",
-   "keyFactor": "Ivory Coast's transition game feeds on exactly the chaos Canada creates",
+   "predHome": "Switzerland",
+   "predAway": "Ecuador",
+   "predictedScore": "2-1",
+   "confidence": 47,
+   "reading": "BC Place hosts the tournament's most improbable second act: Switzerland — seven points, Xhaka's 145-cap leadership, four substitute goals in twenty minutes against Bosnia — against Ecuador, whose six-goal void across the first two matches of this tournament has been replaced by the single most audacious result of the group stage. Plata's 77th-minute poach against four-time world champions Germany is the tournament's indelible image; Kobel and the Swiss back line are fully briefed. Ecuador's Caicedo and Angulo will press and press again — the belief that beats Germany is not a one-game loan — but Manzambi's substitute-goal threat and Xhaka's positional intelligence are instruments built precisely to absorb and counter the kind of chaotic high-energy football Ecuador generate. A Swiss goal before the hour and one Ecuadorian reply from the counter that toppled Die Mannschaft; Switzerland's defensive intelligence prevails when the stakes quiet the miracle's second verse.",
+   "keyFactor": "Switzerland's seven-point group authority and Kobel's gloves vs Ecuador's tournament-defining belief after beating Germany — Alpine intelligence against South American inspiration",
    "played": false
   },
   {
