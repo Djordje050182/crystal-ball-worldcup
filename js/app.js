@@ -5,6 +5,7 @@
 const LS_PICKS = "cb_picks_v1";
 const LS_BRACKET = "cb_bracket_v1";
 const LS_PROPHECY = "cb_prophecy_v1";
+const LS_LEDGER = "cb_ledger_v1";
 
 let DATA = null;
 let currentView = "today";
@@ -14,6 +15,7 @@ let bracketMode = "oracle"; // 'oracle' | 'you'
 const picks = load(LS_PICKS, {});       // { matchId: [h, a] }
 const bracketPicks = load(LS_BRACKET, {}); // { matchId: teamName }
 const prophecy = load(LS_PROPHECY, {});  // { champion, goldenBoot }
+const ledger = load(LS_LEDGER, { mode: "result", stake: 5 }); // betMode 'result'|'exact', stake £
 
 function load(k, fb) { try { return JSON.parse(localStorage.getItem(k)) || fb; } catch { return fb; } }
 function save(k, v) { localStorage.setItem(k, JSON.stringify(v)); }
@@ -385,6 +387,120 @@ function renderOracle() {
   return html;
 }
 
+/* ---------- the punt: betting ledger ---------- */
+// The orb publishes a % certainty on every call. We treat that as an implied
+// probability, convert to fair decimal odds and take a typical bookmaker's cut.
+// The exact-score market pays far longer because the precise line lands rarely.
+// These are the orb's OWN illustrative prices — not a real bookmaker.
+function oddsFor(m) {
+  const c = Math.max(22, Math.min(82, m.confidence || 50));
+  const pred = parseScore(m.predictedScore);
+  const pResult = Math.min(0.9, c / 100 + 0.12);          // outcome likelier than exact line
+  const resultOdds = Math.max(1.06, +(1 / pResult * 0.94).toFixed(2)); // ~6% margin
+  const total = pred ? pred[0] + pred[1] : 2;
+  const margin = pred ? Math.abs(pred[0] - pred[1]) : 1;
+  const factor = 3.0 + 0.7 * total + 0.45 * margin;       // more goals / wider win ⇒ longer
+  const exactOdds = Math.max(4, Math.min(29, +((100 / c) * factor * 0.9).toFixed(1)));
+  return { resultOdds, exactOdds };
+}
+function gbp(n) { return "£" + (Math.round(n * 100) / 100).toFixed(2); }
+function settleBet(m, mode, stake) {
+  const pred = parseScore(m.predictedScore), act = parseScore(m.actualScore);
+  if (!pred || !act) return null;
+  const odds = mode === "exact" ? oddsFor(m).exactOdds : oddsFor(m).resultOdds;
+  const won = mode === "exact"
+    ? (pred[0] === act[0] && pred[1] === act[1])
+    : (outcome(pred) === outcome(act));
+  const ret = won ? stake * odds : 0;
+  return { odds, won, ret, profit: ret - stake, stake };
+}
+function selectionLabel(m, mode) {
+  const home = m.home || m.predHome, away = m.away || m.predAway;
+  if (mode === "exact") return `${esc(home)} ${esc((m.predictedScore || "").replace("-", "–"))} ${esc(away)}`;
+  const o = outcome(parseScore(m.predictedScore) || [0, 0]);
+  return o === "H" ? `${esc(home)} to win` : o === "A" ? `${esc(away)} to win` : "The draw";
+}
+function renderLedger() {
+  const mode = ledger.mode, stake = ledger.stake;
+  const graded = DATA.matches
+    .filter(m => m.played && m.actualScore && parseScore(m.actualScore) && parseScore(m.predictedScore))
+    .sort((a, b) => (a.date || "").localeCompare(b.date || "") || (a.matchNo || 0) - (b.matchNo || 0));
+
+  let staked = 0, returned = 0, wins = 0, balance = 0, streak = 0, bestStreak = 0;
+  const rows = graded.map(m => {
+    const b = settleBet(m, mode, stake);
+    staked += stake; returned += b.ret; balance += b.profit;
+    if (b.won) { wins++; streak++; bestStreak = Math.max(bestStreak, streak); } else { streak = 0; }
+    const home = m.home || m.predHome, away = m.away || m.predAway;
+    return `
+    <div class="bet-row ${b.won ? "won" : "lost"}">
+      <div class="bet-top">
+        <span class="bet-date">${esc(fmtDate(m.date))} · ${esc(stageLabel(m))}</span>
+        <span class="bet-result">${b.won ? "WON" : "LOST"}</span>
+      </div>
+      <div class="bet-mid">
+        <span class="bet-teams">${flag(home)} ${esc(home)} <span class="bet-vs">v</span> ${esc(away)} ${flag(away)}</span>
+        <span class="bet-final">${esc(m.actualScore)}</span>
+      </div>
+      <div class="bet-sel">Orb's call: <strong>${selectionLabel(m, mode)}</strong> <span class="bet-odds">@ ${b.odds.toFixed(2)}</span></div>
+      <div class="bet-foot">
+        <span>Stake ${gbp(stake)}</span>
+        <span class="${b.won ? "ret-win" : "ret-loss"}">${b.won ? "Returns " + gbp(b.ret) : "− " + gbp(stake)}</span>
+        <span class="bet-bal">Balance ${balance >= 0 ? "+" : "−"}${gbp(Math.abs(balance))}</span>
+      </div>
+    </div>`;
+  }).join("");
+
+  const net = returned - staked;
+  const roi = staked ? (net / staked) * 100 : 0;
+  const strike = graded.length ? (wins / graded.length) * 100 : 0;
+  const up = net >= 0;
+  const verdict = !graded.length ? ""
+    : up ? (mode === "exact" ? "The orb is printing money. Cancel the day job." : "In the black — the orb's been good to your wallet.")
+         : (mode === "exact" ? "Exact scores are a cruel game. The orb's still finding its range." : "In the red — don't remortgage on the orb just yet.");
+
+  const modeChips = `
+    <div class="chips">
+      <button class="chip ${mode === "result" ? "active" : ""}" data-betmode="result">Back the result</button>
+      <button class="chip ${mode === "exact" ? "active" : ""}" data-betmode="exact">Back the exact score</button>
+    </div>`;
+  const stakeChips = `
+    <div class="stake-row">
+      <span class="stake-label">Stake per game</span>
+      ${[2, 5, 10].map(s => `<button class="stake-chip ${stake === s ? "active" : ""}" data-stake="${s}">£${s}</button>`).join("")}
+    </div>`;
+
+  let html = `
+    <h2 class="section-title">The Orb's Betting Slip <small>would her calls fill your pockets?</small></h2>
+    <p class="punt-intro">A flat ${gbp(stake)} on the Crystal Ball's every prophecy so far. ${mode === "exact" ? "Backing the <strong>exact scoreline</strong> — long odds, jackpot when it lands." : "Backing the <strong>result</strong> she foresaw — the steady punt."}</p>
+    ${modeChips}
+    ${stakeChips}`;
+
+  if (!graded.length) {
+    html += `<div class="empty-note">No matches have been judged yet — the orb's bets are still in the mist.<br>Come back once the balls start rolling.</div>`;
+    return html;
+  }
+
+  html += `
+    <div class="pnl-card ${up ? "up" : "down"}">
+      <div class="pnl-label">${up ? "You'd be UP" : "You'd be DOWN"}</div>
+      <div class="pnl-net">${up ? "+" : "−"}${gbp(Math.abs(net))}</div>
+      <div class="pnl-sub">on ${graded.length} bet${graded.length === 1 ? "" : "s"} · ${gbp(staked)} staked · ${gbp(returned)} back</div>
+      <div class="pnl-grid">
+        <div><span class="pg-num">${roi >= 0 ? "+" : ""}${roi.toFixed(0)}%</span><span class="pg-lbl">Return on stake</span></div>
+        <div><span class="pg-num">${strike.toFixed(0)}%</span><span class="pg-lbl">Strike rate</span></div>
+        <div><span class="pg-num">${wins}/${graded.length}</span><span class="pg-lbl">Winners</span></div>
+        <div><span class="pg-num">${bestStreak}</span><span class="pg-lbl">Best run</span></div>
+      </div>
+    </div>
+    <div class="punt-verdict">${verdict}</div>
+    <h2 class="section-title">Every Slip, Settled</h2>
+    <div class="slip">${rows}</div>
+    <p class="punt-fineprint">Odds are the orb's own implied prices — derived from her published certainty, with a notional bookmaker's margin. They are illustrative, not real betting markets, and prophecies freeze at kickoff so the record can't be cooked. For entertainment only. 18+ · When the fun stops, stop · <a href="https://www.begambleaware.org" target="_blank" rel="noopener">BeGambleAware.org</a></p>
+    <div class="updated-chip">Crystal last polished: ${esc(DATA.meta.updated)}</div>`;
+  return html;
+}
+
 /* ---------- team dossier sheet ---------- */
 function openDossier(name) {
   const t = DATA.teams[name];
@@ -409,6 +525,7 @@ function render() {
   else if (currentView === "fixtures") v.innerHTML = renderFixtures();
   else if (currentView === "groups") v.innerHTML = renderGroups();
   else if (currentView === "bracket") v.innerHTML = renderBracket();
+  else if (currentView === "ledger") v.innerHTML = renderLedger();
   else v.innerHTML = renderOracle();
   updateStrip();
 }
@@ -441,6 +558,10 @@ document.addEventListener("click", e => {
   if (chip) { fixtureFilter = chip.dataset.filter; rerenderPreservingScroll(); return; }
   const bmode = e.target.closest("[data-bmode]");
   if (bmode) { bracketMode = bmode.dataset.bmode; rerenderPreservingScroll(); return; }
+  const betmode = e.target.closest("[data-betmode]");
+  if (betmode) { ledger.mode = betmode.dataset.betmode; save(LS_LEDGER, ledger); rerenderPreservingScroll(); return; }
+  const stakeBtn = e.target.closest("[data-stake]");
+  if (stakeBtn) { ledger.stake = Number(stakeBtn.dataset.stake); save(LS_LEDGER, ledger); rerenderPreservingScroll(); return; }
 
   // bracket team pick (you mode)
   const bkTeam = e.target.closest("[data-bkpick]");

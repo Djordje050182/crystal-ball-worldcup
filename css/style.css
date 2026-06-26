@@ -453,7 +453,7 @@ body {
 .nav-btn {
   flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 1px;
   background: none; border: none; color: var(--faint);
-  font-family: var(--font-cond); font-size: 11.5px; font-weight: 600; letter-spacing: 1.8px; text-transform: uppercase;
+  font-family: var(--font-cond); font-size: 11px; font-weight: 600; letter-spacing: 1.1px; text-transform: uppercase;
   cursor: pointer; transition: color .15s; position: relative;
 }
 .nav-btn .nav-ico { display: none; }
@@ -470,7 +470,93 @@ body {
   letter-spacing: 2px; text-transform: uppercase; color: var(--faint); margin: 16px 0 4px;
 }
 
+/* --- the punt: betting ledger --- */
+.punt-intro { font-size: 14px; color: var(--dim); line-height: 1.55; margin: 2px 1px 12px; }
+.punt-intro strong { color: var(--ivory); }
+.stake-row { display: flex; align-items: center; gap: 7px; padding: 0 1px 12px; }
+.stake-label {
+  font-family: var(--font-cond); font-weight: 600; font-size: 10px; letter-spacing: 1.6px;
+  text-transform: uppercase; color: var(--faint); margin-right: 2px;
+}
+.stake-chip {
+  font-family: var(--font-display); font-size: 15px; letter-spacing: .5px;
+  padding: 5px 13px; border-radius: 999px; cursor: pointer;
+  background: var(--card); border: 1px solid var(--line); color: var(--dim);
+}
+.stake-chip.active { background: var(--gold); border-color: var(--gold); color: #3a2c00; }
+
+.pnl-card {
+  text-align: center; border-radius: var(--radius); padding: 20px 14px 16px;
+  background: linear-gradient(180deg, var(--card-2), var(--card));
+  border: 1px solid var(--line-strong); margin-bottom: 12px;
+}
+.pnl-card.up { border-color: var(--mint); box-shadow: 0 0 26px rgba(141, 232, 185, .18); }
+.pnl-card.down { border-color: var(--red-bright); box-shadow: 0 0 26px rgba(232, 37, 63, .16); }
+.pnl-label {
+  font-family: var(--font-cond); font-weight: 600; font-size: 11px; letter-spacing: 3px;
+  text-transform: uppercase; color: var(--dim);
+}
+.pnl-net { font-family: var(--font-display); font-size: 52px; line-height: 1.04; margin: 4px 0 2px; }
+.pnl-card.up .pnl-net { color: var(--mint); text-shadow: 0 0 22px rgba(141, 232, 185, .4); }
+.pnl-card.down .pnl-net { color: #ff8a99; text-shadow: 0 0 22px rgba(232, 37, 63, .35); }
+.pnl-sub { font-size: 12.5px; color: var(--faint); font-style: italic; }
+.pnl-grid {
+  display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; margin-top: 14px;
+  border-top: 1px solid var(--line); padding-top: 13px;
+}
+.pnl-grid > div { display: flex; flex-direction: column; gap: 3px; }
+.pg-num { font-family: var(--font-display); font-size: 19px; color: var(--gold); }
+.pg-lbl { font-size: 9.5px; letter-spacing: .6px; text-transform: uppercase; color: var(--faint); font-family: var(--font-cond); }
+
+.punt-verdict {
+  text-align: center; font-family: var(--font-body); font-style: italic; font-size: 14.5px;
+  color: var(--ivory); padding: 2px 8px 16px; line-height: 1.5;
+}
+
+.slip { display: flex; flex-direction: column; gap: 9px; }
+.bet-row {
+  background: var(--card); border: 1px solid var(--line); border-radius: 12px;
+  padding: 11px 13px; border-left: 3px solid var(--faint);
+}
+.bet-row.won { border-left-color: var(--mint); }
+.bet-row.lost { border-left-color: var(--red-bright); }
+.bet-top { display: flex; justify-content: space-between; align-items: center; margin-bottom: 7px; }
+.bet-date {
+  font-family: var(--font-cond); font-weight: 500; font-size: 10px; letter-spacing: 1.3px;
+  text-transform: uppercase; color: var(--faint);
+}
+.bet-result {
+  font-family: var(--font-cond); font-weight: 600; font-size: 10.5px; letter-spacing: 1.6px;
+  padding: 2px 8px; border-radius: 5px;
+}
+.bet-row.won .bet-result { background: rgba(141, 232, 185, .18); color: var(--mint); }
+.bet-row.lost .bet-result { background: rgba(232, 37, 63, .2); color: #ff9aa8; }
+.bet-mid { display: flex; justify-content: space-between; align-items: baseline; gap: 8px; }
+.bet-teams { font-family: var(--font-cond); font-weight: 600; font-size: 14.5px; color: #fff; }
+.bet-vs { color: var(--faint); font-weight: 500; font-size: 12px; margin: 0 2px; }
+.bet-final { font-family: var(--font-display); font-size: 17px; color: var(--gold); }
+.bet-sel { font-size: 13px; color: var(--dim); margin: 5px 0 8px; font-family: var(--font-body); }
+.bet-sel strong { color: var(--ivory); }
+.bet-odds { color: var(--gold); font-family: var(--font-cond); font-weight: 600; margin-left: 3px; }
+.bet-foot {
+  display: flex; justify-content: space-between; align-items: center; gap: 6px;
+  font-family: var(--font-cond); font-weight: 500; font-size: 12px; color: var(--faint);
+  border-top: 1px solid var(--line); padding-top: 8px;
+}
+.bet-foot .ret-win { color: var(--mint); font-weight: 600; }
+.bet-foot .ret-loss { color: #ff9aa8; font-weight: 600; }
+.bet-foot .bet-bal { color: var(--dim); }
+
+.punt-fineprint {
+  font-size: 11px; color: var(--faint); line-height: 1.6; text-align: center;
+  margin: 18px 6px 4px; font-style: italic;
+}
+.punt-fineprint a { color: var(--orb); }
+
 @media (min-width: 561px) {
   .view { max-width: 640px; }
   .mini-grid { grid-template-columns: repeat(4, 1fr); }
+}
+@media (max-width: 360px) {
+  .nav-btn { font-size: 10px; letter-spacing: .5px; }
 }
