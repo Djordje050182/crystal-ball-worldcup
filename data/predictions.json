@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-06-26",
+  "updated": "2026-06-27",
   "tournament": "FIFA World Cup 2026",
   "format": "The 2026 FIFA World Cup, co-hosted by the United States, Mexico and Canada from June 11 to July 19, 2026, features 48 teams split into 12 groups of four (A-L) playing a single round-robin group stage. The 12 group winners, 12 runners-up and the 8 best third-placed teams (32 teams total) advance to a new Round of 32, followed by a Round of 16, quarter-finals, semi-finals, a third-place play-off and the final, for 104 matches in all across 16 stadiums. Knockout ties go to 30 minutes of extra time and then penalties if level. The final is at MetLife Stadium, East Rutherford (New York/New Jersey) on July 19, 2026.",
   "thirdPlaceRule": "The 12 third-placed teams are ranked by points, goal difference, goals scored, fair play points, then lots; the top 8 advance. Their assignment to specific Round-of-32 matches depends on which groups the 8 best thirds come from, per the official allocation table (Annex C of the FIFA regulations)."
@@ -1004,12 +1004,12 @@
   {
    "group": "G",
    "predictedOrder": [
-    "Egypt",
     "Belgium",
+    "Egypt",
     "Iran",
     "New Zealand"
    ],
-   "groupReading": "The glass darkened for Belgium and blazed for Egypt across matchday two's twin vigil. In Los Angeles Nathan Ngoy's red card for hauling down Taremi cast De Bruyne into a numbing 0-0 against Iran — in 180 World Cup minutes Belgium have not once scored from open play, and the wizard of Napoli has yet to conjure a decisive moment. In Vancouver the long-awaited verse arrived: Surman's header briefly wrote a New Zealand fairytale, then Zico levelled, Salah scored at last (67th minute, Vancouver, a name he will keep forever), and substitute Trezeguet's corner-header sealed Egypt's first-ever World Cup win in eight attempts. The standings: Egypt 4 pts, Belgium 2 pts, Iran 2 pts, New Zealand 1 pt (eliminated). Egypt's June 26 finale against Iran decides only the margin; the second passage is Belgium's to lose — or Iran's to steal."
+   "groupReading": "Belgium sealed Group G's summit in the final hour of the tournament's most eventful evening — De Bruyne's 66th-minute thunderbolt from outside the box and Trossard's pair at BC Place Vancouver overturning a narrative of three goalless open-play matches in forty extraordinary minutes. In Seattle a late VAR decision overturned what would have been Iran's 93rd-minute winner against Egypt, a moment that denied the Pharaohs first place as decisively as the Red Devils' five-goal eruption claimed it. Belgium's +4 goal difference leapfrogged Egypt's +2 in the same window; the glass had named Egypt, and the tournament delivered Lukaku's power and De Bruyne's long-delayed chapter instead. Final standings: Belgium (1st, 5pts, GD +4), Egypt (2nd, 5pts, GD +2), Iran (3rd, 3pts, GD 0), New Zealand (4th, 1pt, GD -6). The wizard of Napoli's World Cup has finally begun."
   },
   {
    "group": "H",
@@ -1019,7 +1019,7 @@
     "Uruguay",
     "Saudi Arabia"
    ],
-   "groupReading": "The glass rewrote Group H in a single extraordinary afternoon and evening on June 21. In Atlanta the armada that fired twenty-seven shots finally found its target: Yamal slid in at the back post after just ten minutes — among the youngest scorers in World Cup history — Oyarzabal added two more in the next four minutes, and Al-Tambakti's own goal made it four before half-time; both Yamal and Oyarzabal were rested for the second half, the work already done. In Miami the night delivered its second revelation: Cape Verde's Kevin Pina launched a 30-yard free kick past Muslera in the 21st minute, Hélio Varela headed in his first international goal in the 61st, and only Araújo's desperate header and Canobbio's stoppage-time equaliser spared Uruguay's blushes in a 2-2 that left Bielsa shaking his head. The standings: Spain 3 pts (+4 GD), Cape Verde 2 pts (+1 GD), Uruguay 2 pts (0 GD), Saudi Arabia 1 pt. The crystal still sees Spain as Group H champions, but Cape Verde have surpassed Uruguay in the oracle's reckoning for second place — Bubista's island warriors are the tournament's best story and the June 26 finale is their night of judgment."
+   "groupReading": "Spain sealed Group H with serene, unbroken efficiency — a 1-0 win over Uruguay in Guadalajara's 1,500-metre altitude confirming De la Fuente's machine wins matches at precisely the gradient the scoreline demands, no more. Cape Verde's three draws across three opponents of ascending difficulty — Vozinha's 27-shot masterclass against Spain, Pina's 30-yard free kick against Uruguay, and a composed 0-0 against Saudi Arabia — confirmed Bubista's Blue Sharks as the tournament's most remarkable debutant story. Uruguay, who needed a win and Bielsa's highest-press night, found neither; Núñez remains goalless across 270 World Cup minutes and the summer ends without the collaborative chaos the system requires. Final standings: Spain (1st, 7pts, GD +5), Cape Verde (2nd, 3pts, GD 0), Uruguay (3rd, 2pts, GD -1), Saudi Arabia (4th, 2pts, GD -4). The oracle reads Cape Verde's next chapter with genuine anticipation — the island that held two South American giants and the European champions advances to the Round of 32."
   },
   {
    "group": "I",
@@ -1029,7 +1029,7 @@
     "Senegal",
     "Iraq"
    ],
-   "groupReading": "The death-group's second chapter blazed with the same relentless intensity as the first. Mbappé carved open Iraq in Philadelphia with a left-footed screamer in the 14th minute and a finish in the 54th — his 15th and 16th career World Cup goals equalling Miroslav Klose's old all-time record — while Dembélé added his first in the dying moments of a 3-0 that means the farewell machine is through. At MetLife the Norse saga burned brightest of all: Pedersen struck first in the 43rd, Haaland buried two more to reach 4 World Cup goals in 2 matches, and even Ismaila Sarr's magnificent brace — including a stoppage-time reply — could not prevent Norway's 3-2 advance. France and Norway both hold 6 points and meet in Foxborough on June 26; Senegal and Iraq are eliminated. The group summit is also the Golden Boot duel: Mbappé (16 career WC goals) against Haaland (4 in 2026). The crystal sees a goal apiece and a shared passage — but the bracket's first-place road is smoother, and these two sides will not share it gently."
+   "groupReading": "France closed Group I with the decisive declaration the crystal had promised — but the instrument was Dembélé, not Mbappé alone. The 2025 Ballon d'Or winner scored a first-half hat-trick in Foxborough including one fed by Mbappé's diagonal vision, Norway's Thelo Aasgaard providing the sole Norwegian reply before Dembélé completed his third; a 4-1 masterpiece that gives France the tournament's most dominant group-stage record by a major contender: nine points, ten goals, zero defeats. Haaland ended with five World Cup goals in three matches — the Golden Boot race sits joint between him, Mbappé and Dembélé — but Norway's 1-4 final-day defeat confirmed what the French press has always suspected: their defensive shape leaks against elite attackers, even as their own attack remains the tournament's most feared weapon. In Toronto, Senegal delivered the farewell verse Mané's generation deserved — a 5-0 demolition of Iraq that closed the ledger with dignity and fire. Final standings: France (1st, 9pts, GD +8), Norway (2nd, 6pts, GD +1), Senegal (3rd, 3pts, GD +2), Iraq (4th, 0pts, GD -11). The death-group delivered its finest two sides to the knockout stage, and the bracket will feel their weight."
   },
   {
    "group": "J",
@@ -1757,7 +1757,8 @@
    "confidence": 50,
    "reading": "The arithmetic has redrawn the battlefield: Egypt need only a draw to advance as Group G winners — Hossam Hassan will organise his block and invite Iran to come forward for the first time in this tournament. Taremi, anonymous in 180 World Cup minutes, now owns the weight of his nation's survival — he must find goals against a back line that held Belgium for 47 minutes and New Zealand to one goal. Seattle's closed roof suits Egypt's counter-punch perfectly; one Salah strike on the break seals the night and the passage both.",
    "keyFactor": "Egypt happy with a draw — Iran must attack for the first time in this tournament, opening the counter-attacking spaces Egypt exploited against New Zealand",
-   "played": false
+   "played": true,
+   "actualScore": "1-1"
   },
   {
    "id": "M64",
@@ -1773,7 +1774,8 @@
    "confidence": 50,
    "reading": "Vancouver holds Belgium's last rite — and the complications have multiplied. Nathan Ngoy, sent off against Iran, is SUSPENDED, meaning De Bruyne's back line faces Wood's aerial threat with a defensive gap. Belgium's creation crisis is total: 180 World Cup minutes, zero open-play goals, the Napoli wizard invisible. Yet New Zealand are eliminated and the scoreline arithmetic matters enormously to Belgium's tiebreaker with Iran — if both reach 5 points, goal difference decides the passage. De Bruyne must not merely survive tonight; he must score. Wood will score once from a Payne corner delivery, because Wood always does; but Belgian class finally asserts itself when the knockout stakes strip away all other options.",
    "keyFactor": "Belgium with Ngoy suspended — defensive gap vs Wood's aerial threat; De Bruyne must finally score in open play after 180 goalless World Cup minutes",
-   "played": false
+   "played": true,
+   "actualScore": "1-5"
   },
   {
    "id": "M14",
@@ -1857,7 +1859,8 @@
    "confidence": 52,
    "reading": "Philadelphia's dome hosts Cape Verde's coronation or Saudi Arabia's last gasp. Cape Verde enter MD3 in second place on GD (+1), unbeaten across 180 World Cup minutes — two remarkable results against Spain and Uruguay have given the island its greatest sporting nights. A Cape Verde win secures second place with absolute certainty, regardless of what Uruguay do. Saudi Arabia, crushed 4-0 by La Roja and in last place, must WIN and need other results to go their way — the arithmetic is near-impossible, but pride has no arithmetic. Vozinha's gloves against Al-Dawsari's left foot remains the key duel; but Cape Verde's counter-attack is now a known quantity and the island belief is unshaken. Two Cape Verde goals and a historic passage confirmed.",
    "keyFactor": "Cape Verde needing a win to lock in second place vs Saudi Arabia playing for pride after their 4-0 humiliation — the island's belief vs the desert's dignity",
-   "played": false
+   "played": true,
+   "actualScore": "0-0"
   },
   {
    "id": "M66",
@@ -1873,7 +1876,8 @@
    "confidence": 42,
    "reading": "At 1,500 metres in Guadalajara, the night carries genuine consequence: Spain need only a draw to confirm first place; Uruguay must WIN to overtake Cape Verde for second. Bielsa's high-press system — destroyer of Italy in qualifying, yet producer of only two draws so far — will attack from the first whistle because there is no other option. Valverde has worked through two matches without proper support; this is the night he either finds it or Uruguay's summer ends at altitude. Spain, calmly organising a draw with Rodri's geometry and Pedri's touch, are built precisely for this scenario. The orb sees Núñez finally scoring — his one great moment of the tournament — but Spain's metronome does not concede the second. A 1-1 draw sends Cape Verde through as Group H runners-up; Bielsa's summer ends with the press unfinished.",
    "keyFactor": "Uruguay must WIN — they attack from kick-off; Spain need only a draw and will use Rodri's geometry to absorb the Bielsa press at 1,500 metres altitude",
-   "played": false
+   "played": true,
+   "actualScore": "0-1"
   },
   {
    "id": "M17",
@@ -1957,7 +1961,8 @@
    "confidence": 41,
    "reading": "The summit duel the fates have circled since June 11 — now confirmed between two sides both on six points, both already through, and both carrying the weight of a Golden Boot race that belongs entirely to them. Norway's seven World Cup goals in two matches (Haaland with four, a new high-water mark for the tournament) against France's six (Mbappé's 15th and 16th in Philadelphia equalling Klose's old career record — Messi at 18 now owns it outright) have charged Foxborough with the electricity the oracle foresaw. Haaland will score because four in two matches is not a run of fortune, it is a declaration; Mbappé will answer because a man with 16 World Cup goals does not coast when one more sets a new European record. Deschamps — in his final tournament act — will not lose a game he does not need to lose; Solbakken will not surrender ground he has bled for across seven goals. A goal apiece and a summit shared; France's goal difference (+6 vs Norway's +4) likely hands Les Bleus the first-place bracket road if parity holds at the whistle.",
    "keyFactor": "Both sides through on 6 pts — Haaland (4 WC goals in 2026) vs Mbappé (16 career WC goals, now Europe's all-time record) in the Golden Boot duel; France's superior GD decides 1st place if it stays level",
-   "played": false
+   "played": true,
+   "actualScore": "1-4"
   },
   {
    "id": "M62",
@@ -1973,7 +1978,8 @@
    "confidence": 62,
    "reading": "BMO's humid evening hosts a farewell between two eliminated sides, both on zero points, both carrying moments they will carry for decades. Senegal, who lost 2-3 to Norway despite Sarr's valiant brace, arrive in Toronto with Mané still goalless across two World Cup matches and a squad whose pride has been badly dented; Iraq, whose Hussein goal against Norway in the 39th minute was the first Lions strike in forty years, come north with dignity intact even if the ledger is empty. For both sides the meaningful arithmetic is closed. Mané's hunger is personal and real — his last World Cup must end with a goal in front of whatever BMO crowd remains to witness it — and Senegal's superior squad depth should prevail. Two Teranga strikes and the orb's final verdict; the match exists beyond points now, in the territory of memory and legacy.",
    "keyFactor": "Senegal's superior quality and Mané's desperation for a first World Cup goal vs Iraq's resilience — both eliminated, playing only for pride and memory",
-   "played": false
+   "played": true,
+   "actualScore": "5-0"
   },
   {
    "id": "M19",
@@ -2348,11 +2354,11 @@
    "homeSlot": "Winner Group I",
    "awaySlot": "3rd place C/D/F/G/H",
    "predHome": "France",
-   "predAway": "Iran",
-   "predictedScore": "3-0",
-   "confidence": 68,
-   "reading": "MetLife hosts a mismatch written in cold numbers: Iran's 0.72 goals per World Cup match against the deepest squad alive. The Persian block holds until first blood — then Mbappé, hunting Fontaine's ghost, strikes twice in nine minutes. The mist shows no path for the brave.",
-   "keyFactor": "Iran must chase the game once behind, and they cannot",
+   "predAway": "Sweden",
+   "predictedScore": "2-1",
+   "confidence": 58,
+   "reading": "MetLife's vast stage hosts France — Dembélé's hat-trick in Foxborough now on the world's shelf as the tournament's defining individual performance so far, Mbappé golden-boot-chasing alongside him — against Sweden, most likely occupant of the best-third bracket slot from groups C/D/F/G/H. Gyökeres and Isak gave their tournament the peaks of individual Nordic promise; this is the mountain those peaks must now scale. Sweden's 1-5 destruction at Dutch hands in Houston already revealed the defensive shape that Dembélé and Mbappé will exploit from the first whistle, and Deschamps' farewell machine does not go into a match of this importance without the full creative suite. The orb grants Gyökeres one Arsenalforged moment — real enough to silence a MetLife corner — before two French strikes in the first hour and the pragmatic mastery of Deschamps' tournament intelligence seal Sweden's extraordinary summer. The Blågult's spirit endures; their bracket path ends here.",
+   "keyFactor": "France's Dembélé-Mbappé axis at peak form after the hat-trick masterpiece vs Sweden's Gyökeres-Isak front pair — the tournament's deepest attack against the group stage's most dangerous Nordic strike partnership",
    "played": false
   },
   {
@@ -2366,9 +2372,9 @@
    "predHome": "Ivory Coast",
    "predAway": "Norway",
    "predictedScore": "1-3",
-   "confidence": 54,
-   "reading": "Ecuador's elimination rewrites this fixture entirely — the Elephants arrive in Dallas as Group E's second-place qualifier after beating Curaçao, carrying the confidence of Kessié's goal against Germany and Adingra's pace against any back line not named Van Dijk. Haaland, however, is a different species: the man who scored twice against Iraq in the 43rd minute will find the space between Ivory Coast's aggressive high line and their natural tendency to transition. Pépé and Adingra strike once on the counter, but two Haaland touches and a Sørloth header settle a magnificent contest before the hour. Norway march on.",
-   "keyFactor": "Norway's Haaland-Sørloth axis vs Ivory Coast's pace-heavy counter-attack — the Elephants have more to offer than Ecuador would have, but Haaland is the factor no AFCON pedigree can prepare for",
+   "confidence": 50,
+   "reading": "Dallas hosts the group stage's most interesting form question: Ivory Coast — who scored twice against Germany and absorbed Curaçao — against a Norway side whose five Haaland goals in the group stage mask a defensive shape that France exposed with clinical brutality in the 1-4 Foxborough finale. Kessié's dynamism and Adingra's pace are precisely the instruments that found Germany's space; Norway's back four leaked four against Dembélé and Mbappé and will find Pépé's diagonal run a different but familiar challenge. Yet Haaland's five goals, the Golden Boot lead he carries into the knockouts, represent a creative ceiling that no AFCON pedigree has yet discovered a ceiling for — Ivory Coast cannot outscore Norway in a sprint, only outlast them in a siege. One Pépé counter-punch earns Dallas its great individual moment; two Haaland touches and a Sørloth header settle a magnificent contest. Norway's summer burns on.",
+   "keyFactor": "Haaland's five-goal Golden Boot form vs Ivory Coast's Pépé-Adingra pace — Norway's defensive vulnerability (4 conceded vs France) meets an Ivory Coast transition built to exploit precisely those spaces",
    "played": false
   },
   {
@@ -2380,11 +2386,11 @@
    "homeSlot": "Winner Group A",
    "awaySlot": "3rd place C/E/F/H/I",
    "predHome": "Mexico",
-   "predAway": "Scotland",
+   "predAway": "Ecuador",
    "predictedScore": "2-1",
-   "confidence": 50,
-   "reading": "The Azteca at full roar against the tartan army's first knockout dance since forever — the orb adores this fixture. McTominay's late surge will level it and silence eighty thousand for nine minutes... then Jiménez rises at the far post and the mountain erupts. El Quinto Partido lives.",
-   "keyFactor": "Altitude, again — Scotland's pressing legs die at 2,240 metres",
+   "confidence": 48,
+   "reading": "The Azteca roars for Mexico's knockout debut against the tournament's most audacious third-place qualifier — Ecuador, whose Plata struck Germany's back line in the 77th minute of what will be remembered as the group stage's defining shock. Caicedo's pressing engine and Angulo's equalisers gave the Tricolor a taste of South American belief without altitude's equalising effect; the Azteca at 2,240 metres is a different equation entirely, and Ecuador have seen plenty of that air in CONMEBOL qualifying without ever quite mastering it at Mexico's atmospheric level. Jiménez and Giménez will find Ecuador's transition-first shape more yielding than Germany's structured press could; two Mexican strikes and the thin-air advantage carry El Tri through. But Plata's winner against Die Mannschaft earns the glass's honest respect — Ecuador will not merely absorb eighty thousand voices and the altitude's thinning bite without one counter-punch that makes the Azteca remember.",
+   "keyFactor": "Azteca altitude and Mexico's home roar vs Ecuador's tournament-defining belief — the side that stunned Germany arrives at 2,240 metres without that advantage for the first time",
    "played": false
   },
   {
@@ -2414,9 +2420,9 @@
    "predHome": "United States",
    "predAway": "Sweden",
    "predictedScore": "2-1",
-   "confidence": 40,
-   "reading": "Santa Clara becomes a cauldron of belief — the hosts against Gyökeres and Isak, two strikers who just dismantled Tunisia five-one with Ayari's long-range thunderbolts and Isak's fitness fully confirmed. Sweden arrive with the tournament's most potent front pair and a 5-1 scoreline echoing in their lungs; this is no longer a USA coronation. And now the glass has darkened further: Pulisic's calf, which forced him off at half-time against Paraguay and kept him out of the Australia win entirely, is the tournament's most consequential injury question for the hosts. Without him, Balogun and Reyna must carry the attacking thread against a Sweden side that will not gift the space Pulisic's diagonal runs normally exploit. The SoFi roar and Pochettino's structural intelligence tip the orb American still — but the margin has narrowed with the captain's fitness unresolved.",
-   "keyFactor": "USA's home crowd vs Sweden's Isak-Gyökeres front two — and now Pulisic's calf the tournament's largest question mark for the hosts",
+   "confidence": 44,
+   "reading": "Santa Clara becomes a cauldron of belief — the hosts against Gyökeres and Isak, the Nordic front pair whose 5-1 dismantling of Tunisia on opening night was answered by a 1-5 Dutch demolition in Houston that showed exactly where Potter's defence is vulnerable: pace down the channels, which is precisely what Balogun and Reyna bring. Sweden arrive knowing their defensive structure leaks when elite attacking sides press from the flanks — the same channels Pulisic's diagonal would have exploited at full fitness. Pulisic's calf remains the tournament's most consequential injury question for the hosts; without him, Balogun must carry the diagonal threat that USA's system is built around. Gyökeres will score — his Arsenal muscle finds a way against every defence he has faced — but the SoFi roar and Pochettino's structural intelligence make this American soil in the deepest sense of the word. Two USA strikes absorb the Nordic front pair's one great moment.",
+   "keyFactor": "USA's home-crowd advantage and Balogun's pressing pace vs Sweden's Gyökeres-Isak axis — Sweden's 1-5 Dutch demolition showed the defensive vulnerability that USA's wide channels are built to exploit",
    "played": false
   },
   {
@@ -2427,12 +2433,12 @@
    "venue": "Lumen Field, Seattle",
    "homeSlot": "Winner Group G",
    "awaySlot": "3rd place A/E/H/I/J",
-   "predHome": "Egypt",
+   "predHome": "Belgium",
    "predAway": "3rd place (A/E/H/I/J)",
    "predictedScore": "2-0",
-   "confidence": 48,
-   "reading": "The glass sees Egypt — the tournament's most emotional qualifier — arriving at Lumen Field as Group G winners: the pharaohs who waited eight World Cups for their first win, finally crowned in Vancouver. Salah in form, Zico and Trezeguet as proven tournament contributors, Hossam Hassan's block that held Belgium and outscored New Zealand's celebrated counter-attack. Their third-place opponent from groups A/E/H/I/J is unconfirmed at the time of writing, but Egypt's defensive solidity and Salah's clinical edge give the Pharaohs a commanding favourite's role against whoever the bracket delivers. The crystal sees two Egyptian strikes and a clean sheet.",
-   "keyFactor": "Egypt's momentum from their historic first WC win and Salah's form vs an unconfirmed third-place opponent — the Pharaohs' organised block makes them hard to beat regardless",
+   "confidence": 55,
+   "reading": "Lumen Field, Seattle, and Belgium — the tournament's great creation crisis finally answered in Vancouver — arrive as Group G champions on the strength of five goals in forty minutes, Trossard's pair and De Bruyne's 66th-minute thunderbolt from outside the box the images that redefined a generation's last dance. The wizard of Napoli has opened his World Cup chapter, and Garcia's Red Devils carry the momentum of a side that waited three matchdays to fire its afterburners. Their third-place opponent from groups A/E/H/I/J is unconfirmed at time of writing — Ecuador's four-point group-stage authority and Senegal's five-goal farewell night both represent possible opponents with proven tournament quality — but Belgium's individual depth (De Bruyne, Lukaku, Doku) and re-found attacking fluency give the Red Devils the commanding favourite's role against whoever the bracket delivers. The crystal sees two Belgian strikes and a clean sheet in Seattle.",
+   "keyFactor": "Belgium's De Bruyne and Trossard finally firing at full throttle vs an unconfirmed 3rd-place opponent — the Red Devils' form momentum is the decisive variable",
    "played": false
   },
   {
@@ -2492,11 +2498,11 @@
    "homeSlot": "Winner Group J",
    "awaySlot": "Runner-up Group H",
    "predHome": "Argentina",
-   "predAway": "Uruguay",
-   "predictedScore": "2-1",
-   "confidence": 50,
-   "reading": "The Río de la Plata burns in Miami — the man who holds 18 World Cup goals, football's greatest career record now undeniably and permanently his, against Bielsa's madmen in the oldest blood feud in the southern hemisphere. Núñez will score; he always does against destiny. But the orb shows the champions absorbing the storm as only champions can, Álvarez punishing the high line twice, and the king — whose name was written in gold in Dallas — walking off his rival's grave once more.",
-   "keyFactor": "Bielsa's high line is gospel — and Álvarez was bred to run behind gospels",
+   "predAway": "Cape Verde",
+   "predictedScore": "2-0",
+   "confidence": 62,
+   "reading": "Hard Rock Stadium, Miami, and the world champions against the tournament's greatest story — Argentina's Messi, record-holder of all World Cup records at 18 goals, against Bubista's Blue Sharks who held Spain's twenty-seven shots, Uruguay's Bielsa press and Saudi Arabia's farewell pride without conceding a single open-play first ball. Vozinha's gloves are the tournament's most extraordinary individual display; they face a different proposition in the Champions of Everything. Messi, Álvarez and the champion's machine sustain sustained creative pressure that even Cape Verde's disciplined block — built for a different tempo than the world champions bring — cannot absorb across ninety minutes. One moment of Blue Shark counter-punch from Hélio Varela's diagonal is the night's great individual flourish; Argentina's class, depth and three-match tournament fire settle it before the hour, and Cape Verde depart Miami as the bracket's most beloved story.",
+   "keyFactor": "Argentina's Messi-Álvarez attacking axis and champion's tournament nerve vs Vozinha's gloves and Cape Verde's three-draw defensive resilience — quality ultimately prevails over the tournament's most unlikely hero",
    "played": false
   },
   {
@@ -2524,11 +2530,11 @@
    "homeSlot": "Runner-up Group D",
    "awaySlot": "Runner-up Group G",
    "predHome": "Australia",
-   "predAway": "Belgium",
+   "predAway": "Egypt",
    "predictedScore": "1-2",
-   "confidence": 44,
-   "reading": "Dallas hosts two sides who have both exceeded their opening expectations but carry real wounds. Australia (predicted Runner-up Group D after their June 25 decider) bring Popovic's 5-4-1 fortress that held Turkey to thirty shots and absorbed the USA's press for ninety minutes before conceding twice — a genuine defensive organisation with Irankunda's pace on the counter. Belgium staggered through Group G on two draws and zero open-play goals, with Nathan Ngoy suspended through the group stage and De Bruyne invisible for 180 World Cup minutes. Yet the Belgian individual quality — De Bruyne, Lukaku, Doku, Courtois — towers above any Group D runner-up. This is the knockout stage where the wizard of Napoli must finally produce his chapter. One Australian counter-punch from Irankunda's pace; then Belgian class asserts itself — two De Bruyne-orchestrated strikes, the drought ended at last.",
-   "keyFactor": "Belgium's individual quality (De Bruyne, Lukaku, Doku) finally delivering in a knockout match vs Australia's proven 5-4-1 fortress and Irankunda's pace on the break",
+   "confidence": 46,
+   "reading": "Dallas hosts Popovic's fortress against the Pharaohs' precision — Australia's 5-4-1 compact block that held Turkey to a 2-0 clean sheet in Vancouver and absorbed Paraguay's desperate goalscoring bid now faces Hossam Hassan's disciplined counter-punching Egypt. Salah's 67th-minute strike in Vancouver — Egypt's first World Cup goal in eight attempts, a moment etched into national memory — is the clearest evidence of what the block-and-counter formula delivers once the conditions are set. Irankunda's pace on the break is Australia's weapon of choice; yet Egypt's defensive structure, which held Belgium for a 1-1 draw and absorbed Iran's pressure across ninety VAR-charged minutes, is a different grade of opponent than Turkey's pre-tournament chaos. One Irankunda burst sends the Socceroos faithful into brief delirium; Salah finds the decisive counter-punch and the Pharaohs advance, because 34-year-old Salah is precisely the player whose quality the clock cannot subtract.",
+   "keyFactor": "Salah's clinical counter-attack quality and Egypt's proven defensive block vs Popovic's 5-4-1 fortress and Irankunda's pace — a tight fixture the oracle leans Egyptian",
    "played": false
   },
   {
