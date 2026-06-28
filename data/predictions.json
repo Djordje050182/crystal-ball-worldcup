@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-06-27",
+  "updated": "2026-06-28",
   "tournament": "FIFA World Cup 2026",
   "format": "The 2026 FIFA World Cup, co-hosted by the United States, Mexico and Canada from June 11 to July 19, 2026, features 48 teams split into 12 groups of four (A-L) playing a single round-robin group stage. The 12 group winners, 12 runners-up and the 8 best third-placed teams (32 teams total) advance to a new Round of 32, followed by a Round of 16, quarter-finals, semi-finals, a third-place play-off and the final, for 104 matches in all across 16 stadiums. Knockout ties go to 30 minutes of extra time and then penalties if level. The final is at MetLife Stadium, East Rutherford (New York/New Jersey) on July 19, 2026.",
   "thirdPlaceRule": "The 12 third-placed teams are ranked by points, goal difference, goals scored, fair play points, then lots; the top 8 advance. Their assignment to specific Round-of-32 matches depends on which groups the 8 best thirds come from, per the official allocation table (Annex C of the FIFA regulations)."
@@ -1039,7 +1039,7 @@
     "Algeria",
     "Jordan"
    ],
-   "groupReading": "The glass recorded history in Dallas on June 22: Messi's 38th-minute opener and his 90+5 sealer against Austria lifted his career World Cup tally to 18 goals — surpassing Miroslav Klose's all-time men's record of 16 and writing football's most consequential statistical chapter, perhaps permanently. Argentina advance as Group J champions with six points; Jordan are eliminated after Al-Rashdan's brave first-half lead against Algeria was overturned by Benbouali (68') and Gouiri's substitute winner (82') in Santa Clara, confirming the Desert Warriors' own 3-point resurrection. The June 27 dead rubber in Dallas sends a rested Argentina into the Round of 32 while Austria (GD +1) and Algeria (GD -3) settle their second-place fate in Kansas City — a straight must-win for Mahrez's side, a draw-and-through for Rangnick's press. The oracle sees Mahrez's fire as the decisive variable."
+   "groupReading": "The Kansas City night of June 27 delivered the tournament's most stomach-churning drama: Algeria — who needed to WIN to advance — led 1-0 through Amoura's strike, were pegged back to 1-1, exploded to 3-1 through Mahrez and Maza, and then watched Baumgartner's 88th-minute goal and an Austrian corner in added time peel the World Cup dream away in five extraordinary final minutes. Algeria 3-3 Austria — a result that advances Austria on goal difference (0 vs Algeria's -2) and sends Mahrez's generation home for the fourth consecutive World Cup without a knockout appearance. In the parallel Dallas match Argentina rotated with freedom, Lautaro writing his own chapter in a 3-1 win over Jordan — Olwan's strike once more lighting Jordanian football's memory before the champions sealed passage. Group J final: Argentina (1st, 9 pts, GD +7), Austria (2nd, 4 pts, GD 0), Algeria (3rd, 4 pts, GD -2), Jordan (4th, 0 pts, GD -5). The crystal weeps for Mahrez; Algeria needed a fourth goal they could see but not hold."
   },
   {
    "group": "K",
@@ -1049,17 +1049,17 @@
     "DR Congo",
     "Uzbekistan"
    ],
-   "groupReading": "The glass told two stories across June 23's American evening: in Houston, the Empire roared back with interest — Ronaldo found the six-yard box in the 6th minute, Mendes curled a free kick in the 17th, Ronaldo rolled in the third before the break, and three more followed as Portugal buried the DR Congo stalemate under five goals and one page of permanent history. Cristiano Ronaldo is now the FIRST PLAYER EVER to score at six different World Cups — a record carved into the game's marble archive at 41 years old. In the parallel Guadalajara night, Muñoz's 76th-minute deflection-goal gave Colombia their second clean-sheet win and six points from two matches, the group's clearest passage. The standings: Colombia 6 pts (GD +3), Portugal 4 pts (GD +5), DR Congo 1 pt, Uzbekistan 0 pts. Both sides have cleared the gate; the June 27 Miami summit between them decides only the order — and the oracle, reading the points table honestly, now names Colombia its first-place seed, though Portugal's superior goal difference means a single win in Miami tilts the banner Lusitanian red."
+   "groupReading": "The oracle's Group K chapter closed on the most controlled twin note in the tournament's American summer: in Miami's humidity, Díaz and Ronaldo's empires met in the goalless draw that both goalkeepers and both defensive lines needed to write — Colombia sealing first place on 7 points, Portugal locked in second by a goal difference (+5) that outweighed their points deficit. Three thousand miles north in Atlanta, DR Congo delivered the most emphatic final act of their historic debut — three goals against Uzbekistan's collapsed resistance, Wissa and the Leopards confirming they belong in the knockout bracket. Group K final: Colombia (1st, 7 pts, GD +3), Portugal (2nd, 5 pts, GD +5), DR Congo (3rd, 4 pts, GD +1), Uzbekistan (4th, 0 pts, GD -9). Three empires and one extraordinary debut advance to the knockout stage from a group that produced more history than any fixture list could have written in advance."
   },
   {
    "group": "L",
    "predictedOrder": [
     "England",
-    "Ghana",
     "Croatia",
+    "Ghana",
     "Panama"
    ],
-   "groupReading": "The glass delivered its most candid June 23 image: England and Ghana are through, yet neither has given the crystal a settled image of the knockout machine they claim to be. At Gillette Stadium, Tuchel's Lions generated 19 shots against Queiroz's emergency rebuild and found zero of them — Kane skied the clearest chance, Saka and Bellingham controlling the possession without the clinical edge their ambitions require. In Toronto, Ante Budimir's 54th-minute tap-in gave Croatia a 1-0 win over Panama that extended the group's life to MD3 with the slimmest mathematical thread — Croatia must beat England while Ghana beats Panama, a sequence the oracle rates as improbable. Panama are eliminated, their World Cup over in two 0-1 defeats. England (4 pts, GD +2) lead Ghana (4 pts, GD +1) by a single goal of difference heading into June 27. Tuchel must find the open-play goal against Panama that didn't come against Ghana's disciplined block."
+   "groupReading": "England and Croatia confirmed the June 27 prophecy with a night the oracle foresaw more clearly than its own earlier groupReading dared. At MetLife Stadium, Tuchel's Lions ended Panama's CONCACAF pilgrimage with calm authority — two English goals and a clean sheet that widened the GD cushion needed for the bracket path. In Philadelphia, Dalić's old wolves did what they always do in the decisive night: Gvardiol's aerial authority and Croatian tournament nerve settled a Ghana side that had held England goalless and beaten Panama from a 95th-minute header — Croatia 2-1, advancing as Group L runners-up and earning a fourth consecutive knockout appearance. Group L final: England (1st, 7 pts, GD +4), Croatia (2nd, 6 pts, GD 0), Ghana (3rd, 4 pts, GD 0), Panama (4th, 0 pts, GD -4). The oldest generation left in the tournament and the tournament's most surprising 7-point group winner advance together from Group L's most dramatic finale."
   }
  ],
  "matches": [
@@ -2063,7 +2063,8 @@
    "confidence": 42,
    "reading": "The straight second-place final, confirmed by both sides arriving on exactly 3 points. Algeria won back their identity in Santa Clara — Mahrez restored as captain, Benbouali's header and Gouiri's substitute winner clinching a 2-1 victory over Jordan that ended Algeria's first-round exit fear. Austria lost 0-2 to Argentina as Messi's record-breaking brace required no dispute. The arithmetic is stark: Algeria must WIN; Austria advance with a DRAW on goal difference (+1 vs Algeria's -3). Rangnick will organise deeply to deny Algeria the transitions Mahrez feasts on, but the Desert Warriors' desperation is the keenest blade in the room — Amoura strikes first on a Mahrez through-ball, Arnautović levels from the spot after a challenge in the area, and one final Maza free kick or Gouiri substitute burst carries Algeria through to the Round of 32 for the first time since 2014.",
    "keyFactor": "Algeria MUST WIN — Austria advance with a draw; Mahrez's restored fire and Gouiri's proven substitute impact vs Rangnick's draw-or-bust defensive discipline under Arrowhead's open sky",
-   "played": false
+   "played": true,
+   "actualScore": "3-3"
   },
   {
    "id": "M70",
@@ -2079,7 +2080,8 @@
    "confidence": 56,
    "reading": "By the third night the champions will already hold the key to the next door, and Scaloni — now able to rest Messi and Álvarez, their records safe — will rotate freely. Olwan and Al-Tamari gave Jordan their proudest footballing night against Austria, and the Hashemite debutants will not simply roll over for Argentina's second court; yet the depth of Scaloni's bench (De Paul, Lautaro, Paredes) still dwarfs Jordan's entire squad. Two goals, no reply, and the world champions wave from the Dallas bench as Lautaro writes his own chapter.",
    "keyFactor": "Argentina's rotation-proof squad depth vs a Jordan side whose fairy-tale goal has been written — now playing with house money",
-   "played": false
+   "played": true,
+   "actualScore": "1-3"
   },
   {
    "id": "M23",
@@ -2163,7 +2165,8 @@
    "confidence": 42,
    "reading": "Miami's night no longer smells of formality — it reeks of everything. Portugal arrive at Hard Rock having dropped two points to DR Congo; if they need a win or a draw to stay above the Leopards on tiebreakers, this is an existential ninety minutes for Ronaldo's last chapter. Colombia hold first place and may need only not to lose — but Lorenzo will not manage the night quietly with Díaz demanding the ball. Ronaldo, 41 and fiercely proud, will refuse to accept a curtain call disguised as defeat; the orb still sees one goal each in Miami's humid air, but the drama has been lit from two different ends.",
    "keyFactor": "Portugal's desperation to claim second place and Ronaldo's last-stand pride vs Colombia's first-place security — stakes and heat ensure goals",
-   "played": false
+   "played": true,
+   "actualScore": "0-0"
   },
   {
    "id": "M72",
@@ -2179,7 +2182,8 @@
    "confidence": 55,
    "reading": "Atlanta's roof now shelters a match with genuine consequence: DR Congo arrive carrying Wissa's historic goal and a World Cup point banked against a European heavyweight — the Leopards are believers, not tourists. Uzbekistan, who need a win with three points unlikely to survive elsewhere, must abandon Cannavaro's discipline and chase the game; and an open Uzbekistan is easier prey than a patient one. Wissa punishes the space left behind, Mbemba marshals the defensive line that held Portugal for 90 minutes, and Atlanta's night belongs to Kinshasa. Two Congolese strikes — and a third-place arithmetic dream that no seer foresaw.",
    "keyFactor": "DR Congo's new-found World Cup belief and Wissa's clinical form vs Uzbekistan forced to attack and leave gaps they cannot afford",
-   "played": false
+   "played": true,
+   "actualScore": "3-1"
   },
   {
    "id": "M22",
@@ -2263,7 +2267,8 @@
    "confidence": 58,
    "reading": "At the great arena where the final itself will be decided, England rehearse. Tuchel will rotate after the 4-2 Croatia opening, yet the bench — Rashford, Gordon, Madueke — scored or assisted on matchday one and hungers for July shirts. Panama, needing a miracle if they lost to Croatia, must open up and perish by it; if they somehow beat Croatia, the stakes change. Either way, England's structural depth against a Panama side forced to chase is the glass's clearest image in Group L. Two goals and the Lions walk into the knockout labyrinth with their armour intact.",
    "keyFactor": "England's rotation depth vs a Panama side that must attack and leave space — exact conditions that brought four goals vs Croatia",
-   "played": false
+   "played": true,
+   "actualScore": "0-2"
   },
   {
    "id": "M68",
@@ -2279,7 +2284,8 @@
    "confidence": 43,
    "reading": "Philadelphia hosts a potential decider for second place — but only if Croatia survived Panama and Ghana fell to England. A Croatia side that conceded four to England's press will face an even more uncomfortable truth if Semenyo's pace arrives at Gvardiol's post-injury timing from the left channel. Modrić's tournament nerve and Gvardiol's aerial authority from set pieces are real — Croatia have never lost a decisive group-stage night under Dalić in three tournaments. But Ghana's 95th-minute belief is also real, and Semenyo and Williams represent the first Ghana wide pair capable of genuinely hurting elite defenders since Boateng's era. The chequered banner still flies by a single goal — but it is no longer a coronation.",
    "keyFactor": "Croatia's tournament nerve vs Ghana's Semenyo-Williams wide threat — Croatia's defensive fragility confirmed after the England match",
-   "played": false
+   "played": true,
+   "actualScore": "2-1"
   },
   {
    "id": "R32-1",
@@ -2293,8 +2299,8 @@
    "predAway": "Canada",
    "predictedScore": "1-2",
    "confidence": 44,
-   "reading": "SoFi Stadium witnesses the tournament's most improbable collision of firsts: Bafana Bafana — who shattered a generation of heartbreak with Maseko's 63rd-minute thunderbolt against South Korea — face Canada's men making their own history in their first knockout stage appearance. The orb sees South Africa's compact four-man block, the same disciplined wall that frustrated Mexico and stunned South Korea, holding bravely for sixty minutes under the Californian sky. But Jonathan David's movement between the lines and Alphonso Davies' motorway on the left are different instruments to anything Bafana faced in the groups. The captain's diagonal run opens the evening; David's clinical finish seals it four minutes from time. The miracle continues in spirit.",
-   "keyFactor": "Canada's Jonathan David and Davies-class individual quality vs South Africa's disciplined block — Bafana conceded only once in all three group matches",
+   "reading": "SoFi Stadium witnesses the tournament's most improbable collision of firsts: Bafana Bafana — who carried their group-stage weight through Guadalajara and Monterrey's furnace, the 1-0 win over South Korea confirming their disciplined block can stun higher-ranked sides — face Canada's men making their own history in their first knockout stage appearance. The orb sees South Africa's compact four-man block, the same disciplined wall that held Czech Republic to a 1-1 draw and broke South Korean hearts with a single late goal, holding bravely for sixty minutes under the Californian sky. But Jonathan David's movement between the lines and Alphonso Davies' motorway on the left are different instruments to anything Bafana faced in the groups — the 6-0 dismantling of Qatar proved the Maplepressing machine has found its tournament rhythm. The captain's diagonal run opens the evening; David's clinical finish seals it four minutes from time. Bafana depart SoFi as the tournament's most dignified group-stage second-place story.",
+   "keyFactor": "Canada's Jonathan David and Davies-class individual quality and 6-0 Qatar momentum vs South Africa's disciplined block that won 1-0 against South Korea — Bafana's first knockout World Cup appearance meets a Canadian press operating at tournament peak",
    "played": false
   },
   {
@@ -2306,11 +2312,11 @@
    "homeSlot": "Winner Group E",
    "awaySlot": "3rd place A/B/C/D/F",
    "predHome": "Germany",
-   "predAway": "Sweden",
-   "predictedScore": "2-0",
+   "predAway": "Paraguay",
+   "predictedScore": "2-1",
    "confidence": 55,
-   "reading": "Foxborough hosts a reunion the Group E script never planned: Germany — stung by Plata's 77th-minute poach in MetLife's humiliation against Ecuador — against Sweden, the group stage's most contradictory side, who opened with a 5-1 destruction of Tunisia and then conceded five to Netherlands without a tactical answer. The Germany that arrives in Boston carries the wound and the fury of the tournament's biggest shock, and Nagelsmann's side knows the Ecuador result was not a crisis of ability but of concentration. Musiala's sharpness is confirmed; Wirtz's geometry will find the seams Sweden's exposed back four left bare against Brobbey's diagonal runs. Gyökeres and Isak will ask questions before the hour — Sweden's front two are still the finest pairing among the third-place qualifiers — but the German machine's pride does not permit a second successive nightmare. Two strikes and a clean sheet; the Mannschaft advances with something to prove.",
-   "keyFactor": "Germany's wounded pride after the Ecuador shock meeting Sweden's exposed back four — the group stage's most dangerous third-place qualifier vs the tournament's most motivated group winner",
+   "reading": "Foxborough now hosts the tournament's most unexpected second act — the seven-goal machine arriving from its one act of hubris against Ecuador's belief, and Paraguay, the compact defensive wall that ended Turkey's golden generation with Galarza's second-minute strike in Santa Clara. Die Mannschaft carry the wound and the fury of Plata's 77th-minute shock but the rotation squad Nagelsmann deployed against Ecuador was already half its true face — the full XI that dismantled Curaçao 7-1 and outclassed Ivory Coast 2-1 reassembles now. Almirón's right channel and Galarza's counter-punch timing will earn Paraguay one legitimate moment in sixty minutes; two German strikes confirm the pass that Ecuador's belief briefly interrupted. The back line question exposed by Plata will face a sterner examination in the round of 16, but Paraguay are not the answer to it.",
+   "keyFactor": "Germany's full XI reassembling after the Ecuador rotation shock vs Paraguay's tournament-proven defensive block and Galarza's proven trigger instinct — the Guaraní earned four points from Group D's impossible arithmetic",
    "played": false
   },
   {
@@ -2402,11 +2408,11 @@
    "homeSlot": "Winner Group L",
    "awaySlot": "3rd place E/H/I/J/K",
    "predHome": "England",
-   "predAway": "Austria",
-   "predictedScore": "2-1",
-   "confidence": 52,
-   "reading": "Atlanta hosts England — carrying the frustration of 19 shots and zero goals against Ghana's block — against Rangnick's relentless press machine. Sabitzer's diagonal runs, Baumgartner's late arrivals and Austria's set-piece authority (three goals vs Jordan from three different routes) will find an English defensive structure that Ghana's two-shot total never truly tested. For England, this is the moment Tuchel's system must finally produce the clinical edge that the goalless Ghana stalemate revealed as the outstanding question: Kane on 10 World Cup goals equalling Lineker's England record, Bellingham with doubts erased. Austrian pressure holds for twenty-five minutes and earns one Sabitzer moment; England's deeper squad and wider individual quality settle it before the hour.",
-   "keyFactor": "England's unresolved clinical crisis vs Austria's tournament-proven Rangnick press — the one opponent who can expose what Ghana revealed about England's open-play finishing",
+   "predAway": "DR Congo",
+   "predictedScore": "2-0",
+   "confidence": 58,
+   "reading": "Atlanta's sealed roof gives England their first knockout rehearsal since Turin — Kane on 10 World Cup goals now level with Gary Lineker's England record, Bellingham having erased all doubts against Croatia, and Saka and Gordon ready on the wings after the 2-0 Panama clean sheet widened England's GD cushion. DR Congo arrive as the tournament's most credible debutant story — Wissa's stoppage-time header against Ronaldo's Portugal earned the Leopards permanent respect, and Mpasi's eight saves against Colombia showed a goalkeeper who has found his tournament footing. Yet the Leopards' single knockout win (3-1 over Uzbekistan) came against the group's weakest side, and England's sustained high press is a different instrument entirely. Kane settles the opening question before the hour; Saka's wide channel confirms the passage. Wissa will earn one moment of DR Congo brilliance that Atlanta remembers long after the result is confirmed.",
+   "keyFactor": "England's Kane-Bellingham-Saka axis and tournament-hardened spine vs Wissa's Premier League class and DR Congo's historic debut momentum — the Leopards' ceiling was not tested in Group K the way England's press will test it",
    "played": false
   },
   {
@@ -2418,11 +2424,11 @@
    "homeSlot": "Winner Group D",
    "awaySlot": "3rd place B/E/F/I/J",
    "predHome": "United States",
-   "predAway": "Sweden",
+   "predAway": "Bosnia and Herzegovina",
    "predictedScore": "2-1",
-   "confidence": 44,
-   "reading": "Santa Clara becomes a cauldron of belief — the hosts against Gyökeres and Isak, the Nordic front pair whose 5-1 dismantling of Tunisia on opening night was answered by a 1-5 Dutch demolition in Houston that showed exactly where Potter's defence is vulnerable: pace down the channels, which is precisely what Balogun and Reyna bring. Sweden arrive knowing their defensive structure leaks when elite attacking sides press from the flanks — the same channels Pulisic's diagonal would have exploited at full fitness. Pulisic's calf remains the tournament's most consequential injury question for the hosts; without him, Balogun must carry the diagonal threat that USA's system is built around. Gyökeres will score — his Arsenal muscle finds a way against every defence he has faced — but the SoFi roar and Pochettino's structural intelligence make this American soil in the deepest sense of the word. Two USA strikes absorb the Nordic front pair's one great moment.",
-   "keyFactor": "USA's home-crowd advantage and Balogun's pressing pace vs Sweden's Gyökeres-Isak axis — Sweden's 1-5 Dutch demolition showed the defensive vulnerability that USA's wide channels are built to exploit",
+   "confidence": 51,
+   "reading": "Santa Clara's evening air carries the hope of ninety million home fans — and the only threat that the oracle's crystal now confirms is Bosnia's set-piece arsenal: Lukic's deliveries and Džeko's 40-year-old aerial gravity that once headed Canada level in Toronto. Bosnia qualified through four points across three opponents of varying quality, their structure holding against Qatar's collapse and Switzerland's late surge revealing the defensive depth limits once the block breaks. Pochettino's side arrives with six group-stage points and a 4-1 SoFi demolition of Paraguay as the confirmation that Balogun's pressing relays are calibrated for exactly this knockout format. Pulisic's calf is the night's central medical question; Reyna must carry the diagonal if the captain remains precautionary. Džeko finds the near post from Lukic's delivery to earn Bosnia one moment that silences the SoFi faithful — but two American strikes seal the passage, and the tournament's hosts advance to the round of 16.",
+   "keyFactor": "USA's six-point group-stage authority and SoFi pressing system vs Bosnia's Lukic-Džeko set-piece axis — Pulisic's calf recovery is the hosts' most consequential medical question heading into the knockout stage",
    "played": false
   },
   {
@@ -2434,11 +2440,11 @@
    "homeSlot": "Winner Group G",
    "awaySlot": "3rd place A/E/H/I/J",
    "predHome": "Belgium",
-   "predAway": "3rd place (A/E/H/I/J)",
-   "predictedScore": "2-0",
-   "confidence": 55,
-   "reading": "Lumen Field, Seattle, and Belgium — the tournament's great creation crisis finally answered in Vancouver — arrive as Group G champions on the strength of five goals in forty minutes, Trossard's pair and De Bruyne's 66th-minute thunderbolt from outside the box the images that redefined a generation's last dance. The wizard of Napoli has opened his World Cup chapter, and Garcia's Red Devils carry the momentum of a side that waited three matchdays to fire its afterburners. Their third-place opponent from groups A/E/H/I/J is unconfirmed at time of writing — Ecuador's four-point group-stage authority and Senegal's five-goal farewell night both represent possible opponents with proven tournament quality — but Belgium's individual depth (De Bruyne, Lukaku, Doku) and re-found attacking fluency give the Red Devils the commanding favourite's role against whoever the bracket delivers. The crystal sees two Belgian strikes and a clean sheet in Seattle.",
-   "keyFactor": "Belgium's De Bruyne and Trossard finally firing at full throttle vs an unconfirmed 3rd-place opponent — the Red Devils' form momentum is the decisive variable",
+   "predAway": "Senegal",
+   "predictedScore": "2-1",
+   "confidence": 52,
+   "reading": "Lumen Field, Seattle, and Belgium — the tournament's great creation crisis finally answered in Vancouver — arrive as Group G champions on the strength of five goals in forty minutes, Trossard's pair and De Bruyne's 66th-minute thunderbolt from outside the box the images that redefined a generation's last dance. Senegal carry the wounds of two losses and the dignity of Mané's goalless group stage — the pride that destroyed Iraq 5-0 in Toronto's farewell was a coda, not a chapter. Pape Matar Sarr's late-game dynamism and Ndiaye's diagonal remain real threats against a Belgian back line that ceded a NZ header; yet Garcia's Red Devils now carry a Vancouver momentum no cautious group stage created. Mané will find one moment from somewhere — he always does when the tournament demands it from his particular pride — but De Bruyne's world-class gravity does not permit exit in the first knockout round of his final chapter. Two Belgian strikes and the wizard of Napoli marches on.",
+   "keyFactor": "Belgium's De Bruyne and Trossard finally firing after their Vancouver eruption vs Senegal's Mané searching for his first World Cup goal at 34 — both sides carry authentic motivation; Belgian class and depth settle the question",
    "played": false
   },
   {
@@ -2450,11 +2456,11 @@
    "homeSlot": "Runner-up Group K",
    "awaySlot": "Runner-up Group L",
    "predHome": "Portugal",
-   "predAway": "Ghana",
+   "predAway": "Croatia",
    "predictedScore": "2-1",
-   "confidence": 48,
-   "reading": "Toronto hosts two of the group stage's most compelling stories: Portugal's Ronaldo — the first man ever to score at six World Cups — facing the Black Stars who held England's 4-goal machine to zero in 19 shots and produced the 95th-minute Yirenkyi magic. Queiroz's disciplined block has proven it absorbs pressure from Europe's finest; Ghana are not Croatia. Yet Portugal's PSG axis, Bernardo Silva's threading needles and Ronaldo's penalty-box instinct represent a sustained attacking threat of a different grade than England brought to Foxborough: two Portuguese strikes before the hour as the history-making Empire marches on, though Semenyo's pace from the left channel earns Ghana the one moment of genuine danger.",
-   "keyFactor": "Portugal's Ronaldo-inspired momentum and historic form vs Ghana's disciplined block that nullified England's 19 shots — the tournament's most technically demanding R32 pairing",
+   "confidence": 50,
+   "reading": "Toronto's BMO Field hosts the duel the bracket delivered instead of the one the oracle foresaw — not Portugal against Ghana's 95th-minute magic, but the tournament's greatest generation of Croatian experience against Ronaldo's last chapter and the PSG axis at full creative flow. Modrić at 40, still threading passes through defensive lines that younger midfielders bounce off, will orchestrate one moment of tournament nerve before the hour; Gvardiol's set-piece authority earned Croatia six group-stage points including victories over Panama and Ghana, and the old wolves do not enter knockout rounds without genuine belief. But Ronaldo, the first man to score at six World Cups, does not fall in the round of 32 of his final tournament — and when the PSG axis is at full efficiency, as it was in the 5-0 Uzbekistan demolition, Portugal carry one gear Croatia's aging legs cannot shift into. Two Portuguese strikes settle it before the wolves can find their second gear; Dalić's extraordinary four-tournament knockout record closes here.",
+   "keyFactor": "Portugal's Ronaldo-Bernardo-Vitinha creative axis vs Croatia's Modrić-Gvardiol tournament experience — six group-stage points for both sides sets up the knockout bracket's most experienced pairing",
    "played": false
   },
   {
@@ -2466,11 +2472,11 @@
    "homeSlot": "Winner Group H",
    "awaySlot": "Runner-up Group J",
    "predHome": "Spain",
-   "predAway": "Algeria",
+   "predAway": "Austria",
    "predictedScore": "2-1",
-   "confidence": 52,
-   "reading": "SoFi hosts Yamal and Rodri's dynasty against Mahrez's fire — the captain who watched Messi's hat-trick from the bench in MD1 and returned in MD2 to seal qualification with the goal that ended Algeria's humiliation. La Roja's possession machine and Spain's metronome are built precisely for a team that must press and counter-punch; yet Mahrez will create one moment of Atlas magic in California's heat that the glass cannot deny him. Amoura's pace and Maza's late runs give Algeria the most dangerous attacking transition in Algeria's World Cup history. Spain answer twice because the dynasty's metronome does not concede the second.",
-   "keyFactor": "Spain's possession supremacy vs Algeria's restored Mahrez-Amoura axis — the North African side's best combination since their Rotterdam shock",
+   "confidence": 58,
+   "reading": "SoFi hosts the tournament's most intriguing first-round mismatch of philosophies: Spain's eternal midfield cathedral against Rangnick's relentless gegenpressing machine — the two most tactically sophisticated coaches alive operating in opposite schools. Austria arrived in the knockout stage via the group stage's most dramatic final evening — the 3-3 draw with Algeria in Kansas City that confirmed second place only because Austria's GD was kinder than the Desert Warriors' — and Rangnick's system, the lowest PPDA of any UEFA qualifier, does not recognise a quiet first-round night even against a 7-point group winner. Sabitzer's late arrivals and Baumgartner's pressing will find the Spanish back line once in ninety minutes. Spain answer twice because Spain always answer twice when Rodri's geometry controls the ball and Yamal is free on the right: two La Roja strikes and the dynasty's mechanical serenity does not waver against even the world's most organised press.",
+   "keyFactor": "Spain's possession machinery and Yamal-Oyarzabal form vs Austria's tournament-proven Rangnick press — Baumgartner's late arrivals and Sabitzer's diagonal the only consistent vectors through La Roja's defensive shape",
    "played": false
   },
   {
@@ -2482,11 +2488,11 @@
    "homeSlot": "Winner Group B",
    "awaySlot": "3rd place E/F/G/I/J",
    "predHome": "Switzerland",
-   "predAway": "Ecuador",
+   "predAway": "Algeria",
    "predictedScore": "2-1",
-   "confidence": 47,
-   "reading": "BC Place hosts the tournament's most improbable second act: Switzerland — seven points, Xhaka's 145-cap leadership, four substitute goals in twenty minutes against Bosnia — against Ecuador, whose six-goal void across the first two matches of this tournament has been replaced by the single most audacious result of the group stage. Plata's 77th-minute poach against four-time world champions Germany is the tournament's indelible image; Kobel and the Swiss back line are fully briefed. Ecuador's Caicedo and Angulo will press and press again — the belief that beats Germany is not a one-game loan — but Manzambi's substitute-goal threat and Xhaka's positional intelligence are instruments built precisely to absorb and counter the kind of chaotic high-energy football Ecuador generate. A Swiss goal before the hour and one Ecuadorian reply from the counter that toppled Die Mannschaft; Switzerland's defensive intelligence prevails when the stakes quiet the miracle's second verse.",
-   "keyFactor": "Switzerland's seven-point group authority and Kobel's gloves vs Ecuador's tournament-defining belief after beating Germany — Alpine intelligence against South American inspiration",
+   "confidence": 48,
+   "reading": "BC Place holds the oracle's most quietly dangerous fixture — not the marquee duel but the one where Swiss certainty meets Desert fire that nearly burned brighter in Kansas City. Mahrez, whose restored captain's armband in Santa Clara ignited Algeria's one group win, could not hold the lead against Austria's late surge — the 3-3 that sent Algeria through as third will haunt the Warriors unless Amoura's pace and Maza's creative freedom translate to a different knockout setting. Switzerland carry seven group-stage points, Xhaka's 145-cap positional intelligence and Kobel's gloves that kept Bosnia's four-goal substitute barrage manageable; the summit win over Canada proved Yakin's side can win tight knockout-style encounters when the pressure is real. Algeria's Gouiri carries the instinct that Mahrez's open-play movement cannot guarantee from the first whistle; one Algerian goal from a Maza free kick earns the night's defining individual verse. But Switzerland's defensive certainty and Akanji's positional order against Algeria who conceded three to Argentina — the same diagonal threat that Bernardo Silva's passes now replicate — is the glass's most honest verdict. Seven-point Swiss certainty prevails, narrowly.",
+   "keyFactor": "Switzerland's seven-point authority and Kobel's gloves vs Algeria's Mahrez-Amoura restored identity and Gouiri's proven substitute impact — the knockout format suits Switzerland's controlled efficiency over Algeria's transition-first system",
    "played": false
   },
   {
@@ -2514,11 +2520,11 @@
    "homeSlot": "Winner Group K",
    "awaySlot": "3rd place D/E/I/J/L",
    "predHome": "Colombia",
-   "predAway": "Croatia",
+   "predAway": "Ghana",
    "predictedScore": "2-1",
-   "confidence": 48,
-   "reading": "Kansas City hosts Colombia — six points from two wins, South America's most settled knockout machine — against Croatia's aging but tournament-hardened spine whose Dalić experience has delivered three straight knockout appearances. Modrić's wand will conjure one set-piece masterclass from Gvardiol's aerial authority that gives the old wolves their one legitimate claim to the night. But Díaz's pace and Campaz's late-game ruthlessness are built precisely for the spaces a Croatia back line trying to chase a game will leave. Two Colombian strikes and the passage confirmed; the Empire of Zagreb bows with honour.",
-   "keyFactor": "Colombia's confirmed knockout firepower (6 pts, 4 goals) vs Croatia's tournament nerve — Modrić's wand vs Díaz's pace",
+   "confidence": 53,
+   "reading": "Arrowhead Stadium holds the most athletically explosive fixture of the knockout bracket's third day: Colombia — Díaz's pace and Muñoz's two goals across three competitive matches, seven group-stage points and never having conceded from open play — against the Black Stars who wrote the group stage's most important 95th-minute story in Toronto, then held England's 4-goal machine to a goalless draw in Foxborough before falling to Croatian experience in Philadelphia. Queiroz's emergency rebuild produced three results of remarkable quality; Semenyo represents the first Ghana winger capable of hurting elite defenders since Boateng's era. But Colombia carry the weight of South America's most complete knockout machine — Díaz arriving at Arrowhead from a tournament that has not yet required his best thirty minutes, Campaz waiting as the late-game instinct the block-and-counter can deploy. One Semenyo lightning strike gives Ghana one immortal Kansas City moment; Díaz and the Copa machinery seal it before the ghost of the 95th minute can reanimate in Missouri.",
+   "keyFactor": "Colombia's Díaz-Campaz pace and seven-point group authority vs Ghana's Semenyo counter-attacking belief — the tournament's most complete South American qualifier against Africa's most emotional group-stage story",
    "played": false
   },
   {
@@ -2561,12 +2567,12 @@
    "venue": "NRG Stadium, Houston",
    "homeSlot": "Winner R32-1",
    "awaySlot": "Winner R32-3",
-   "predHome": "Switzerland",
+   "predHome": "Canada",
    "predAway": "Netherlands",
    "predictedScore": "1-2",
    "confidence": 46,
-   "reading": "Houston's roof seals in a chess match — Xhaka against Frenkie de Jong, two clocks ticking at different speeds. The Swiss wall holds deep into the night, but the Dutch carry one gear Switzerland cannot match: Gakpo arriving from the left, twice, against tiring legs. Orange survives; the eternal quarter-finalists fall a round short again.",
-   "keyFactor": "Netherlands' extra attacking gear against a Swiss side that can't chase",
+   "reading": "Houston's roof shelters the tournament's most compelling first-week redemption arc: Canada, whose 6-0 destruction of Qatar and summit win over Switzerland carry the emotional energy of a nation's first-ever men's knockout appearance, against the Dutch who arrived without Simons and Frimpong and have since ended those doubts emphatically — 5-1 against Sweden, 3-1 against Tunisia, and Morocco defeated in the round of 32. Jonathan David's movement between the lines is precisely the instrument that Brobbey and Gakpo exploit from the other side — two sides built around the same electric vertical transition now facing each other in knockout heat. Van Dijk's aerial authority and Gakpo's wider field of threat tip the balance before the final ten minutes; Davies' motorway and one David diagonal earn one goal that makes Houston remember Canada's knockout debut as the night's honest near-miss. The Dutch prevail; Marsch's men exit with the highest standing any Canadian men's side has held at a World Cup.",
+   "keyFactor": "Netherlands' Van Dijk-Gakpo axis and confirmed attacking firepower (5-1 vs Sweden) vs Canada's Jonathan David and Davies' left channel — the 6-0 Qatar rout proved Canada's quality is real; this opponent is a different grade entirely",
    "played": false
   },
   {
@@ -2642,11 +2648,11 @@
    "homeSlot": "Winner R32-14",
    "awaySlot": "Winner R32-16",
    "predHome": "Argentina",
-   "predAway": "Turkey",
-   "predictedScore": "3-1",
-   "confidence": 54,
-   "reading": "The golden children of the Bosphorus have charmed the orb all summer — but Atlanta is where fairytales meet the world champions. Güler will score against his idol's heirs, a goal he'll tell grandchildren about. The rest is Messi: a free kick, an assist conjured from dead air, and the machine of Lusail rolling into a fifth straight quarter-final.",
-   "keyFactor": "Argentina's settled core against knockout debutants — class gaps widen in July",
+   "predAway": "Egypt",
+   "predictedScore": "2-1",
+   "confidence": 56,
+   "reading": "Atlanta's domed cathedral hosts the world champions against Salah's precision Egypt — the Pharaohs whose disciplined block denied Belgium a point in the group stage and forced Australia's 5-4-1 fortress into a single Irankunda burst before Salah's counter-punch wrote Egypt's R32 chapter in Dallas. Argentina rotated June 27 against Jordan's farewell; Messi's cameo appearance was a deliberate declaration that the champion's body elects which matches receive their full engine. Mac Allister and Álvarez return at full intensity — Egypt's low block is precisely the defensive structure Argentina's vertical press dismantles inside twenty minutes when the world champions arrive assembled. Salah will find one moment because Salah always finds one moment in the matches that demand it from his particular pride and quality: that Pharaoh arrow is the variable that keeps the scoreboard honest past the hour. But two Argentine goals through the Messi-Álvarez axis and the champion's tournament nerve — six consecutive years of knockout-stage experience working against Egypt's first appearance in this format — confirm Atlanta as the night Argentina advances and Salah's extraordinary campaign ends with the honour it deserves.",
+   "keyFactor": "Argentina's full-strength Messi-Álvarez return after June 27 rotation vs Salah's clinical counter-attack quality — Egypt's defensive block held Belgium and Australia; champion's vertical press is a different instrument at a different level",
    "played": false
   },
   {
@@ -2657,12 +2663,12 @@
    "venue": "BC Place, Vancouver",
    "homeSlot": "Winner R32-13",
    "awaySlot": "Winner R32-15",
-   "predHome": "Ivory Coast",
+   "predHome": "Switzerland",
    "predAway": "Colombia",
-   "predictedScore": "1-2",
+   "predictedScore": "2-1",
    "confidence": 46,
-   "reading": "Vancouver hosts the most athletic quarter-final preview in the draw: Ivory Coast's Pépé-Adingra lightning against Colombia's Díaz-Campaz pace, two sides built for the same kind of explosive vertical football but wearing different shirts. Pépé scores early and BC Place believes in chaos — Ivory Coast's 90th-minute counter-punch temperament is tournament-proven. But Colombia bring six points from two group-stage wins and the composure of a side that has not yet conceded a group-stage goal; Díaz strikes twice from angles the Elephants' back line could not close in time. Colombia march on; the Elephants exit with their heads raised as high as any African side at these finals.",
-   "keyFactor": "Colombia's six-point group-stage form and Díaz's pace vs Ivory Coast's Pépé-Adingra transition threat — South America's composure against Africa's explosive energy",
+   "reading": "BC Place hosts Switzerland — who won this exact stadium in their R32 demolition of Algeria — against Colombia's most complete knockout-ready machine: Díaz-Campaz pace, seven group-stage points and not one open-play goal conceded across three competitive group matches. Xhaka's 145-cap positional intelligence is the Nati's most reliable midfield anchor against the high-tempo pressing Colombia will apply across ninety minutes; Kobel's gloves, which absorbed Algeria's Maza free kick and held the summit win over Canada, now face Díaz arriving at peak tournament confidence for the first time this tournament. Switzerland's record in tight single-elimination formats is the oracle's most concrete analytical hook: Yakin's side win close knockout matches because Akanji's positional certainty and Xhaka's diagonal create a structure that never capitulates under late pressure. But Colombia carry South America's deepest resolve — Díaz has not yet needed his best thirty minutes this tournament, and BC Place will demand the full version for the first time. One Colombian strike from Campaz's diagonal makes BC Place hold its breath; two Swiss goals from Ndoye's wide channel and Aebischer's late arrival settle the question before Colombia's closing momentum can replicate the Ghana counter. Seven-point Swiss certainty through the Nati's controlled efficiency is the glass's honest and narrow verdict.",
+   "keyFactor": "Switzerland's tight-knockout format record and Kobel's gloves vs Colombia's Díaz-Campaz pace and seven-point authority — Xhaka's 145-cap positional control against the tournament's most complete South American qualifier",
    "played": false
   },
   {
