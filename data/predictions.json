@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-06-28",
+  "updated": "2026-06-29",
   "tournament": "FIFA World Cup 2026",
   "format": "The 2026 FIFA World Cup, co-hosted by the United States, Mexico and Canada from June 11 to July 19, 2026, features 48 teams split into 12 groups of four (A-L) playing a single round-robin group stage. The 12 group winners, 12 runners-up and the 8 best third-placed teams (32 teams total) advance to a new Round of 32, followed by a Round of 16, quarter-finals, semi-finals, a third-place play-off and the final, for 104 matches in all across 16 stadiums. Knockout ties go to 30 minutes of extra time and then penalties if level. The final is at MetLife Stadium, East Rutherford (New York/New Jersey) on July 19, 2026.",
   "thirdPlaceRule": "The 12 third-placed teams are ranked by points, goal difference, goals scored, fair play points, then lots; the top 8 advance. Their assignment to specific Round-of-32 matches depends on which groups the 8 best thirds come from, per the official allocation table (Annex C of the FIFA regulations)."
@@ -949,7 +949,7 @@
     "South Korea",
     "Czech Republic"
    ],
-   "groupReading": "The Azteca's mountain oracle spoke twice and Mexico heard it both times — six points from two wins makes El Tri the tournament's first qualifiers, their thin-air home advantage transforming every page of the group. The crystal's second chapter fulfilled: South Korea's swift spirits hold three points and need only a draw in Monterrey to advance. The Czechs and Bafana share a single point apiece after Schick's flame found its wall in Atlanta — the June 24 finale is the last gate for either to slip through as a best-third pilgrim. The order likely holds; only a dramatic southern night rewrites it."
+   "groupReading": "Mexico swept Group A's final accounting in the Azteca's thin air with a 3-0 victory over a Czech Republic that Giménez, Charly Rodríguez and the rotation squad made feel entirely futile — nine points, six goals conceded to none in the group's three Azteca matches, the group stage's most complete performance by a first-seeded side. In Monterrey, the arithmetic delivered Bafana one essential mission and Hugo Broos's side completed it: a single goal against South Korea confirmed South Africa as Group A runners-up for the first time in their history. Czech Republic depart with one point; South Korea exit in third (3 pts), the draw-arithmetic that once promised Monterrey passage never enough once South Africa found their goal. Group A final: Mexico (1st, 9 pts, GD +6), South Africa (2nd, 4 pts, GD -1), South Korea (3rd, 3 pts, GD -1), Czech Republic (4th, 1 pt, GD -4). The Azteca mountain roared all summer; Bafana advance as the tournament's most deserved second-place story."
   },
   {
    "group": "B",
@@ -959,7 +959,7 @@
     "Bosnia and Herzegovina",
     "Qatar"
    ],
-   "groupReading": "The glass was remade twice on June 18: Switzerland's four substitute goals in the final twenty minutes swept Bosnia aside 4-1, and Canada's 6-0 destruction of Qatar wrote history in Vancouver — Jonathan David's hat-trick, Larin's return and Ismaël Koné's fractured leg all woven into Canada's first-ever men's World Cup win in the same extraordinary evening. Both sides now hold four points; Bosnia and Qatar share one apiece and are eliminated. The June 24 summit at BC Place decides only the order, not the passage — Xhaka's final group-stage chapter against Marsch's now-believing Canada. The red and white, once the tournament's longest-suffering, have found their voice."
+   "groupReading": "The BC Place summit gave Swiss efficiency its final verse. Xhaka's 145-cap authority and a first half that Canada's Koné-depleted midfield could not match sealed a 2-1 Swiss victory, confirming the Nati as Group B winners on seven points; Yakin's side end the group stage without losing a match and with a substitute bench that scored four goals in twenty minutes against Bosnia. Canada advance in second place (four points) with a +5 goal difference that the 6-0 Qatar demolition made irreversibly emphatic — the Red and White's goal-difference cushion easily absorbs the single-goal BC Place defeat. In Seattle, Bosnia's 3-1 pride win over Qatar gave Džeko's generation one final World Cup roar but no passage — Canada's GD advantage is uncatchable. Group B final: Switzerland (1st, 7 pts, GD +4), Canada (2nd, 4 pts, GD +5), Bosnia and Herzegovina (3rd, 4 pts, GD -1), Qatar (4th, 1 pt, GD -8). The Maple Storm and the Nati advance together to the Round of 32; the men's long wait is over."
   },
   {
    "group": "C",
@@ -969,7 +969,7 @@
     "Scotland",
     "Haiti"
    ],
-   "groupReading": "The crystal rewrote Group C's second chapter exactly as foretold — but the arithmetic still breathes Scottish fire. Brazil throttled Haiti 3-0 in Philadelphia (Cunha's brace and Vinícius's strike, still without Neymar's calf), and Morocco's Saibari struck after just 70 seconds in Foxborough to deny the Tartan Army with the fastest World Cup goal since Alphonso Davies in 2022. The standings now show Brazil 1st on goal difference (GD +3) and Morocco 2nd (GD +1), both on 4 points; Scotland 3rd on 3 points, still alive but needing a FULL WIN against Brazil in Miami on June 24 — a draw is not enough. Morocco face Haiti and need only avoid defeat to advance, whatever Scotland do. Haiti's pilgrimage ends in the Atlanta farewell. The oracle sees the giants sealing their passage; the tartan flame burns one night longer, knowing the mountain ahead."
+   "groupReading": "Brazil and Morocco swept Group C's final evening with the authority the crystal foresaw. Ancelotti's Seleção dismantled Scotland 3-0 in Miami — Clarke's side needing a win but never truly finding the belief to chase it under Vinícius's and Cunha's relentless pressure; Saibari's precision and Hakimi's motorway then carved Haiti apart 4-2 in Atlanta as Morocco confirmed their own passage with the tournament's most emphatic Group C scoreline. Both giants advance to the Round of 32 on seven points, Brazil first on goal difference (+6 to Morocco's +3). Scotland exit with three points and McGinn's first-group-stage goal against Haiti as their one moment of tournament history; Haiti depart with two goals from the farewell and the dignity of a nation whose pilgrimage was always about more than points. Group C final: Brazil (1st, 7 pts, GD +6), Morocco (2nd, 7 pts, GD +3), Scotland (3rd, 3 pts, GD -3), Haiti (4th, 0 pts, GD -6). Two of the tournament's most dangerous attacking sides advance together — the oracle watches their approaching paths with genuine anticipation."
   },
   {
    "group": "D",
@@ -2301,7 +2301,10 @@
    "confidence": 44,
    "reading": "SoFi Stadium witnesses the tournament's most improbable collision of firsts: Bafana Bafana — who carried their group-stage weight through Guadalajara and Monterrey's furnace, the 1-0 win over South Korea confirming their disciplined block can stun higher-ranked sides — face Canada's men making their own history in their first knockout stage appearance. The orb sees South Africa's compact four-man block, the same disciplined wall that held Czech Republic to a 1-1 draw and broke South Korean hearts with a single late goal, holding bravely for sixty minutes under the Californian sky. But Jonathan David's movement between the lines and Alphonso Davies' motorway on the left are different instruments to anything Bafana faced in the groups — the 6-0 dismantling of Qatar proved the Maplepressing machine has found its tournament rhythm. The captain's diagonal run opens the evening; David's clinical finish seals it four minutes from time. Bafana depart SoFi as the tournament's most dignified group-stage second-place story.",
    "keyFactor": "Canada's Jonathan David and Davies-class individual quality and 6-0 Qatar momentum vs South Africa's disciplined block that won 1-0 against South Korea — Bafana's first knockout World Cup appearance meets a Canadian press operating at tournament peak",
-   "played": false
+   "played": true,
+   "actualScore": "0-1",
+   "home": "South Africa",
+   "away": "Canada"
   },
   {
    "id": "R32-2",
@@ -2346,9 +2349,9 @@
    "predHome": "Brazil",
    "predAway": "Japan",
    "predictedScore": "2-1",
-   "confidence": 52,
-   "reading": "The Samurai press has felled empires before — but the empire they meet in Houston is not the Brazil that arrived worried. Vinícius scored four times in the group stage, matching Haaland and Mbappé at the top of the golden-boot table; Brazil won all three matches, scored seven, and conceded once in a Morocco set piece. Japan arrive equally dangerous: a 4-0 dismantling of Tunisia in MD2 confirmed their press-and-transition machinery is running at peak efficiency. The orb sees the opening thirty minutes as the finest football played so far — Japan's high press forcing one moment of Seleção panic before the canary gold settles. Vinícius conjures the first from nothing; a second arrives from width. Japan's one reply from a devastating transition is the moment the night remembers.",
-   "keyFactor": "Vinícius's four-goal group form and Brazil's settled attacking identity vs Japan's high-press machinery that dismantled Tunisia 4-0",
+   "confidence": 55,
+   "reading": "The Samurai press has felled empires before — but the empire they meet in Houston carries a settled confidence the Morocco stalemate on matchday one never suggested it would find. Vinícius scored four times in the group stage and Brazil won all three matches; Ancelotti's shape hardened around Cunha's relentless movement and Casemiro's recovering positional discipline. Japan must now execute without Kubo — the Real Sociedad blade whose diagonal runs from the right were the sharpest instrument in Moriyasu's attacking toolkit. His tournament ends here, deepening the width problem Japan already carry without Mitoma and Minamino; three attacking absences reduce the Samurai's counter-attack to Kamada's individual brilliance and the collective pressing that cannot be switched off but can be contained against Brazil's experienced back line. Suzuki's gloves are world class and the Samurai's pressing triggers will force one moment of Seleção panic before the hour; Vinícius settles the first question from nothing, Raphinha's width finds the second. Japan's one reply from a transition Kamada manufactures from thin air gives Houston's night its defining final note — but not the equaliser that would need two or three more Kubos to manufacture.",
+   "keyFactor": "Vinícius's four-goal group form and Brazil's settled identity vs Japan's pressing system depleted of Kubo, Mitoma and Minamino — the Samurai's collective engine intact, their wide attacking threat the most significantly reduced it has been in this tournament",
    "played": false
   },
   {
