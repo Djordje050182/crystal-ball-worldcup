@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-06-29",
+  "updated": "2026-06-30",
   "tournament": "FIFA World Cup 2026",
   "format": "The 2026 FIFA World Cup, co-hosted by the United States, Mexico and Canada from June 11 to July 19, 2026, features 48 teams split into 12 groups of four (A-L) playing a single round-robin group stage. The 12 group winners, 12 runners-up and the 8 best third-placed teams (32 teams total) advance to a new Round of 32, followed by a Round of 16, quarter-finals, semi-finals, a third-place play-off and the final, for 104 matches in all across 16 stadiums. Knockout ties go to 30 minutes of extra time and then penalties if level. The final is at MetLife Stadium, East Rutherford (New York/New Jersey) on July 19, 2026.",
   "thirdPlaceRule": "The 12 third-placed teams are ranked by points, goal difference, goals scored, fair play points, then lots; the top 8 advance. Their assignment to specific Round-of-32 matches depends on which groups the 8 best thirds come from, per the official allocation table (Annex C of the FIFA regulations)."
@@ -2320,7 +2320,10 @@
    "confidence": 55,
    "reading": "Foxborough now hosts the tournament's most unexpected second act — the seven-goal machine arriving from its one act of hubris against Ecuador's belief, and Paraguay, the compact defensive wall that ended Turkey's golden generation with Galarza's second-minute strike in Santa Clara. Die Mannschaft carry the wound and the fury of Plata's 77th-minute shock but the rotation squad Nagelsmann deployed against Ecuador was already half its true face — the full XI that dismantled Curaçao 7-1 and outclassed Ivory Coast 2-1 reassembles now. Almirón's right channel and Galarza's counter-punch timing will earn Paraguay one legitimate moment in sixty minutes; two German strikes confirm the pass that Ecuador's belief briefly interrupted. The back line question exposed by Plata will face a sterner examination in the round of 16, but Paraguay are not the answer to it.",
    "keyFactor": "Germany's full XI reassembling after the Ecuador rotation shock vs Paraguay's tournament-proven defensive block and Galarza's proven trigger instinct — the Guaraní earned four points from Group D's impossible arithmetic",
-   "played": false
+   "played": true,
+   "actualScore": "1-1",
+   "home": "Germany",
+   "away": "Paraguay"
   },
   {
    "id": "R32-3",
@@ -2336,7 +2339,10 @@
    "confidence": 50,
    "reading": "Netherlands arrive in Monterrey carrying the tournament's most convincing group-stage swing: from a shock 88th-minute equaliser in MD1 to a 5-1 demolition of Sweden in Houston, Brobbey and Gakpo's doubles proving the attack without Simons and Frimpong is not a reduced instrument but a different one. Morocco, who held Brazil to a draw on MD1 with Saibari's early strikes, have Hakimi's motorway and Brahim Díaz's left foot — the Atlas lions' counter-attack is built exactly for teams that come at them. The orb sees Morocco's compressed block surviving the Dutch possession for an hour before Gakpo's hunting ground opens and Van Dijk's towering authority in the air settles the set piece. One Saibari moment at a corner breathes Moroccan fire late; the orange tide holds.",
    "keyFactor": "Netherlands' confirmed 5-1 firepower vs Morocco's Hakimi counter-attack and Saibari's proven goal-threat — no longer a fine-margin tie but the Dutch are significantly more dangerous than the original reading foresaw",
-   "played": false
+   "played": true,
+   "actualScore": "1-1",
+   "home": "Netherlands",
+   "away": "Morocco"
   },
   {
    "id": "R32-4",
@@ -2352,7 +2358,10 @@
    "confidence": 55,
    "reading": "The Samurai press has felled empires before — but the empire they meet in Houston carries a settled confidence the Morocco stalemate on matchday one never suggested it would find. Vinícius scored four times in the group stage and Brazil won all three matches; Ancelotti's shape hardened around Cunha's relentless movement and Casemiro's recovering positional discipline. Japan must now execute without Kubo — the Real Sociedad blade whose diagonal runs from the right were the sharpest instrument in Moriyasu's attacking toolkit. His tournament ends here, deepening the width problem Japan already carry without Mitoma and Minamino; three attacking absences reduce the Samurai's counter-attack to Kamada's individual brilliance and the collective pressing that cannot be switched off but can be contained against Brazil's experienced back line. Suzuki's gloves are world class and the Samurai's pressing triggers will force one moment of Seleção panic before the hour; Vinícius settles the first question from nothing, Raphinha's width finds the second. Japan's one reply from a transition Kamada manufactures from thin air gives Houston's night its defining final note — but not the equaliser that would need two or three more Kubos to manufacture.",
    "keyFactor": "Vinícius's four-goal group form and Brazil's settled identity vs Japan's pressing system depleted of Kubo, Mitoma and Minamino — the Samurai's collective engine intact, their wide attacking threat the most significantly reduced it has been in this tournament",
-   "played": false
+   "played": true,
+   "actualScore": "2-1",
+   "home": "Brazil",
+   "away": "Japan"
   },
   {
    "id": "R32-5",
@@ -2554,12 +2563,12 @@
    "venue": "Lincoln Financial Field, Philadelphia",
    "homeSlot": "Winner R32-2",
    "awaySlot": "Winner R32-5",
-   "predHome": "Germany",
+   "predHome": "Paraguay",
    "predAway": "France",
-   "predictedScore": "1-2",
-   "confidence": 48,
-   "reading": "Philadelphia hosts royalty: the two old empires of Europe, eleven matches too early. Musiala and Wirtz will make it noble — the orb shows a Wirtz equaliser and an hour of genuine terror for France. But Deschamps' farewell machine does not lose coin-flips; Mbappé's second, in the 78th, is the kind of goal four World Cups are built on.",
-   "keyFactor": "France's tournament pragmatism in the moments that decide coin-flip ties",
+   "predictedScore": "1-3",
+   "confidence": 62,
+   "reading": "Philadelphia's sealed dome hosts the tournament's most unexpected pairing: the giant-killers of Foxborough — Paraguay, whose Orlando Gill saved two German penalties and José Canale's nerve completed the greatest bracket shock in a generation, ending Die Mannschaft's World Cup at the first knockout gate with Orlando Gill's gloves writing one of sport's finest individual performances — against Deschamps' farewell machine, ten goals from nine group-stage points, Dembélé's hat-trick against Norway the defining image of the tournament's first week. Paraguay's compact 4-4-2 and Galarza's counter-punch timing held Germany's full creative force — Wirtz, Musiala, Havertz — to a single equalising header across 120 minutes; those instruments are real and scarred and tournament-hardened. But Mbappé and Dembélé are a different category of attacker to Wirtz's beautiful chaos, faster and more clinical, and France's press is built to collapse exactly the defensive structure Paraguay's Guaraní block depends on. Galarza will find one counter-punch moment from the right channel in front of a Philadelphia night that remembers what Foxborough just gave the sport; the result is in the hands of the Ballon d'Or's proprietor.",
+   "keyFactor": "Paraguay's Orlando Gill penalty heroics and Enciso-Galarza block discipline vs France's Dembélé-Mbappé axis at Philadelphia — history's greatest bracket shock meets the tournament's most dangerous attack",
    "played": false
   },
   {
@@ -2571,11 +2580,11 @@
    "homeSlot": "Winner R32-1",
    "awaySlot": "Winner R32-3",
    "predHome": "Canada",
-   "predAway": "Netherlands",
+   "predAway": "Morocco",
    "predictedScore": "1-2",
-   "confidence": 46,
-   "reading": "Houston's roof shelters the tournament's most compelling first-week redemption arc: Canada, whose 6-0 destruction of Qatar and summit win over Switzerland carry the emotional energy of a nation's first-ever men's knockout appearance, against the Dutch who arrived without Simons and Frimpong and have since ended those doubts emphatically — 5-1 against Sweden, 3-1 against Tunisia, and Morocco defeated in the round of 32. Jonathan David's movement between the lines is precisely the instrument that Brobbey and Gakpo exploit from the other side — two sides built around the same electric vertical transition now facing each other in knockout heat. Van Dijk's aerial authority and Gakpo's wider field of threat tip the balance before the final ten minutes; Davies' motorway and one David diagonal earn one goal that makes Houston remember Canada's knockout debut as the night's honest near-miss. The Dutch prevail; Marsch's men exit with the highest standing any Canadian men's side has held at a World Cup.",
-   "keyFactor": "Netherlands' Van Dijk-Gakpo axis and confirmed attacking firepower (5-1 vs Sweden) vs Canada's Jonathan David and Davies' left channel — the 6-0 Qatar rout proved Canada's quality is real; this opponent is a different grade entirely",
+   "confidence": 47,
+   "reading": "Houston's sealed arena holds the tournament's most compelling bracket collision: Canada — who edged South Africa 1-0 in SoFi with the disciplined counter-attack that Jonathan David's movement between the lines always threatened — against Morocco, who have now eliminated Netherlands on penalties with the Hakimi motorway and Bono's gloves that make them Africa's most dangerous side since their own 2022 semi-final run. The Atlas Lions absorbed Dutch possession for 120 minutes and then held their nerve across five penalty kicks: that resilience, calibrated in knockout heat, arrives in Houston carrying the emotional weight of a nation that already knows what it means to eliminate Europeans. But Canada's Maplepressing machine — Davies' motorway on the left against Hakimi's on the right, two of the best attacking full-backs alive running at the same moment in opposite directions — is the fixture's defining tactical question, and Jonathan David's movement between Morocco's back four will find one moment the block cannot close. Morocco's Saibari sub-pattern and the collective counter-attacking speed of the Atlas Lions are a different grade to South Africa, however, and one Moroccan strike from Hakimi's diagonal settles it before David can replicate his R32 moment in Houston's humid interior.",
+   "keyFactor": "Morocco's Hakimi counter-attack and penalty-battle resilience vs Canada's Jonathan David and Davies' left motorway — the two most dangerous attacking full-backs in the tournament meeting at NRG Stadium",
    "played": false
   },
   {
@@ -2683,11 +2692,11 @@
    "homeSlot": "Winner R16-1",
    "awaySlot": "Winner R16-2",
    "predHome": "France",
-   "predAway": "Netherlands",
-   "predictedScore": "2-0",
-   "confidence": 56,
-   "reading": "Foxborough hosts a rematch of Euro qualifying's old rhythm: the Dutch, patched and proud, against the tournament's most complete predator. The orb shows Van Dijk heroic for an hour — then Dembélé, the Ballon d'Or carrying its own gravity, bends the night. Mbappé's second from the spot. Deschamps' farewell reaches a fourth consecutive semi-final; the Dutch curse holds.",
-   "keyFactor": "Netherlands' depleted depth finally runs out against France's bench",
+   "predAway": "Morocco",
+   "predictedScore": "2-1",
+   "confidence": 54,
+   "reading": "Foxborough hosts the match that 2022's semi-final wrote as an IOU: Morocco — whose Hakimi motorway and Bono's gloves have now eliminated Netherlands and, in the oracle's glass, Canada — against France's farewell machine, nine group-stage points and ten goals, Dembélé's hat-trick the tournament's permanent defining image. The Atlas Lions' counter-attack is built exactly for the transitions that French attacking pressure leaves at the back — Hakimi can threaten any left back alive, and Saibari's late-game sub-pattern has already proved the Moroccan bench carries real quality. But Deschamps does not lose quarter-finals to organised counter-attacking defences he has had two weeks to study: Tchouaméni's positional certainty and Saliba's aerial authority are the defensive floor France's attack rests on. Morocco will find one moment — the Hakimi diagonal that opens in the second half's seventh minute, when France have pushed too high — and Foxborough will briefly believe. Mbappé's answer, in the 73rd, is the kind of goal four World Cups are built to contain. France reach the semi-final; Morocco depart with their second immortal World Cup summer.",
+   "keyFactor": "France's Dembélé-Mbappé axis vs Morocco's Hakimi-Bono penalty-hardened belief — Africa's 2022 semi-finalists meet the tournament's deepest attack in a Foxborough quarter-final",
    "played": false
   },
   {

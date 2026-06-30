@@ -71,5 +71,8 @@
   {"matchNo": 70, "score": "1-3"},
   {"matchNo": 71, "score": "0-0"},
   {"matchNo": 72, "score": "3-1"},
-  {"id": "R32-1", "score": "0-1", "home": "South Africa", "away": "Canada"}
+  {"id": "R32-1", "score": "0-1", "home": "South Africa", "away": "Canada"},
+  {"id": "R32-2", "score": "1-1", "home": "Germany", "away": "Paraguay"},
+  {"id": "R32-3", "score": "1-1", "home": "Netherlands", "away": "Morocco"},
+  {"id": "R32-4", "score": "2-1", "home": "Brazil", "away": "Japan"}
 ]
