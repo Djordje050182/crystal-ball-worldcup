@@ -30,6 +30,11 @@ predictions world-class and current, and grade played matches.
    reflect the real qualified teams, and re-write those readings with real matchup analysis.
    Update `predictedOrder` in the group files to match the final real standings.
 
+4b. **Kickoff times**: every knockout entry in `data/raw-bracket.json` carries a `kickoffUTC`
+   ISO timestamp (e.g. `"2026-07-19T19:00:00Z"`). The site uses it to show "On now" status and
+   local kick-off times, so preserve these fields, and if FIFA moves a kickoff, correct the
+   affected `kickoffUTC` (verify against FIFA.com — convert venue-local to UTC carefully).
+
 5. **Rebuild**: `python3 scripts/build_data.py` (updates `data/predictions.json` and stamps today's date).
 
 6. **Commit and push** to `main` with message `daily oracle update YYYY-MM-DD`.

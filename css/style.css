@@ -560,3 +560,52 @@ body {
 @media (max-width: 360px) {
   .nav-btn { font-size: 10px; letter-spacing: .5px; }
 }
+
+/* --- live status, countdowns & search --- */
+.live-chip {
+  display: inline-flex; align-items: center; gap: 6px;
+  font-family: var(--font-cond); font-weight: 600; font-size: 10.5px;
+  letter-spacing: 2px; text-transform: uppercase; color: #fff;
+  background: var(--red-bright); border-radius: 3px; padding: 2px 8px 1px;
+}
+.live-chip i {
+  width: 6px; height: 6px; border-radius: 50%; background: #fff;
+  animation: livePulse 1.2s ease-in-out infinite;
+}
+@keyframes livePulse { 0%, 100% { opacity: 1; } 50% { opacity: .25; } }
+.match-card.live {
+  border-color: rgba(232, 37, 63, .65);
+  box-shadow: 0 0 20px rgba(232, 37, 63, .28), 0 4px 18px rgba(3, 7, 30, .45);
+}
+.await-chip {
+  font-family: var(--font-cond); font-weight: 600; font-size: 10px;
+  letter-spacing: 1.5px; text-transform: uppercase; color: var(--gold);
+  background: rgba(255, 215, 106, .14); border-radius: 3px; padding: 2px 8px 1px;
+}
+
+.search-wrap {
+  position: relative; margin: 6px 0 10px;
+}
+.search-ico {
+  position: absolute; left: 13px; top: 50%; transform: translateY(-52%);
+  color: var(--faint); font-size: 18px; pointer-events: none;
+}
+#teamSearch {
+  width: 100%; box-sizing: border-box;
+  background: rgba(5, 12, 51, .55); color: var(--ivory);
+  border: 1px solid var(--line); border-radius: 50px;
+  padding: 11px 16px 10px 38px;
+  font-family: var(--font-body); font-size: 15px;
+}
+#teamSearch::placeholder { color: var(--faint); font-style: italic; }
+#teamSearch:focus { outline: none; border-color: var(--gold); box-shadow: 0 0 12px rgba(255, 215, 106, .25); }
+#teamSearch::-webkit-search-cancel-button { -webkit-appearance: none; height: 14px; width: 14px; background: var(--faint); -webkit-mask: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><path d='M2 2l12 12M14 2L2 14' stroke='black' stroke-width='2.5'/></svg>") center/contain no-repeat; cursor: pointer; }
+.chips.dimmed { opacity: .35; pointer-events: none; }
+.fx-count { font-style: italic; font-size: 13px; color: var(--dim); margin: 4px 2px 12px; }
+
+.date-divider.now { color: var(--gold); scroll-margin-top: 12px; }
+.date-divider.now::after { border-color: rgba(255, 215, 106, .4); }
+.now-pill {
+  font-size: 9.5px; letter-spacing: 1.5px; color: #3a2c00;
+  background: var(--gold); border-radius: 3px; padding: 2px 7px 1px;
+}

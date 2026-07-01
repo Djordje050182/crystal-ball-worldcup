@@ -10,6 +10,7 @@ const LS_LEDGER = "cb_ledger_v1";
 let DATA = null;
 let currentView = "today";
 let fixtureFilter = "all";
+let searchQuery = "";
 let bracketMode = "oracle"; // 'oracle' | 'you'
 
 const picks = load(LS_PICKS, {});       // { matchId: [h, a] }
@@ -39,10 +40,6 @@ function flag(teamName) {
 }
 
 /* ---------- dates ---------- */
-function todayStr() {
-  const d = new Date();
-  return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}-${String(d.getDate()).padStart(2, "0")}`;
-}
 function fmtDate(iso) {
   if (!iso) return "TBC";
   const [y, m, d] = iso.split("-").map(Number);
@@ -51,6 +48,61 @@ function fmtDate(iso) {
 }
 const STAGE_LABEL = { GROUP: g => `Group ${g}`, R32: () => "Round of 32", R16: () => "Round of 16", QF: () => "Quarter-final", SF: () => "Semi-final", "3RD": () => "Third place", FINAL: () => "🏆 THE FINAL" };
 function stageLabel(m) { return (STAGE_LABEL[m.stage] || (() => m.stage))(m.group); }
+
+/* ---------- kickoff & live state (times shown in the viewer's own timezone) ---------- */
+const LIVE_WINDOW_MS = 3 * 60 * 60 * 1000; // knockout can run to extra time + pens
+function kickoffDate(m) { return m.kickoffUTC ? new Date(m.kickoffUTC) : null; }
+function sortTime(m) {
+  const k = kickoffDate(m);
+  return k ? k.getTime() : new Date(`${m.date || "2099-12-31"}T12:00:00Z`).getTime();
+}
+function matchState(m) {
+  if (m.played && m.actualScore) return "ft";
+  const k = kickoffDate(m);
+  if (!k) return "pre";
+  const since = Date.now() - k.getTime();
+  if (since >= 0 && since < LIVE_WINDOW_MS) return "live";
+  if (since >= LIVE_WINDOW_MS) return "await"; // finished, result lands at the orb's next polish
+  return "pre";
+}
+function fmtKickLocal(m) {
+  const k = kickoffDate(m);
+  if (!k) return fmtDate(m.date) + (m.time ? " · " + m.time : "");
+  const ds = k.toLocaleDateString("en-GB", { weekday: "short", day: "numeric", month: "short" });
+  const ts = k.toLocaleTimeString(undefined, { hour: "numeric", minute: "2-digit", timeZoneName: "short" });
+  return `${ds} · ${ts}`;
+}
+function localDayKey(m) {
+  const k = kickoffDate(m);
+  if (!k) return m.date || "9999-12-31";
+  return `${k.getFullYear()}-${String(k.getMonth() + 1).padStart(2, "0")}-${String(k.getDate()).padStart(2, "0")}`;
+}
+function localDayLabel(m) {
+  const key = localDayKey(m);
+  const rel = key === dayKeyOffset(0) ? "Today · " : key === dayKeyOffset(1) ? "Tomorrow · " : "";
+  return rel + fmtDate(key);
+}
+function dayKeyOffset(days) {
+  const d = new Date(); d.setDate(d.getDate() + days);
+  return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}-${String(d.getDate()).padStart(2, "0")}`;
+}
+function countdownLabel(m) {
+  const k = kickoffDate(m);
+  if (!k) return "";
+  const mins = Math.round((k.getTime() - Date.now()) / 60000);
+  if (mins <= 0) return "";
+  if (mins < 60) return `kicks off in ${mins}m`;
+  const h = Math.floor(mins / 60);
+  if (h < 24) return `kicks off in ${h}h ${mins % 60}m`;
+  const d = Math.round(h / 24);
+  return `${d} day${d === 1 ? "" : "s"} away`;
+}
+function statusChip(m) {
+  const st = matchState(m);
+  if (st === "live") return `<span class="live-chip"><i></i>On now</span>`;
+  if (st === "await") return `<span class="await-chip">FT · result at next polish</span>`;
+  return "";
+}
 
 /* ---------- scoring ---------- */
 function parseScore(s) {
@@ -130,12 +182,14 @@ function matchCard(m, opts = {}) {
     </div>` : (userPick ? `<div class="verdict-row"><span class="verdict result">Your call: ${userPick[0]}–${userPick[1]}</span></div>` : "");
   const predNote = act ? `<div class="key-factor"><span class="kf-ico">Foreseen</span><span>The orb called <strong>${esc(m.predictedScore)}</strong> at ${m.confidence}% certainty</span></div>` : "";
 
+  const st = matchState(m);
+  const metaRight = st === "live" || st === "await" ? statusChip(m) : `<span>${esc(fmtKickLocal(m))}</span>`;
   return `
-  <article class="match-card ${m.played ? "played" : ""}" data-mid="${esc(m.id)}">
+  <article class="match-card ${m.played ? "played" : ""} ${st === "live" ? "live" : ""}" data-mid="${esc(m.id)}">
     <button class="match-head" data-expand="${esc(m.id)}">
       <div class="match-meta">
         <span class="stage-tag">${esc(stageLabel(m))}</span>
-        <span>${esc(fmtDate(m.date))}${m.time ? " · " + esc(m.time) : ""}</span>
+        ${metaRight}
       </div>
       <div class="match-row">
         ${teamCell(home, "home", m.homeSlot)}
@@ -181,43 +235,85 @@ const sealMsg = "Prophecy locked in";
 
 /* ---------- views ---------- */
 function renderToday() {
-  const t = todayStr();
-  const todays = DATA.matches.filter(m => m.date === t);
-  const played = DATA.matches.filter(m => m.played && m.actualScore && m.date < t).sort((a, b) => b.date.localeCompare(a.date)).slice(0, 6);
-  const upcoming = DATA.matches.filter(m => m.date > t && !m.played).sort((a, b) => a.date.localeCompare(b.date)).slice(0, 4);
+  const byKick = (a, b) => sortTime(a) - sortTime(b) || (a.matchNo || 0) - (b.matchNo || 0);
+  const live = DATA.matches.filter(m => matchState(m) === "live").sort(byKick);
+  const awaiting = DATA.matches.filter(m => matchState(m) === "await").sort(byKick);
+  const upcoming = DATA.matches.filter(m => matchState(m) === "pre" && !m.played).sort(byKick).slice(0, 8);
+  const recent = DATA.matches.filter(m => m.played && m.actualScore).sort((a, b) => byKick(b, a)).slice(0, 6);
   let html = "";
-  html += `<h2 class="section-title">The Orb Gazes Upon ${esc(fmtDate(t))}</h2>`;
-  html += todays.length
-    ? todays.map(m => matchCard(m)).join("")
-    : `<div class="empty-note">The mists are quiet today — no matches scheduled.<br>Peer ahead in the Matches tab.</div>`;
-  if (played.length) {
-    html += `<h2 class="section-title">Recent Visions, Judged</h2>`;
-    html += played.map(m => matchCard(m)).join("");
+
+  if (live.length) {
+    html += `<h2 class="section-title">On Now <small>the orb watches live</small></h2>`;
+    html += live.map(m => matchCard(m)).join("");
   }
+
   if (upcoming.length) {
-    html += `<h2 class="section-title">Next in the Mist</h2>`;
-    html += upcoming.map(m => matchCard(m)).join("");
+    const cd = countdownLabel(upcoming[0]);
+    html += `<h2 class="section-title">${live.length ? "Next in the Mist" : "Next Up"} <small>${esc(cd)}</small></h2>`;
+    let lastDay = null;
+    for (const m of upcoming) {
+      const day = localDayKey(m);
+      if (day !== lastDay) { html += `<div class="date-divider">${esc(localDayLabel(m))}</div>`; lastDay = day; }
+      html += matchCard(m);
+    }
   }
-  html += `<div class="updated-chip">Crystal last polished: ${esc(DATA.meta.updated)} · prophecies refresh daily</div>`;
+
+  if (!live.length && !upcoming.length && !awaiting.length) {
+    html += `<div class="empty-note">The mists are quiet — no matches on the horizon.<br>Relive the visions in the Matches tab.</div>`;
+  }
+
+  if (awaiting.length) {
+    html += `<h2 class="section-title">Full Time <small>results land at the next polish</small></h2>`;
+    html += awaiting.map(m => matchCard(m)).join("");
+  }
+
+  if (recent.length) {
+    html += `<h2 class="section-title">Recent Visions, Judged</h2>`;
+    html += recent.map(m => matchCard(m)).join("");
+  }
+
+  html += `<div class="updated-chip">Crystal last polished: ${esc(DATA.meta.updated)} · kick-off times shown in your local time</div>`;
   return html;
 }
 
+function matchesQuery(m, q) {
+  return [m.home, m.away, m.predHome, m.predAway, m.homeSlot, m.awaySlot, m.venue, stageLabel(m)]
+    .some(x => x && String(x).toLowerCase().includes(q));
+}
+function fixtureList() {
+  const q = searchQuery.trim().toLowerCase();
+  let list = DATA.matches;
+  if (q) list = list.filter(m => matchesQuery(m, q));
+  else if (fixtureFilter === "ko") list = list.filter(m => m.stage !== "GROUP");
+  else if (fixtureFilter !== "all") list = list.filter(m => m.group === fixtureFilter);
+  list = [...list].sort((a, b) => sortTime(a) - sortTime(b) || (a.matchNo || 0) - (b.matchNo || 0));
+  let html = q ? `<div class="fx-count">${list.length} match${list.length === 1 ? "" : "es"} in the orb for “${esc(searchQuery.trim())}”</div>` : "";
+  let lastDay = null, anchored = false;
+  for (const m of list) {
+    const day = localDayKey(m);
+    if (day !== lastDay) {
+      const isNow = !anchored && !(m.played && m.actualScore);
+      if (isNow) anchored = true;
+      html += `<div class="date-divider${isNow ? " now" : ""}"${isNow ? ' id="fxNow"' : ""}>${esc(localDayLabel(m))}${isNow && !q ? '<span class="now-pill">Up next</span>' : ""}</div>`;
+      lastDay = day;
+    }
+    html += matchCard(m);
+  }
+  if (!list.length) html += `<div class="empty-note">The orb finds nothing for “${esc(searchQuery.trim())}”.<br>Try a team, a city or a stage.</div>`;
+  return html;
+}
 function renderFixtures() {
   const groups = DATA.groups.map(g => g.group);
   const chips = [["all", "All"], ...groups.map(g => [g, `Grp ${g}`]), ["ko", "Knockout"]];
-  let html = `<div class="chips">${chips.map(([v, l]) =>
-    `<button class="chip ${fixtureFilter === v ? "active" : ""}" data-filter="${v}">${l}</button>`).join("")}</div>`;
-  let list = DATA.matches;
-  if (fixtureFilter === "ko") list = list.filter(m => m.stage !== "GROUP");
-  else if (fixtureFilter !== "all") list = list.filter(m => m.group === fixtureFilter);
-  list = [...list].sort((a, b) => (a.date || "9999").localeCompare(b.date || "9999") || (a.matchNo || 0) - (b.matchNo || 0));
-  let lastDate = null;
-  for (const m of list) {
-    if (m.date !== lastDate) { html += `<div class="date-divider">${esc(fmtDate(m.date))}</div>`; lastDate = m.date; }
-    html += matchCard(m);
-  }
-  if (!list.length) html += `<div class="empty-note">Nothing in the mist for this filter.</div>`;
-  return html;
+  return `
+  <div class="search-wrap">
+    <span class="search-ico">⌕</span>
+    <input id="teamSearch" type="search" placeholder="Find a team — England, Brazil, Australia…"
+      autocomplete="off" autocapitalize="off" spellcheck="false" value="${esc(searchQuery)}">
+  </div>
+  <div class="chips ${searchQuery.trim() ? "dimmed" : ""}">${chips.map(([v, l]) =>
+    `<button class="chip ${fixtureFilter === v ? "active" : ""}" data-filter="${v}">${l}</button>`).join("")}</div>
+  <div id="fxList">${fixtureList()}</div>`;
 }
 
 function renderGroups() {
@@ -552,6 +648,8 @@ document.addEventListener("click", e => {
     document.querySelectorAll(".nav-btn").forEach(b => b.classList.toggle("active", b === nav));
     render();
     window.scrollTo({ top: 0 });
+    // land the fixture list on the current matchday, not June 11
+    if (currentView === "fixtures" && !searchQuery.trim()) $("#fxNow")?.scrollIntoView();
     return;
   }
   const chip = e.target.closest("[data-filter]");
@@ -619,6 +717,21 @@ document.addEventListener("change", e => {
   if (e.target.id === "prophChampion") { prophecy.champion = e.target.value; save(LS_PROPHECY, prophecy); }
   if (e.target.id === "prophBoot") { prophecy.goldenBoot = e.target.value; save(LS_PROPHECY, prophecy); }
 });
+
+document.addEventListener("input", e => {
+  if (e.target.id !== "teamSearch") return;
+  searchQuery = e.target.value;
+  const list = $("#fxList");
+  if (list) list.innerHTML = fixtureList();
+  document.querySelector(".chips")?.classList.toggle("dimmed", !!searchQuery.trim());
+});
+
+// keep live/countdown chips honest on the Now tab (skip while a card is open)
+setInterval(() => {
+  if (!DATA || currentView !== "today") return;
+  if (document.querySelector(".match-card.expanded")) return;
+  render();
+}, 60000);
 
 /* ---------- boot ---------- */
 fetch("data/predictions.json")
