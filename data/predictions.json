@@ -2436,7 +2436,10 @@
    "confidence": 58,
    "reading": "Atlanta's sealed roof gives England their first knockout rehearsal since Turin — Kane on 10 World Cup goals now level with Gary Lineker's England record, Bellingham having erased all doubts against Croatia, and Saka and Gordon ready on the wings after the 2-0 Panama clean sheet widened England's GD cushion. DR Congo arrive as the tournament's most credible debutant story — Wissa's stoppage-time header against Ronaldo's Portugal earned the Leopards permanent respect, and Mpasi's eight saves against Colombia showed a goalkeeper who has found his tournament footing. Yet the Leopards' single knockout win (3-1 over Uzbekistan) came against the group's weakest side, and England's sustained high press is a different instrument entirely. Kane settles the opening question before the hour; Saka's wide channel confirms the passage. Wissa will earn one moment of DR Congo brilliance that Atlanta remembers long after the result is confirmed.",
    "keyFactor": "England's Kane-Bellingham-Saka axis and tournament-hardened spine vs Wissa's Premier League class and DR Congo's historic debut momentum — the Leopards' ceiling was not tested in Group K the way England's press will test it",
-   "played": false
+   "played": true,
+   "actualScore": "2-1",
+   "home": "England",
+   "away": "DR Congo"
   },
   {
    "id": "R32-9",
@@ -2453,7 +2456,10 @@
    "confidence": 51,
    "reading": "Santa Clara's evening air carries the hope of ninety million home fans — and the only threat that the oracle's crystal now confirms is Bosnia's set-piece arsenal: Lukic's deliveries and Džeko's 40-year-old aerial gravity that once headed Canada level in Toronto. Bosnia qualified through four points across three opponents of varying quality, their structure holding against Qatar's collapse and Switzerland's late surge revealing the defensive depth limits once the block breaks. Pochettino's side arrives with six group-stage points and a 4-1 SoFi demolition of Paraguay as the confirmation that Balogun's pressing relays are calibrated for exactly this knockout format. Pulisic's calf is the night's central medical question; Reyna must carry the diagonal if the captain remains precautionary. Džeko finds the near post from Lukic's delivery to earn Bosnia one moment that silences the SoFi faithful — but two American strikes seal the passage, and the tournament's hosts advance to the round of 16.",
    "keyFactor": "USA's six-point group-stage authority and SoFi pressing system vs Bosnia's Lukic-Džeko set-piece axis — Pulisic's calf recovery is the hosts' most consequential medical question heading into the knockout stage",
-   "played": false
+   "played": true,
+   "actualScore": "2-0",
+   "home": "United States",
+   "away": "Bosnia and Herzegovina"
   },
   {
    "id": "R32-10",
@@ -2470,7 +2476,10 @@
    "confidence": 52,
    "reading": "Lumen Field, Seattle, and Belgium — the tournament's great creation crisis finally answered in Vancouver — arrive as Group G champions on the strength of five goals in forty minutes, Trossard's pair and De Bruyne's 66th-minute thunderbolt from outside the box the images that redefined a generation's last dance. Senegal carry the wounds of two losses and the dignity of Mané's goalless group stage — the pride that destroyed Iraq 5-0 in Toronto's farewell was a coda, not a chapter. Pape Matar Sarr's late-game dynamism and Ndiaye's diagonal remain real threats against a Belgian back line that ceded a NZ header; yet Garcia's Red Devils now carry a Vancouver momentum no cautious group stage created. Mané will find one moment from somewhere — he always does when the tournament demands it from his particular pride — but De Bruyne's world-class gravity does not permit exit in the first knockout round of his final chapter. Two Belgian strikes and the wizard of Napoli marches on.",
    "keyFactor": "Belgium's De Bruyne and Trossard finally firing after their Vancouver eruption vs Senegal's Mané searching for his first World Cup goal at 34 — both sides carry authentic motivation; Belgian class and depth settle the question",
-   "played": false
+   "played": true,
+   "actualScore": "3-2",
+   "home": "Belgium",
+   "away": "Senegal"
   },
   {
    "id": "R32-11",
@@ -2638,8 +2647,8 @@
    "predAway": "England",
    "predictedScore": "1-2",
    "confidence": 52,
-   "reading": "The Azteca, the fifth game, ninety million hearts — the orb weeps as it shows this. Mexico will lead; the mountain will shake. But Tuchel's England are built precisely for hostile cathedrals: Rice strangles the midfield, Kane levels with German calm, and a Saka counter in the 84th breaks a nation. El Quinto Partido remains a prophecy unfulfilled.",
-   "keyFactor": "England's structure withstands the occasion; Mexico's creativity runs out first",
+   "reading": "The Azteca, the fifth game, ninety million hearts — the orb weeps as it shows this. Mexico will lead; the mountain will shake. But Tuchel's England are built precisely for hostile cathedrals: Rice strangles the midfield, Kane levels with German calm — the man on 12 World Cup goals needed only the 75th and 86th minutes of Atlanta to turn a 0-1 DR Congo deficit into passage, confirming that late-game nerve is not a promise from England's past but a present reality — and a Saka counter breaks a nation before the final whistle. El Quinto Partido remains a prophecy unfulfilled.",
+   "keyFactor": "Kane's proven late-game clutch (2 goals from 0-1 down vs DR Congo, now 12 WC goals) inside the Azteca roar vs Mexico's home altitude — England's structure withstands where others buckle",
    "played": false
   },
   {
@@ -2671,9 +2680,9 @@
    "predHome": "United States",
    "predAway": "Belgium",
    "predictedScore": "1-2",
-   "confidence": 44,
-   "reading": "Seattle shakes — the hosts one win from a first quarter-final since 1930, against the empire that broke them in 2014. The ghosts return: Pulisic scores where Wondolowski missed, and for an hour the dream is real. But De Bruyne's last dance has one more waltz; his free kick in the 88th, under Lumen's roar, is the cruelest goal of the tournament. Belgium, again.",
-   "keyFactor": "Belgium's big-game scar tissue — they've ended this exact American dream before",
+   "confidence": 47,
+   "reading": "Lumen Field roars for the hosts' first quarter-final in 24 years — but Pochettino arrives with a crucial absence: Folarin Balogun, who opened the scoring against Bosnia before his 64th-minute red card for serious foul play, is suspended, leaving Reyna to carry the creative burden Balogun shouldered through three tournament goals. Belgium arrive in Seattle carrying the weight of 124 extraordinary minutes against Senegal — Tielemans' penalty the latest winning goal in World Cup history — scarred but tournament-tempered in a way no side that has never been past ninety can replicate. Pulisic is the American instrument Belgium most fear on the left channel; McKennie's late surge from deep must replace Balogun's direct running between the lines. De Bruyne's last dance still has its waltz in Seattle; Courtois makes one great save that keeps the match alive until the Belgian precision that survived Senegal's comeback finds the space Balogun's absence leaves unfilled. The American dream burns genuine and bright; the Belgian scar tissue and De Bruyne's remaining chapter are the one currency Pochettino's rebuild cannot counterfeit.",
+   "keyFactor": "Balogun suspended (red card vs Bosnia, 3 WC goals lost) — Reyna and Tillman must replace his clinical threat vs a Belgium side exhausted by 124 minutes of extra time against Senegal but tempered by the tournament's latest winning goal",
    "played": false
   },
   {
