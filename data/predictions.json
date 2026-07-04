@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-07-03",
+  "updated": "2026-07-04",
   "tournament": "FIFA World Cup 2026",
   "format": "The 2026 FIFA World Cup, co-hosted by the United States, Mexico and Canada from June 11 to July 19, 2026, features 48 teams split into 12 groups of four (A-L) playing a single round-robin group stage. The 12 group winners, 12 runners-up and the 8 best third-placed teams (32 teams total) advance to a new Round of 32, followed by a Round of 16, quarter-finals, semi-finals, a third-place play-off and the final, for 104 matches in all across 16 stadiums. Knockout ties go to 30 minutes of extra time and then penalties if level. The final is at MetLife Stadium, East Rutherford (New York/New Jersey) on July 19, 2026.",
   "thirdPlaceRule": "The 12 third-placed teams are ranked by points, goal difference, goals scored, fair play points, then lots; the top 8 advance. Their assignment to specific Round-of-32 matches depends on which groups the 8 best thirds come from, per the official allocation table (Annex C of the FIFA regulations)."
@@ -2556,7 +2556,10 @@
    "confidence": 62,
    "reading": "Hard Rock Stadium, Miami, and the world champions against the tournament's greatest story — Argentina's Messi, record-holder of all World Cup records at 18 goals, against Bubista's Blue Sharks who held Spain's twenty-seven shots, Uruguay's Bielsa press and Saudi Arabia's farewell pride without conceding a single open-play first ball. Vozinha's gloves are the tournament's most extraordinary individual display; they face a different proposition in the Champions of Everything. Messi, Álvarez and the champion's machine sustain sustained creative pressure that even Cape Verde's disciplined block — built for a different tempo than the world champions bring — cannot absorb across ninety minutes. One moment of Blue Shark counter-punch from Hélio Varela's diagonal is the night's great individual flourish; Argentina's class, depth and three-match tournament fire settle it before the hour, and Cape Verde depart Miami as the bracket's most beloved story.",
    "keyFactor": "Argentina's Messi-Álvarez attacking axis and champion's tournament nerve vs Vozinha's gloves and Cape Verde's three-draw defensive resilience — quality ultimately prevails over the tournament's most unlikely hero",
-   "played": false
+   "played": true,
+   "actualScore": "3-2",
+   "home": "Argentina",
+   "away": "Cape Verde"
   },
   {
    "id": "R32-15",
@@ -2573,7 +2576,10 @@
    "confidence": 53,
    "reading": "Arrowhead Stadium holds the most athletically explosive fixture of the knockout bracket's third day: Colombia — Díaz's pace and Muñoz's two goals across three competitive matches, seven group-stage points and never having conceded from open play — against the Black Stars who wrote the group stage's most important 95th-minute story in Toronto, then held England's 4-goal machine to a goalless draw in Foxborough before falling to Croatian experience in Philadelphia. Queiroz's emergency rebuild produced three results of remarkable quality; Semenyo represents the first Ghana winger capable of hurting elite defenders since Boateng's era. But Colombia carry the weight of South America's most complete knockout machine — Díaz arriving at Arrowhead from a tournament that has not yet required his best thirty minutes, Campaz waiting as the late-game instinct the block-and-counter can deploy. One Semenyo lightning strike gives Ghana one immortal Kansas City moment; Díaz and the Copa machinery seal it before the ghost of the 95th minute can reanimate in Missouri.",
    "keyFactor": "Colombia's Díaz-Campaz pace and seven-point group authority vs Ghana's Semenyo counter-attacking belief — the tournament's most complete South American qualifier against Africa's most emotional group-stage story",
-   "played": false
+   "played": true,
+   "actualScore": "1-0",
+   "home": "Colombia",
+   "away": "Ghana"
   },
   {
    "id": "R32-16",
@@ -2590,7 +2596,10 @@
    "confidence": 46,
    "reading": "Dallas hosts Popovic's fortress against the Pharaohs' precision — Australia's 5-4-1 compact block that held Turkey to a 2-0 clean sheet in Vancouver and absorbed Paraguay's desperate goalscoring bid now faces Hossam Hassan's disciplined counter-punching Egypt. Salah's 67th-minute strike in Vancouver — Egypt's first World Cup goal in eight attempts, a moment etched into national memory — is the clearest evidence of what the block-and-counter formula delivers once the conditions are set. Irankunda's pace on the break is Australia's weapon of choice; yet Egypt's defensive structure, which held Belgium for a 1-1 draw and absorbed Iran's pressure across ninety VAR-charged minutes, is a different grade of opponent than Turkey's pre-tournament chaos. One Irankunda burst sends the Socceroos faithful into brief delirium; Salah finds the decisive counter-punch and the Pharaohs advance, because 34-year-old Salah is precisely the player whose quality the clock cannot subtract.",
    "keyFactor": "Salah's clinical counter-attack quality and Egypt's proven defensive block vs Popovic's 5-4-1 fortress and Irankunda's pace — a tight fixture the oracle leans Egyptian",
-   "played": false
+   "played": true,
+   "actualScore": "1-1",
+   "home": "Australia",
+   "away": "Egypt"
   },
   {
    "id": "R16-1",
@@ -2621,9 +2630,9 @@
    "predHome": "Canada",
    "predAway": "Morocco",
    "predictedScore": "1-2",
-   "confidence": 47,
-   "reading": "Houston's sealed arena holds the tournament's most compelling bracket collision: Canada — who edged South Africa 1-0 in SoFi with the disciplined counter-attack that Jonathan David's movement between the lines always threatened — against Morocco, who have now eliminated Netherlands on penalties with the Hakimi motorway and Bono's gloves that make them Africa's most dangerous side since their own 2022 semi-final run. The Atlas Lions absorbed Dutch possession for 120 minutes and then held their nerve across five penalty kicks: that resilience, calibrated in knockout heat, arrives in Houston carrying the emotional weight of a nation that already knows what it means to eliminate Europeans. But Canada's Maplepressing machine — Davies' motorway on the left against Hakimi's on the right, two of the best attacking full-backs alive running at the same moment in opposite directions — is the fixture's defining tactical question, and Jonathan David's movement between Morocco's back four will find one moment the block cannot close. Morocco's Saibari sub-pattern and the collective counter-attacking speed of the Atlas Lions are a different grade to South Africa, however, and one Moroccan strike from Hakimi's diagonal settles it before David can replicate his R32 moment in Houston's humid interior.",
-   "keyFactor": "Morocco's Hakimi counter-attack and penalty-battle resilience vs Canada's Jonathan David and Davies' left motorway — the two most dangerous attacking full-backs in the tournament meeting at NRG Stadium",
+   "confidence": 51,
+   "reading": "Houston's sealed arena holds the tournament's most compelling bracket collision: Canada — who edged South Africa 1-0 with Jonathan David's movement between the lines doing the decisive work — against Morocco, who have now eliminated Netherlands on penalties with the Hakimi motorway and Bono's gloves making them Africa's most dangerous side since their own 2022 semi-final run. The Atlas Lions absorbed Dutch possession for 120 minutes and held their nerve across five penalty kicks: that resilience, calibrated in knockout heat, arrives in Houston carrying the emotional weight of a nation that already knows what it means to eliminate Europeans. The critical question arriving at NRG Stadium is not which motorway wins but which motorway exists: Davies missed Canada's entire group stage with a hamstring strain and got only fifteen minutes off the bench against South Africa, his first international appearance in four months. His return from the bench reanimates the left channel that Hakimi always fears most — but match fitness built in fifteen minutes is not match fitness built across three competitive group games, and Marsch faces a starting-XI decision the Oracle reads as the fixture's fulcrum. Jonathan David will find one moment from the gap between Morocco's lines that Saibari's defensive tracking cannot close. It will not be enough: Hakimi's full-fitness diagonal against a Davies still finding his tournament legs settles the question in the Atlas Lions' favour, and Morocco's penalty-battle scar tissue carries them through.",
+   "keyFactor": "Davies returning from four months out with only 15 minutes of match time in R32 vs Hakimi at full tournament fitness — Morocco's penalty resilience and Saibari's three group-stage goals against Canada's Jonathan David and an undercooked left motorway",
    "played": false
   },
   {
@@ -2673,8 +2682,8 @@
    "predAway": "Spain",
    "predictedScore": "1-2",
    "confidence": 48,
-   "reading": "Arlington's dome hosts the oldest rivalry in European football on its grandest possible stage: Ronaldo — the first man to score at six World Cups — against the dynasty that has made age irrelevant to their passing geometry. Portugal land the first blow as Ronaldo rises at the far post to make the Arlington night immortal one more time; Spain do not blink — they never blink. Yamal equalises with the arrogance of twenty and Pedri threads the winner through four Lusitanian shirts in the 74th. The dynasty advances on schedule; the Emperor's last chapter ends in the best possible company.",
-   "keyFactor": "Spain's composure from behind and Pedri's threading vs Ronaldo's penalty-box instinct and Portugal's historic momentum — no side keeps the ball off Spain for 90 minutes",
+   "reading": "Arlington's dome hosts the oldest rivalry in European football on its grandest possible stage: Ronaldo — the first man to score at six World Cups — against the dynasty that has made age irrelevant to their passing geometry. Spain arrive without both Nico Williams (right adductor) and Yeremy Pino (acromioclavicular sprain), both injured against Uruguay and unavailable through the Round of 32, reducing La Roja's wide width to Yamal on the right and Olmo as the most likely left option — a narrower attack than the one that conceded just once in three group games. Portugal land the first blow as Ronaldo rises at the far post to make the Arlington night immortal one more time; Spain do not blink — they never blink. Yamal equalises with the arrogance of twenty and Pedri threads the winner through four Lusitanian shirts in the 74th. The dynasty's midfield geometry does not require Williams to function at its highest level; the narrow axis of Pedri-Rodri-Yamal may be Spain's purest expression. The Emperor's last chapter ends in the best possible company.",
+   "keyFactor": "Spain's Yamal-Pedri-Rodri triangle carrying the creative load without injured Williams and Pino vs Ronaldo's penalty-box instinct and Portugal's historic momentum — La Roja's passing geometry endures even with a narrowed wide threat",
    "played": false
   },
   {
@@ -2706,9 +2715,9 @@
    "predHome": "Argentina",
    "predAway": "Egypt",
    "predictedScore": "2-1",
-   "confidence": 56,
-   "reading": "Atlanta's domed cathedral hosts the world champions against Salah's precision Egypt — the Pharaohs whose disciplined block denied Belgium a point in the group stage and forced Australia's 5-4-1 fortress into a single Irankunda burst before Salah's counter-punch wrote Egypt's R32 chapter in Dallas. Argentina rotated June 27 against Jordan's farewell; Messi's cameo appearance was a deliberate declaration that the champion's body elects which matches receive their full engine. Mac Allister and Álvarez return at full intensity — Egypt's low block is precisely the defensive structure Argentina's vertical press dismantles inside twenty minutes when the world champions arrive assembled. Salah will find one moment because Salah always finds one moment in the matches that demand it from his particular pride and quality: that Pharaoh arrow is the variable that keeps the scoreboard honest past the hour. But two Argentine goals through the Messi-Álvarez axis and the champion's tournament nerve — six consecutive years of knockout-stage experience working against Egypt's first appearance in this format — confirm Atlanta as the night Argentina advances and Salah's extraordinary campaign ends with the honour it deserves.",
-   "keyFactor": "Argentina's full-strength Messi-Álvarez return after June 27 rotation vs Salah's clinical counter-attack quality — Egypt's defensive block held Belgium and Australia; champion's vertical press is a different instrument at a different level",
+   "confidence": 59,
+   "reading": "Atlanta's domed cathedral hosts the world champions against Salah's precision Egypt — the Pharaohs who advanced past Australia on penalties in Dallas despite their captain managing a hamstring strain sustained in the group stage finale against Iran. Salah started the R32 in Egypt's greatest knockout hour, scored the decisive moment, and won it on PKs: leadership of that grade does not vanish at the quarter-final gate, but a hamstring that required an intensive rehabilitation programme between games is not the same instrument that ran riot in Liverpool's Champions League semi. Argentina carry the wound of Cape Verde's extraordinary resistance — pushed to 3-2 after extra time by a Blue Sharks side whose Vozinha made sixteen saves before finally conceding — and that near-escape is the Oracle's most honest signal that champions who required 120 minutes against an African third-place qualifier will not sleepwalk through the world's most dangerous counter-attacking winger even at reduced capacity. Mac Allister and Álvarez return at full intensity — Egypt's low block is precisely the defensive structure Argentina's vertical press dismantles when the world champions arrive assembled. Salah finds one Pharaoh arrow from the counter because even a hamstrung Salah finds one moment when the tournament demands it from his particular pride. Two Argentine goals through the Messi-Álvarez axis and the champion's nerve confirm Atlanta as the night Argentina advances, and Salah's extraordinary campaign ends with the honour it has earned.",
+   "keyFactor": "Salah managing hamstring strain after intensive treatment between R32 and R16 vs Argentina's Messi-Álvarez axis — champion's tournament nerve facing Egypt's first knockout stage since 1990, the world champions warned by Cape Verde's resistance that they are not invincible",
    "played": false
   },
   {
