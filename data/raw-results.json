@@ -88,5 +88,7 @@
   {"id": "R32-15", "score": "1-0", "home": "Colombia", "away": "Ghana"},
   {"id": "R32-16", "score": "1-1", "home": "Australia", "away": "Egypt"},
   {"id": "R16-1", "score": "0-1", "home": "Paraguay", "away": "France"},
-  {"id": "R16-2", "score": "0-3", "home": "Canada", "away": "Morocco"}
+  {"id": "R16-2", "score": "0-3", "home": "Canada", "away": "Morocco"},
+  {"id": "R16-3", "score": "1-2", "home": "Brazil", "away": "Norway"},
+  {"id": "R16-4", "score": "2-3", "home": "Mexico", "away": "England"}
 ]
