@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-07-06",
+  "updated": "2026-07-07",
   "tournament": "FIFA World Cup 2026",
   "format": "The 2026 FIFA World Cup, co-hosted by the United States, Mexico and Canada from June 11 to July 19, 2026, features 48 teams split into 12 groups of four (A-L) playing a single round-robin group stage. The 12 group winners, 12 runners-up and the 8 best third-placed teams (32 teams total) advance to a new Round of 32, followed by a Round of 16, quarter-finals, semi-finals, a third-place play-off and the final, for 104 matches in all across 16 stadiums. Knockout ties go to 30 minutes of extra time and then penalties if level. The final is at MetLife Stadium, East Rutherford (New York/New Jersey) on July 19, 2026.",
   "thirdPlaceRule": "The 12 third-placed teams are ranked by points, goal difference, goals scored, fair play points, then lots; the top 8 advance. Their assignment to specific Round-of-32 matches depends on which groups the 8 best thirds come from, per the official allocation table (Annex C of the FIFA regulations)."
@@ -2696,7 +2696,10 @@
    "confidence": 48,
    "reading": "Arlington's dome hosts the oldest rivalry in European football on its grandest possible stage: Ronaldo — the first man to score at six World Cups — against the dynasty that has made age irrelevant to their passing geometry. Spain arrive without both Nico Williams (right adductor) and Yeremy Pino (acromioclavicular sprain), both injured against Uruguay and unavailable through the Round of 32, reducing La Roja's wide width to Yamal on the right and Olmo as the most likely left option — a narrower attack than the one that conceded just once in three group games. Portugal land the first blow as Ronaldo rises at the far post to make the Arlington night immortal one more time; Spain do not blink — they never blink. Yamal equalises with the arrogance of twenty and Pedri threads the winner through four Lusitanian shirts in the 74th. The dynasty's midfield geometry does not require Williams to function at its highest level; the narrow axis of Pedri-Rodri-Yamal may be Spain's purest expression. The Emperor's last chapter ends in the best possible company.",
    "keyFactor": "Spain's Yamal-Pedri-Rodri triangle carrying the creative load without injured Williams and Pino vs Ronaldo's penalty-box instinct and Portugal's historic momentum — La Roja's passing geometry endures even with a narrowed wide threat",
-   "played": false
+   "played": true,
+   "actualScore": "0-1",
+   "home": "Portugal",
+   "away": "Spain"
   },
   {
    "id": "R16-6",
@@ -2713,7 +2716,10 @@
    "confidence": 44,
    "reading": "Lumen Field roars — and then the tournament's strangest week adds its final surreal note: Folarin Balogun walks through the tunnel, his red-card suspension suspended on probation by FIFA's Disciplinary Committee, reportedly following a phone call between President Trump and Gianni Infantino that has ignited the tournament's first genuine political storm. Belgium's Royal Football Association called the decision 'astonishing', investigating all legal options; the sport holds its breath. But the ball still rolls, and what rolls with it is a restored American attack: Balogun — three World Cup goals, the Brooklyn-born striker whose clinical movement between the lines dismantled Bosnia's defensive block — reprises the role Pochettino built this summer around. Pulisic drives left; Reyna threads the half-space; Balogun arrives at the far post. The full instrument reassembles. Belgium arrive in Seattle carrying the weight of 124 extraordinary minutes against Senegal — Tielemans' penalty the latest winning goal in World Cup history — scarred but tournament-tempered in a way no rebuilt side at its first real test can quite replicate. De Bruyne's last dance still has its waltz in Seattle; Courtois makes one great save as the controversy buzzes through the stadium air. The Belgian precision that survived Senegal's comeback finds one narrow gap even through the political noise. The American dream burns with everything in the tank tonight; the Belgian scar tissue and De Bruyne's remaining chapter are the one currency that, on a night of genuinely fifty-fifty football, proves fractionally the more reliable.",
    "keyFactor": "Balogun reinstated after FIFA suspended his red-card ban amid reported Trump-Infantino intervention — USA's three-goal striker returns in full, but Belgium's De Bruyne and 124-minute Senegal scar tissue remain the decisive margin in a now-genuine coin-flip fixture",
-   "played": false
+   "played": true,
+   "actualScore": "1-4",
+   "home": "United States",
+   "away": "Belgium"
   },
   {
    "id": "R16-7",
@@ -2744,9 +2750,9 @@
    "predHome": "Switzerland",
    "predAway": "Colombia",
    "predictedScore": "2-1",
-   "confidence": 46,
-   "reading": "BC Place hosts Switzerland — who won this exact stadium in their R32 demolition of Algeria — against Colombia's most complete knockout-ready machine: Díaz-Campaz pace, seven group-stage points and not one open-play goal conceded across three competitive group matches. Xhaka's 145-cap positional intelligence is the Nati's most reliable midfield anchor against the high-tempo pressing Colombia will apply across ninety minutes; Kobel's gloves, which absorbed Algeria's Maza free kick and held the summit win over Canada, now face Díaz arriving at peak tournament confidence for the first time this tournament. Switzerland's record in tight single-elimination formats is the oracle's most concrete analytical hook: Yakin's side win close knockout matches because Akanji's positional certainty and Xhaka's diagonal create a structure that never capitulates under late pressure. But Colombia carry South America's deepest resolve — Díaz has not yet needed his best thirty minutes this tournament, and BC Place will demand the full version for the first time. One Colombian strike from Campaz's diagonal makes BC Place hold its breath; two Swiss goals from Ndoye's wide channel and Aebischer's late arrival settle the question before Colombia's closing momentum can replicate the Ghana counter. Seven-point Swiss certainty through the Nati's controlled efficiency is the glass's honest and narrow verdict.",
-   "keyFactor": "Switzerland's tight-knockout format record and Kobel's gloves vs Colombia's Díaz-Campaz pace and seven-point authority — Xhaka's 145-cap positional control against the tournament's most complete South American qualifier",
+   "confidence": 41,
+   "reading": "BC Place holds Switzerland — who won this exact stadium in their R32 demolition of Algeria — against Colombia's most complete knockout-ready machine: Díaz-Campaz pace, seven group-stage points and not one open-play goal conceded across three competitive group matches. The glass that foresaw Swiss certainty clouds with an injury list that has become the tournament's most brutal overnight development: Aebischer and Jaquez are confirmed absent with muscle injuries, while Manzambi, Vargas and Djibril Sow all left training early on Monday, three influential players whose availability the Swiss medical staff cannot guarantee by kick-off. The late-arriving Swiss goal the oracle foresaw now searches for a new scorer — Ndoye's wide channel is the remaining attacking vector most likely to find space against Colombia's high line, and Xhaka's 145-cap positional intelligence is the one anchor that requires no replacement. Colombia carry their own wound to Vancouver: John Córdoba, the physical presence whose groin injury ended his tournament campaign after the Ghana win, is replaced in the starting line by Luis Javier Suárez — a capable but different instrument against Akanji's positional certainty — and James Rodríguez checks his temperature hourly as kick-off approaches, a virus that could strip Colombia's half-space combinations of their most dangerous creative conductor. Kobel's gloves face Díaz at tournament peak for the first time; Switzerland's knockout format record — Yakin's side win close, controlled matches because the defensive structure does not capitulate under late pressure — remains the oracle's most honest anchor. Díaz accelerates once with enough conviction to remind BC Place what the tournament's most dangerous counter-attack looks like in full flight. Two Swiss goals, found from wherever the depleted squad can manufacture them, settle the question before that acceleration replicate itself. A damaged Swiss certainty over a wounded but not broken Colombian machine is the honest and narrow verdict the glass now offers.",
+   "keyFactor": "Aebischer and Jaquez out (muscle injuries), Manzambi, Vargas and Sow training doubts decimating Swiss depth vs Colombia's Córdoba (groin, out) and James Rodríguez (virus doubt) — two squads arriving at BC Place with their longest injury lists of the tournament, Ndoye's wide channel now Switzerland's clearest remaining attacking vector against a Colombia relying on Suárez to lead the line",
    "played": false
   },
   {
@@ -2777,10 +2783,10 @@
    "kickoffUTC": "2026-07-10T19:00:00Z",
    "predHome": "Spain",
    "predAway": "Belgium",
-   "predictedScore": "3-1",
-   "confidence": 60,
-   "reading": "SoFi's silver basin, and the orb is almost embarrassed by its clarity: the golden generation's last stand against the dynasty in full bloom. De Bruyne conjures one final masterpiece for Doku — a goal of pure 2018 — but Spain score three because Spain always score three when the pitch is fast and the night is warm. The old kings bow; the new ones barely notice.",
-   "keyFactor": "A decade of Belgian wear against the youngest elite midfield alive",
+   "predictedScore": "2-1",
+   "confidence": 56,
+   "reading": "SoFi's silver basin, and the glass clears with a different image than it foresaw: not De Bruyne conjuring masterpieces on the fast Californian surface — the wizard sat on Lumen Field's bench as Belgium's R16 engine ran on De Ketelaere's fuel, a brace and an assist against the United States, the first Belgian on record directly involved in three goals in a single World Cup match — but a La Roja machine of such sustained defensive beauty that six consecutive World Cup clean sheets now constitute a record that stands alone in the tournament's history. Spain edged Portugal in Dallas with Merino's 91st-minute finish off the bench; the defensive architecture that held Ronaldo's final World Cup performance to zero was not disturbed for ninety minutes by the greatest goal-scorer the sport has produced. Belgium arrive in Los Angeles reshaped, not diminished: De Ketelaere is the instrument SoFi must break first, a younger and more direct threat than the playmaker the oracle originally foresaw at the centre of Belgium's creative universe, and Rangnick's pressing system generates danger from collective movement rather than individual inspiration — the 4-1 dismantling of the United States was not a De Bruyne performance, it was a team performance that found space through energy. But La Roja's possession geometry and Rodri's midfield authority represent a different tempo to Lumen Field's open spaces, and Spain's record wall does not crack on the first Belgian siege: Yamal finds the room Nuno Mendes occupied for sixty minutes in Dallas, Pedri threads the second through Belgium's pressing seam. De Ketelaere finds the one gap the record demands he finds — the golden generation's last magnificent contribution to a tournament they were never going to win — before the dynasty confirms its quarter-final passage with the measured certainty of those who know how these evenings end.",
+   "keyFactor": "De Ketelaere's three-goal-involvement R16 brace (De Bruyne on the bench vs USA) vs Spain's record six consecutive World Cup clean sheets — Belgium's tournament firepower flows through a younger, more direct instrument; La Roja's defensive wall its most historically imposing",
    "played": false
   },
   {
@@ -2810,11 +2816,11 @@
    "awaySlot": "Winner R16-8",
    "kickoffUTC": "2026-07-12T01:00:00Z",
    "predHome": "Argentina",
-   "predAway": "Colombia",
-   "predictedScore": "2-1",
-   "confidence": 46,
-   "reading": "Kansas City, and the two-time champions against South America's most confident qualifier: Messi against Díaz, football's supreme operator against the tournament's most dangerous winger, two CONMEBOL giants whose Clasico meetings carry decades of continental religion. Colombia arrive undefeated through three knockout opponents and having conceded nothing in the group stage — the most complete South American machine this tournament has produced. But Messi, 38, carrying 18 World Cup goals and the weight of history already secured in Dallas, still finds the pass that didn't exist until he imagined it; Álvarez punishes Colombia's high line with the instinct he was born for. Díaz strikes back with the tournament's most dangerous counter-attack, giving Kansas City its great individual moment. Argentina's tournament nerve, the deepest of any side remaining, carries them through in the closing minutes.",
-   "keyFactor": "Argentina's Messi-Álvarez axis and champion's tournament nerve vs Colombia's undefeated knockout record and Díaz's world-class pace on the counter",
+   "predAway": "Switzerland",
+   "predictedScore": "2-0",
+   "confidence": 60,
+   "reading": "Kansas City, and the world champions against the tournament's most unexpectedly battered surviving side: Argentina — Messi's seven tournament goals, eleven straight wins, the champion's machine whose only genuine scare arrived via Cape Verde's extraordinary resistance — against a Switzerland whose overnight injury list became the most brutal of any remaining side. Aebischer and Jaquez are absent with muscle injuries; Manzambi, Vargas and Djibril Sow went home from Monday's training session, three absences that have stripped Yakin's squad of the depth that made their compact knockout system so reliable in Vancouver. What Xhaka's positional authority cannot substitute across ninety minutes against a world-champion attack is fresh wide width and late-game attacking variety — and Argentina's vertical press is calibrated precisely to find and punish that kind of structural depletion. Messi does not leave Kansas City without the goal this tournament's arithmetic requires from him; Álvarez's pressing relay arrives at exactly the moments the depleted Swiss back line is managing rotation rather than defending at maximum intensity. Kobel's gloves — the Nati's single most reliable instrument across this tournament — face a two-hour test no goalkeeper was designed to complete alone against three world-class attackers. Two Argentine goals; the world champions' semi-final place confirmed before the hour, and a Switzerland that arrived at this tournament as the oracle's most quietly admired side departs Kansas City with a dignity that their injury list cannot diminish.",
+   "keyFactor": "Argentina's Messi (7 tournament goals) and champion's depth vs a Switzerland gutted by overnight injuries — Aebischer, Jaquez out plus Manzambi, Vargas and Sow doubts leave the Nati's wide creative threat below tournament minimum ahead of Kansas City",
    "played": false
   },
   {
