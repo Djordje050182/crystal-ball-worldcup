@@ -92,5 +92,7 @@
   {"id": "R16-3", "score": "1-2", "home": "Brazil", "away": "Norway"},
   {"id": "R16-4", "score": "2-3", "home": "Mexico", "away": "England"},
   {"id": "R16-5", "score": "0-1", "home": "Portugal", "away": "Spain"},
-  {"id": "R16-6", "score": "1-4", "home": "United States", "away": "Belgium"}
+  {"id": "R16-6", "score": "1-4", "home": "United States", "away": "Belgium"},
+  {"id": "R16-7", "score": "3-2", "home": "Argentina", "away": "Egypt"},
+  {"id": "R16-8", "score": "0-0", "home": "Switzerland", "away": "Colombia"}
 ]
