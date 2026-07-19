@@ -100,5 +100,6 @@
   {"id": "QF-3", "score": "1-2", "home": "Norway", "away": "England"},
   {"id": "QF-4", "score": "3-1", "home": "Argentina", "away": "Switzerland"},
   {"id": "SF-1", "score": "0-2", "home": "France", "away": "Spain"},
-  {"id": "SF-2", "score": "1-2", "home": "England", "away": "Argentina"}
+  {"id": "SF-2", "score": "1-2", "home": "England", "away": "Argentina"},
+  {"id": "3RD", "score": "4-6", "home": "France", "away": "England"}
 ]
